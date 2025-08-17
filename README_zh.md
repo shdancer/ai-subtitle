@@ -32,8 +32,14 @@
     source venv/bin/activate  # 在 Windows 上使用 `venv\Scripts\activate`
     ```
 
-    然后安装所需的包：
+    然后您可以通过以下方式之一安装包：
 
+    **选项1: 从PyPI安装（推荐）**
+    ```bash
+    pip install ai-subtitle
+    ```
+
+    **选项2: 从源码安装**
     ```bash
     pip install -r requirements.txt
     ```

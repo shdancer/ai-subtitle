@@ -34,8 +34,14 @@ This is a command-line tool that uses AI technologies (Whisper and Large Languag
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
-    Then install the required packages:
+    Then you can install the package in one of the following ways:
 
+    **Option 1: Install from PyPI (Recommended)**
+    ```bash
+    pip install ai-subtitle
+    ```
+
+    **Option 2: Install from source**
     ```bash
     pip install -r requirements.txt
     ```
