@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Error translating chunk: {e}"
+msgstr "翻译区块时出错：{e}"
+
+msgid "[Chunk Translation Failed]"
+msgstr "[区块翻译失败]"
+
+msgid "Starting chunked translation..."
+msgstr "开始分块翻译..."
+
+msgid "Processing a chunk of size {size} chars..."
+msgstr "正在处理大小为 {size} 个字符的区块..."
+
+msgid "Processing the last chunk of size {size} chars..."
+msgstr "正在处理最后一个大小为 {size} 个字符的区块..."
+
+msgid "All chunks translated."
+msgstr "所有区块翻译完成。"
+
+msgid "[Translation Failed]"
+msgstr "[翻译失败]"
+
+msgid "Transcribe audio/video to SRT using Whisper, or extract existing subtitles."
+msgstr "使用 Whisper 将音频/视频转录为 SRT，或提取现有字幕。"
+
+msgid "Path to the input video or audio file."
+msgstr "输入视频或音频文件的路径。"
+
+msgid "Path to the output SRT file. If not specified, prints to stdout."
+msgstr "输出 SRT 文件的路径。如果未指定，则打印到标准输出。"
+
+msgid "Name of the Whisper model to use (e.g., tiny, base, small, medium, large)."
+msgstr "要使用的 Whisper 模型名称（例如：tiny、base、small、medium、large）。"
+
+msgid "Force transcription even if embedded subtitles are found."
+msgstr "即使找到嵌入式字幕也强制转录。"
+
+msgid "Found embedded subtitle streams:"
+msgstr "发现嵌入的字幕流："
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "No Title"
+msgstr "无标题"
+
+msgid "Language: {lang}, Title: {title}"
+msgstr "语言：{lang}，标题：{title}"
+
+msgid "Enter the number of the subtitle to extract, or press Enter to transcribe instead: "
+msgstr "请输入要提取的字幕编号，或按 Enter 键进行转录："
+
+msgid "Extracted subtitle saved to {output}"
+msgstr "提取的字幕已保存到 {output}"
+
+msgid "Failed to extract subtitle. Proceeding with transcription."
+msgstr "提取字幕失败。正在进行转录。"
+
+msgid "Invalid selection. Proceeding with transcription."
+msgstr "无效选择。正在进行转录。"
+
+msgid "No selection made. Proceeding with transcription."
+msgstr "未做选择。正在进行转录。"
+
+msgid "\nOperation cancelled by user. Exiting."
+msgstr "\n操作被用户取消。正在退出。"
+
+msgid "No subtitles extracted. Starting transcription..."
+msgstr "未提取字幕。开始转录..."
+
+msgid "Transcription saved to {output}"
+msgstr "转录稿已保存到 {output}"
+
+msgid "Error: The input file '{file}' was not found."
+msgstr "错误：未找到输入文件 '{file}'。"
+
+msgid "An unexpected error occurred: {e}"
+msgstr "发生意外错误：{e}"
+
+msgid "Translate an SRT file to a target language."
+msgstr "将 SRT 文件翻译成目标语言。"
+
+msgid "Path to the input SRT file. If not provided, reads from stdin."
+msgstr "输入 SRT 文件的路径。如果未提供，则从标准输入读取。"
+
+msgid "Path to the output bilingual SRT file. If not specified, prints to stdout."
+msgstr "输出双语 SRT 文件的路径。如果未指定，则打印到标准输出。"
+
+msgid "The target language for translation (e.g., Chinese, English, Japanese)."
+msgstr "翻译的目标语言（例如：中文、英语、日语）。"
+
+msgid "Custom base URL for the LLM provider."
+msgstr "LLM 提供商的自定义基础 URL。"
+
+msgid "Custom API Key for the LLM provider."
+msgstr "LLM 提供商的自定义 API 密钥。"
+
+msgid "Error: API Key and Base URL must be configured."
+msgstr "错误：必须配置 API 密钥和基础 URL。"
+
+msgid "Please edit the config file at: {config_file}"
+msgstr "请编辑配置文件：{config_file}"
+
+msgid "Error: No input file provided and no data from stdin."
+msgstr "错误：未提供输入文件，也未从标准输入读取到数据。"
+
+msgid "Error: Could not parse SRT content."
+msgstr "错误：无法解析 SRT 内容。"
+
+msgid "Bilingual SRT file saved to {output}"
+msgstr "双语 SRT 文件已保存到 {output}"
+
+msgid "Loading Whisper model '{model_name}'..."
+msgstr "正在加载 Whisper 模型 '{model_name}'..."
+
+msgid "Model loaded. Starting transcription..."
+msgstr "模型已加载。开始转录..."
+
+msgid "Transcription finished."
+msgstr "转录完成。"
+
+msgid "Config file path: {config_file}"
+msgstr "配置文件路径：{config_file}"
+
+msgid "Configuration file is incomplete."
+msgstr "配置文件不完整。"
+
+msgid "\n--- AI Subtitle Assistant Configuration Wizard ---"
+msgstr "\n--- AI 字幕助手配置向导 ---"
+
+msgid "It seems this is your first time running the program, or the config file is missing."
+msgstr "看起来这是您第一次运行本程序，或者配置文件丢失了。"
+
+msgid "Please enter the following information to complete the setup:"
+msgstr "请输入以下信息以完成设置："
+
+msgid "Enter the Base URL for your LLM provider [default: {default_base_url}]: "
+msgstr "请输入您的 LLM 提供商的基础 URL [默认为: {default_base_url}]: "
+
+msgid "Enter your API Key [{masked_key}]: "
+msgstr "请输入您的 API 密钥 [{masked_key}]: "
+
+msgid "required"
+msgstr "必填"
+
+msgid "\nError: API Key is required. Configuration not saved."
+msgstr "\n错误：API 密钥是必填项。配置未保存。"
+
+msgid "\nConfiguration successfully saved to: {config_file}"
+msgstr "\n配置已成功保存到: {config_file}"
+
+msgid "You can manually edit this file at any time."
+msgstr "您可以随时手动编辑此文件。"
+
+msgid "A command-line tool for subtitle generation and translation."
+msgstr "一个用于生成和翻译字幕的命令行工具。"
+
+msgid "Set the display language (e.g., \"en\", \"zh\")."
+msgstr "设置显示语言（例如：\"en\", \"zh\"）。"
+
+msgid "Available commands"
+msgstr "可用命令"
+
+msgid "Transcribe audio/video to SRT."
+msgstr "将音频/视频转录为SRT。"
+
+msgid "Translate an SRT file."
+msgstr "翻译SRT文件。"

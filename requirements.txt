@@ -1,0 +1,9 @@
+
+openai
+openai-whisper
+ffmpeg-python
+srt
+platformdirs
+colorama
+polib
+tqdm
