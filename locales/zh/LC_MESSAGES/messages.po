@@ -178,3 +178,12 @@ msgstr "将音频/视频转录为SRT。"
 
 msgid "Translate an SRT file."
 msgstr "翻译SRT文件。"
+
+msgid "Manage configuration settings."
+msgstr "管理配置设置。"
+
+msgid "Show the configuration file path"
+msgstr "显示配置文件路径"
+
+msgid "Create or update configuration interactively"
+msgstr "交互式创建或更新配置"

@@ -25,3 +25,15 @@ msgstr "Transcribe audio/video to SRT."
 
 msgid "Translate an SRT file."
 msgstr "Translate an SRT file."
+
+msgid "Manage configuration settings."
+msgstr "Manage configuration settings."
+
+msgid "Show the configuration file path"
+msgstr "Show the configuration file path"
+
+msgid "Create or update configuration interactively"
+msgstr "Create or update configuration interactively"
+
+msgid "Config file path: {config_file}"
+msgstr "Config file path: {config_file}"

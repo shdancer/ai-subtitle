@@ -1,6 +1,6 @@
 import argparse
 import sys
-from ai_subtitle_assistant.commands import transcribe_cmd, translate_cmd
+from ai_subtitle_assistant.commands import transcribe_cmd, translate_cmd, config_cmd
 from ai_subtitle_assistant.i18n import set_language, _
 
 
@@ -30,6 +30,12 @@ def main():
         "translate", help=_("Translate an SRT file.")
     )
     translate_cmd.configure_parser(translate_parser)
+
+    # Config command
+    config_parser = subparsers.add_parser(
+        "config", help=_("Manage configuration settings.")
+    )
+    config_cmd.configure_parser(config_parser)
 
     # First, parse only the language argument
     args, remaining_argv = parser.parse_known_args()

@@ -118,6 +118,25 @@ ai-subtitle transcribe my_movie.mkv -o movie_subs.srt
 ai-subtitle transcribe my_video.mp4 | ai-subtitle translate -t "Japanese" -o bilingual.srt
 ```
 
+#### `config`
+管理 AI 字幕助手的配置设置。
+
+**用法:**
+`ai-subtitle config [options]`
+
+**选项:**
+*   `--show-path`: 显示配置文件路径。
+*   `--create`: 交互式创建或更新配置。
+
+**示例:**
+```bash
+# 显示配置文件路径
+ai-subtitle config --show-path
+
+# 创建或更新配置
+ai-subtitle config --create
+```
+
 ## 工作原理
 
 1.  **音频提取/转录**：对于 `transcribe` 命令，它会先尝试提取现有字幕，或者使用 `ffmpeg` 提取音频，然后使用 `whisper` 将其转录为带时间戳的文本段落。
