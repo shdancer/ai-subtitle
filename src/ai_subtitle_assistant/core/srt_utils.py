@@ -55,11 +55,8 @@ def parse_srt(srt_content):
     subs = list(srt.parse(srt_content))
     segments = []
     for i, sub in enumerate(subs):
-        # To handle bilingual subtitles, we only take the second line (original text)
-        # This is a simple assumption, might need to be more robust
-        lines = sub.content.strip().split("\n")
-        original_text = lines[-1]  # Assume the last line is the original
-
+        # 保留所有原文内容（多行内容也完整保留）
+        original_text = sub.content.strip()
         segments.append(
             {
                 "id": i,

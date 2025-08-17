@@ -1,3 +1,4 @@
+
 # AI 智能字幕助手
 
 这是一个使用 AI 技术（Whisper 和大型语言模型）为视频和音频文件生成高质量字幕的命令行工具。
@@ -16,56 +17,33 @@
 
 ## 安装
 
-1.  **克隆仓库**
+**推荐方式：从 PyPI 安装**
+```bash
+pip install ai-subtitle
+```
 
+**或从源码安装：**
+```bash
+git clone https://github.com/shdancer/ai-subtitle
+cd subtitle
+python3 -m venv venv
+source venv/bin/activate  # 在 Windows 上使用 `venv\Scripts\activate`
+pip install .
+```
+
+**ffmpeg 必须安装，用于音频处理。**
+*   **macOS (Homebrew):**
     ```bash
-    git clone https://github.com/shdancer/ai-subtitle
-    cd subtitle
+    brew install ffmpeg
     ```
-
-2.  **安装依赖**
-
-    建议在虚拟环境中使用：
-
+*   **Debian/Ubuntu:**
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # 在 Windows 上使用 `venv\Scripts\activate`
+    sudo apt update && sudo apt install ffmpeg
     ```
-
-    然后您可以通过以下方式之一安装包：
-
-    **选项1: 从PyPI安装（推荐）**
+*   **Windows (Chocolatey):**
     ```bash
-    pip install ai-subtitle
+    choco install ffmpeg
     ```
-
-    **选项2: 从源码安装**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    
-    或者，使用 `setup.py` 进行安装，这将自动处理依赖并设置命令行入口：
-    
-    ```bash
-    pip install .
-    ```
-
-3.  **安装 ffmpeg**
-
-    Whisper 需要 `ffmpeg` 来处理音频。请确保你的系统上已经安装了它。
-
-    *   **在 macOS 上 (使用 Homebrew):**
-        ```bash
-        brew install ffmpeg
-        ```
-    *   **在 Debian/Ubuntu 上:**
-        ```bash
-        sudo apt update && sudo apt install ffmpeg
-        ```
-    *   **在 Windows 上 (使用 Chocolatey):**
-        ```bash
-        choco install ffmpeg
-        ```
 
 ## 使用方法
 
@@ -151,6 +129,11 @@ ai-subtitle config --create
 4.  **SRT 生成**：最终处理后的文本被格式化为标准的 `.srt` 文件，可以是简单的转录稿或双语字幕。
 
 ## 更新日志
+
+### v0.1.2
+- 修复：SRT 多行内容解析 bug，现已完整保留并正确翻译所有行
+- 改进：文档结构和 README
+- 更新：PyPI 安装说明和项目元数据
 
 ### v0.1.1
 - 修复了管道操作中的问题，调试输出不再干扰标准输出
