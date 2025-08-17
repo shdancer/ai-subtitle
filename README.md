@@ -1,8 +1,10 @@
+
+
 # AI Subtitle Assistant
 
 [中文版本 (Chinese Version)](README_zh.md)
 
-This is a command-line tool that uses AI technologies (Whisper and Large Language Models) to generate high-quality subtitles for video and audio files.
+AI Subtitle Assistant is a command-line tool that uses AI technologies (Whisper and Large Language Models) to generate high-quality subtitles for video and audio files.
 
 ## Features
 
@@ -18,56 +20,33 @@ This is a command-line tool that uses AI technologies (Whisper and Large Languag
 
 ## Installation
 
-1.  **Clone the repository**
+**Recommended: Install from PyPI**
+```bash
+pip install ai-subtitle
+```
 
+**Or install from source:**
+```bash
+git clone https://github.com/shdancer/ai-subtitle
+cd subtitle
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+pip install .
+```
+
+**ffmpeg is required for audio processing.**
+*   **On macOS (using Homebrew):**
     ```bash
-    git clone https://github.com/shdancer/ai-subtitle
-    cd subtitle
+    brew install ffmpeg
     ```
-
-2.  **Install dependencies**
-
-    It is recommended to use a virtual environment:
-
+*   **On Debian/Ubuntu:**
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    sudo apt update && sudo apt install ffmpeg
     ```
-
-    Then you can install the package in one of the following ways:
-
-    **Option 1: Install from PyPI (Recommended)**
+*   **On Windows (using Chocolatey):**
     ```bash
-    pip install ai-subtitle
+    choco install ffmpeg
     ```
-
-    **Option 2: Install from source**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    
-    Alternatively, install using `setup.py`, which will handle dependencies and set up the command-line entry point:
-    
-    ```bash
-    pip install .
-    ```
-
-3.  **Install ffmpeg**
-
-    Whisper requires `ffmpeg` to process audio. Make sure it is installed on your system.
-
-    *   **On macOS (using Homebrew):**
-        ```bash
-        brew install ffmpeg
-        ```
-    *   **On Debian/Ubuntu:**
-        ```bash
-        sudo apt update && sudo apt install ffmpeg
-        ```
-    *   **On Windows (using Chocolatey):**
-        ```bash
-        choco install ffmpeg
-        ```
 
 ## Usage
 
@@ -106,7 +85,7 @@ ai-subtitle transcribe my_movie.mkv -o movie_subs.srt
 ```
 
 #### `translate`
-Transcribes an existing SRT file into a bilingual SRT file.
+Translates an existing SRT file into a bilingual SRT file.
 
 **Usage:**
 `ai-subtitle translate [input_file] [options]`
@@ -153,6 +132,11 @@ ai-subtitle config --create
 4.  **SRT Generation**: The final processed text is formatted into a standard `.srt` file, either as a simple transcription or a bilingual subtitle.
 
 ## Changelog
+
+### v0.1.2
+- Fixed: SRT multi-line content parsing bug, now all lines are preserved and correctly translated
+- Improved: Documentation and README structure
+- Updated: PyPI installation instructions and project metadata
 
 ### v0.1.1
 - Fixed issue with pipeline operations where debug output was interfering with standard output
