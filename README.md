@@ -106,7 +106,7 @@ ai-subtitle transcribe my_movie.mkv -o movie_subs.srt
 ```
 
 #### `translate`
-Translates an existing SRT file into a bilingual SRT file.
+Transcribes an existing SRT file into a bilingual SRT file.
 
 **Usage:**
 `ai-subtitle translate [input_file] [options]`
@@ -151,3 +151,13 @@ ai-subtitle config --create
 2.  **Chunking & Translation**: For the `translate` command, it reads an SRT file, chunks the text to fit the LLM's context window, and sends it for translation.
 3.  **LLM Processing**: The text is sent to the configured LLM for translation and refinement. The process includes retries and a progress bar.
 4.  **SRT Generation**: The final processed text is formatted into a standard `.srt` file, either as a simple transcription or a bilingual subtitle.
+
+## Changelog
+
+### v0.1.1
+- Fixed issue with pipeline operations where debug output was interfering with standard output
+- Improved error handling and messaging
+- Updated documentation with installation instructions from PyPI
+
+### v0.1.0
+- Initial release with core functionality
