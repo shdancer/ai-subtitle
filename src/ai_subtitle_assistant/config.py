@@ -6,13 +6,9 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
-APP_NAME = "ai-subtitle-assistant"
+APP_NAME = "ai-subtitle"
 CONFIG_DIR = user_config_dir(APP_NAME, "Lumos")
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.ini")
-
-print(
-    Fore.YELLOW + _("Config file path: {config_file}").format(config_file=CONFIG_FILE)
-)
 
 
 def load_config():

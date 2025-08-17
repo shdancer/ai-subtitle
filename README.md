@@ -120,6 +120,25 @@ Translates an existing SRT file into a bilingual SRT file.
 ai-subtitle transcribe my_video.mp4 | ai-subtitle translate -t "Japanese" -o bilingual.srt
 ```
 
+#### `config`
+Manages configuration settings for the AI Subtitle Assistant.
+
+**Usage:**
+`ai-subtitle config [options]`
+
+**Options:**
+*   `--show-path`: Show the configuration file path.
+*   `--create`: Create or update configuration interactively.
+
+**Example:**
+```bash
+# Show the configuration file path
+ai-subtitle config --show-path
+
+# Create or update configuration
+ai-subtitle config --create
+```
+
 ## How It Works
 
 1.  **Audio Extraction/Transcription**: For the `transcribe` command, it either extracts existing subtitles or uses `ffmpeg` to extract audio and `whisper` to transcribe it into timed text segments.
