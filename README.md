@@ -21,7 +21,7 @@ This is a command-line tool that uses AI technologies (Whisper and Large Languag
 1.  **Clone the repository**
 
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/shdancer/ai-subtitle
     cd subtitle
     ```
 

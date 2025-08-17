@@ -19,7 +19,7 @@
 1.  **克隆仓库**
 
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/shdancer/ai-subtitle
     cd subtitle
     ```
 
