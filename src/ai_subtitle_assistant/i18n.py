@@ -75,14 +75,14 @@ def set_language(language):
     global translation, current_language
     current_language = language
     try:
-        print(f"正在加载语言: {language}")
-        print(f"翻译文件目录: {localedir}")
+        print(f"正在加载语言: {language}", file=sys.stderr)
+        print(f"翻译文件目录: {localedir}", file=sys.stderr)
         translation = gettext.translation(
             "messages", localedir, languages=[current_language], fallback=True
         )
-        print("成功加载翻译文件")
+        print("成功加载翻译文件", file=sys.stderr)
     except FileNotFoundError as e:
-        print(f"未找到翻译文件: {e}")
+        print(f"未找到翻译文件: {e}", file=sys.stderr)
         translation = gettext.NullTranslations()
 
 
