@@ -45,6 +45,12 @@ def configure_parser(parser):
         help=_("Select the model to use for translation."),
     )
     parser.add_argument(
+        "--max-workers",
+        type=int,
+        default=5,
+        help=_("Maximum number of concurrent translation requests."),
+    )
+    parser.add_argument(
         "--list-models",
         action="store_true",
         help=_("List available models and exit."),
@@ -116,7 +122,12 @@ def run(args):
 
         # 3. Translate segments
         bilingual_subtitles = translate_segments(
-            segments, args.target_language, api_base_url, api_key, args.model
+            segments,
+            args.target_language,
+            api_base_url,
+            api_key,
+            args.model,
+            args.max_workers,
         )
 
         # 4. Convert to bilingual SRT format

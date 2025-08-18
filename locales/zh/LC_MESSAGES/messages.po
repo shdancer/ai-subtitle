@@ -20,6 +20,10 @@ msgid "List available models and exit."
 msgstr "列出可用模型并退出。"
 
 #: src/ai_subtitle_assistant/commands/translate_cmd.py
+msgid "Maximum number of concurrent translation requests."
+msgstr "最大并发翻译请求数。"
+
+#: src/ai_subtitle_assistant/commands/translate_cmd.py
 msgid "Available models:"
 msgstr "可用模型："
 
