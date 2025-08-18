@@ -45,9 +45,37 @@ def _translate_chunk(client, chunk_segments, target_language, model):
     prompt = f"""
 You are a professional subtitle translator. Your task is to translate the following subtitle segments into {target_language}.
 The input is a JSON array of objects, where each object has an "id" and a "text" from the original ASR (Automatic Speech Recognition).
-Please maintain the original meaning, fix any potential ASR errors based on context, and ensure the translation is natural and fluent.
 
-IMPORTANT: You MUST maintain a strict one-to-one correspondence between each input segment and its translation. Each segment with ID must have exactly one corresponding translation with the same ID. Due to language order differences, be extremely careful not to mix up or reorder content between segments. Each segment should be translated independently while considering context.
+CRITICAL TRANSLATION RULES:
+1. ACCURACY IS THE HIGHEST PRIORITY - Each segment must be translated to contain ONLY the content from that specific segment
+2. DO CONSIDER CONTEXT from surrounding segments to understand pronouns, proper nouns, and references
+3. DO NOT MOVE ANY CONTENT between segments - this is absolutely forbidden
+4. DO NOT REORDER SENTENCE STRUCTURE across segments
+5. Each segment must stand on its own, even if it results in less natural phrasing
+
+BALANCING CONTEXT AND ACCURACY:
+- USE context from other segments to understand meaning (pronouns, references, etc.)
+- BUT translate ONLY the content within each specific segment
+- It's better to have slightly awkward but accurately timed translations than to have smooth translations with incorrect timing
+
+EXAMPLES:
+
+ORIGINAL SEGMENTS:
+- Segment 278: "The first and most important rule of gunrunning"
+- Segment 279: "is never get shot with your own merchandise."
+- Segment 280: "You okay?"
+
+CORRECT TRANSLATIONS:
+- Segment 278: "枪械交易的第一条也是最重要的规则" (ONLY translates segment 278)
+- Segment 279: "就是永远不要被自己的货物击中。" (ONLY translates segment 279)
+- Segment 280: "你还好吗？" (ONLY translates segment 280)
+
+INCORRECT TRANSLATIONS (DO NOT DO THIS):
+- Segment 278: "枪械交易的第一条也是最重要的规则就是永远不要" (adding content from segment 279)
+- Segment 279: "被自己的货物击中。你还好吗？" (adding content from segment 280)
+- Segment 280: "我想是的。" (translating content from a different segment)
+
+IMPORTANT: Even if a sentence is split across multiple segments, each segment must be translated separately. Do not attempt to create a more natural flow by moving content between segments.
 
 Your output MUST be a valid JSON object that can be parsed by a JSON loader. The JSON object should contain a key "translations" which is an array of objects, with each object containing the original "id" and the "translated_text".
 Do NOT add any extra explanations or text outside of the JSON object. The structure must be:
