@@ -11,7 +11,9 @@ AI Subtitle Assistant is a command-line tool that uses AI technologies (Whisper 
 *   **Multi-format Support**: Handles various common video and audio file formats.
 *   **High-precision Speech Recognition**: Uses OpenAI's Whisper model for accurate audio transcription.
 *   **Intelligent Translation and Correction**: Leverages Large Language Models (LLMs) for translation, correcting errors based on context, and identifying proper nouns.
-*   **Flexible LLM Configuration**: Allows users to customize the API base URL and key for their LLM provider.
+*   **Flexible LLM Configuration**: Allows users to customize the API base URL, key, and model for their LLM provider.
+*   **Model Selection**: Choose from different LLM models for translation tasks.
+*   **Debug Mode**: Enables detailed output of intermediate JSON data for troubleshooting.
 *   **Standard Subtitle Output**: Generates standard UTF-8 encoded SRT subtitle files.
 *   **Bilingual Subtitles**: Can generate bilingual subtitles for language learning.
 *   **Embedded Subtitle Extraction**: Can detect and extract existing subtitle tracks from video files.
@@ -96,6 +98,8 @@ Translates an existing SRT file into a bilingual SRT file.
 **Options:**
 *   `-o, --output`: Path to the output bilingual SRT file. Prints to standard output if not specified.
 *   `-t, --target-language`: The target language for translation (e.g., "Chinese", "English"). Default is "Chinese".
+*   `--model`: Select the model to use for translation (e.g., "gpt-3.5-turbo", "gpt-4"). Default is "gpt-3.5-turbo".
+*   `--list-models`: List available models from the API and exit.
 *   `--api-base-url`: Custom base URL for the LLM provider.
 *   `--api-key`: Custom API key for the LLM provider.
 
@@ -132,6 +136,14 @@ ai-subtitle config --create
 4.  **SRT Generation**: The final processed text is formatted into a standard `.srt` file, either as a simple transcription or a bilingual subtitle.
 
 ## Changelog
+
+### v0.1.3 (Upcoming)
+- Added: Model selection feature for translation with `--model` option
+- Added: List available models with `--list-models` option
+- Added: Debug mode for troubleshooting translation issues (enabled via `AI_SUBTITLE_DEBUG=1` environment variable)
+- Improved: Translation prompt to better handle different language structures and prevent subtitle misalignment
+- Added: Graceful exit handling for keyboard interrupts (Ctrl+C)
+- Added: Validation to check for missing translations
 
 ### v0.1.2
 - Fixed: SRT multi-line content parsing bug, now all lines are preserved and correctly translated
