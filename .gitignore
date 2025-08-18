@@ -40,3 +40,6 @@ Thumbs.db
 config.ini
 
 .pypirc
+
+# Debug files
+debug_results
