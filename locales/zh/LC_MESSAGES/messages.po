@@ -11,6 +11,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: src/ai_subtitle_assistant/commands/translate_cmd.py
+msgid "Select the model to use for translation."
+msgstr "选择用于翻译的模型。"
+
+#: src/ai_subtitle_assistant/commands/translate_cmd.py
+msgid "List available models and exit."
+msgstr "列出可用模型并退出。"
+
+#: src/ai_subtitle_assistant/commands/translate_cmd.py
+msgid "Available models:"
+msgstr "可用模型："
+
+#: src/ai_subtitle_assistant/commands/translate_cmd.py
+msgid "Failed to fetch models from API: {e}"
+msgstr "从 API 获取模型失败：{e}"
+
 msgid "Error translating chunk: {e}"
 msgstr "翻译区块时出错：{e}"
 
