@@ -1,0 +1,5251 @@
+正在加载语言: zh
+翻译文件目录: locales
+成功加载翻译文件
+
+[DEBUG] 翻译开始，总段落数:
+1374
+--------------------------------------------------
+
+[DEBUG] 原始段落样本(前3个):
+[
+  {
+    "id": 0,
+    "start": 71.478,
+    "end": 75.687,
+    "text": "<font size=\"40\">There are over 550 million firearms\nin worldwide circulation.</font>"
+  },
+  {
+    "id": 1,
+    "start": 76.358,
+    "end": 79.771,
+    "text": "<font size=\"40\">That's one firearm\nfor every 12 people on the planet.</font>"
+  },
+  {
+    "id": 2,
+    "start": 80.404,
+    "end": 81.985,
+    "text": "<font size=\"40\">The only question is,</font>"
+  }
+]
+--------------------------------------------------
+
+[DEBUG] 使用模型: gpt-3.5-turbo, 目标语言: 简体中文
+--------------------------------------------------
+
+[DEBUG] API基础URL: https://openrouter.ai/api/v1
+--------------------------------------------------
+
+[DEBUG] 分块完成，共 15 个块
+--------------------------------------------------
+Translating 15 chunks...
+Translating:   0%|          | 0/15 [00:00<?, ?chunk/s]
+[DEBUG] 翻译块开始，使用模型: gpt-3.5-turbo，目标语言: 简体中文
+--------------------------------------------------
+
+[DEBUG] 输入段落:
+[
+  {
+    "id": 0,
+    "text": "<font size=\"40\">There are over 550 million firearms\nin worldwide circulation.</font>"
+  },
+  {
+    "id": 1,
+    "text": "<font size=\"40\">That's one firearm\nfor every 12 people on the planet.</font>"
+  },
+  {
+    "id": 2,
+    "text": "<font size=\"40\">The only question is,</font>"
+  },
+  {
+    "id": 3,
+    "text": "<font size=\"40\">how do we arm the other 11?</font>"
+  },
+  {
+    "id": 4,
+    "text": "<font size=\"40\">You don't have to worry.</font>"
+  },
+  {
+    "id": 5,
+    "text": "<font size=\"40\">I'm not gonna tell you a pack of lies\nto make me look good.</font>"
+  },
+  {
+    "id": 6,
+    "text": "<font size=\"40\">I'm just gonna tell you what happened.</font>"
+  },
+  {
+    "id": 7,
+    "text": "<font size=\"40\">My name is Yuri orlov.</font>"
+  },
+  {
+    "id": 8,
+    "text": "<font size=\"40\">When I was a boy,\nmy family came to America,</font>"
+  },
+  {
+    "id": 9,
+    "text": "<font size=\"40\">but not all the way.</font>"
+  },
+  {
+    "id": 10,
+    "text": "<font size=\"40\">Like most Ukrainians,\nwe congregated in Brighton beach.</font>"
+  },
+  {
+    "id": 11,
+    "text": "<font size=\"40\">It reminded us of the black sea.</font>"
+  },
+  {
+    "id": 12,
+    "text": "<font size=\"40\">I soon realized we'd just swapped\none hell for another.</font>"
+  },
+  {
+    "id": 13,
+    "text": "<font size=\"40\">Even in hell,\nan angel sometimes makes an appearance.</font>"
+  },
+  {
+    "id": 14,
+    "text": "<font size=\"40\">I'd worshipped Ava fontaine\nsince I was 10 years old.</font>"
+  },
+  {
+    "id": 15,
+    "text": "<font size=\"40\">Of course, she didn't know I existed.</font>"
+  },
+  {
+    "id": 16,
+    "text": "<font size=\"40\">I was starting to think she had a point.</font>"
+  },
+  {
+    "id": 17,
+    "text": "<font size=\"40\">For the first 20-odd years of my life,</font>"
+  },
+  {
+    "id": 18,
+    "text": "<font size=\"40\">little Odessa was to me\nwhat it is to the q train.</font>"
+  },
+  {
+    "id": 19,
+    "text": "<font size=\"40\">The end of the line.</font>"
+  },
+  {
+    "id": 20,
+    "text": "<font size=\"40\">Oh, I did lie about my name.</font>"
+  },
+  {
+    "id": 21,
+    "text": "<font size=\"40\">It's not really Yuri orlov.</font>"
+  },
+  {
+    "id": 22,
+    "text": "<font size=\"40\">There have been few occasions\nin the 20th century</font>"
+  },
+  {
+    "id": 23,
+    "text": "<font size=\"40\">when it's been an advantage to be a Jew.</font>"
+  },
+  {
+    "id": 24,
+    "text": "<font size=\"40\">But in the \"70s, to escape the Soviet union\nour family pretended to be Jewish.</font>"
+  },
+  {
+    "id": 25,
+    "text": "<font size=\"40\">Little about my life\nhas been kosher ever since.</font>"
+  },
+  {
+    "id": 26,
+    "text": "<font size=\"40\">- How's it going, brother?\n- It's not.</font>"
+  },
+  {
+    "id": 27,
+    "text": "<font size=\"40\">That's Vitaly, my younger brother.</font>"
+  },
+  {
+    "id": 28,
+    "text": "<font size=\"40\">He was as lost as me.\nHe just didn't know it yet.</font>"
+  },
+  {
+    "id": 29,
+    "text": "<font size=\"40\">Yuri, kouda prava, you're late.</font>"
+  },
+  {
+    "id": 30,
+    "text": "<font size=\"40\">My father took his assumed identity\nto heart.</font>"
+  },
+  {
+    "id": 31,
+    "text": "<font size=\"40\">He was more Jewish than most Jews,\nwhich drove my catholic mother crazy.</font>"
+  },
+  {
+    "id": 32,
+    "text": "<font size=\"40\">How many times? I can't eat shellfish.</font>"
+  },
+  {
+    "id": 33,
+    "text": "<font size=\"40\">It's trayf. You're not Jewish.</font>"
+  },
+  {
+    "id": 34,
+    "text": "<font size=\"40\">I like il.</font>"
+  },
+  {
+    "id": 35,
+    "text": "<font size=\"40\">I like the hat.</font>"
+  },
+  {
+    "id": 36,
+    "text": "<font size=\"40\">To remind us there is something above us.</font>"
+  },
+  {
+    "id": 37,
+    "text": "<font size=\"40\">I like that.</font>"
+  },
+  {
+    "id": 38,
+    "text": "<font size=\"40\">- I'm going to temple.\n- You're not going to temple.</font>"
+  },
+  {
+    "id": 39,
+    "text": "<font size=\"40\">You go to temple more than the rabbi.</font>"
+  },
+  {
+    "id": 40,
+    "text": "<font size=\"40\">Yuri, don't forget to check the specials\nat the palace.</font>"
+  },
+  {
+    "id": 41,
+    "text": "<font size=\"40\">Growing up in little Odessa,\nmurder was an everyday part of life.</font>"
+  },
+  {
+    "id": 42,
+    "text": "<font size=\"40\">Russian mobsters had also migrated\nfrom the Soviet union.</font>"
+  },
+  {
+    "id": 43,
+    "text": "<font size=\"40\">And when they came to America,\ntheir baggage came with them.</font>"
+  },
+  {
+    "id": 44,
+    "text": "<font size=\"40\">There was always some gangster\ngetting whacked in my neighborhood,</font>"
+  },
+  {
+    "id": 45,
+    "text": "<font size=\"40\">but I'd never seen it with my own eyes.</font>"
+  },
+  {
+    "id": 46,
+    "text": "<font size=\"40\">I had this knack of showing up\nfive minutes before something went down,</font>"
+  },
+  {
+    "id": 47,
+    "text": "<font size=\"40\">or five minutes after.</font>"
+  },
+  {
+    "id": 48,
+    "text": "<font size=\"40\">Not that day.</font>"
+  },
+  {
+    "id": 49,
+    "text": "<font size=\"40\">It hit me.</font>"
+  },
+  {
+    "id": 50,
+    "text": "<font size=\"40\">It couldn't have hit me harder\nif I was the one who'd been shot.</font>"
+  },
+  {
+    "id": 51,
+    "text": "<font size=\"40\">You go into the restaurant business</font>"
+  },
+  {
+    "id": 52,
+    "text": "<font size=\"40\">because people are always\ngoing to have to eat.</font>"
+  },
+  {
+    "id": 53,
+    "text": "<font size=\"40\">That was the day I realized my destiny lay\nin fulfilling another basic human need.</font>"
+  },
+  {
+    "id": 54,
+    "text": "<font size=\"40\">The next sabbath,\nI went to temple with my father.</font>"
+  },
+  {
+    "id": 55,
+    "text": "<font size=\"40\">However, it wasn't god\nI was trying to get close to.</font>"
+  },
+  {
+    "id": 56,
+    "text": "<font size=\"40\">Eli, my oldest son Yuri.</font>"
+  },
+  {
+    "id": 57,
+    "text": "<font size=\"40\">My contact at synagogue landed me\nmy first Israeli-made uzi submachine guns.</font>"
+  },
+  {
+    "id": 58,
+    "text": "<font size=\"40\">The first time you sell a gun\nis a lot like the first time you have sex.</font>"
+  },
+  {
+    "id": 59,
+    "text": "<font size=\"40\">You have absolutely no idea\nwhat you're doing, but it is exciting,</font>"
+  },
+  {
+    "id": 60,
+    "text": "<font size=\"40\">and one way or another,\nit's over way too fast.</font>"
+  },
+  {
+    "id": 61,
+    "text": "<font size=\"40\">Gentlemen, the new uzi machine pistol,</font>"
+  },
+  {
+    "id": 62,
+    "text": "<font size=\"40\">big firepower in a small package.</font>"
+  },
+  {
+    "id": 63,
+    "text": "<font size=\"40\">This little baby uses 9mm hollowpoints,\n20, 25-round extendable mags,</font>"
+  },
+  {
+    "id": 64,
+    "text": "<font size=\"40\">rear-flip adjustable sights.</font>"
+  },
+  {
+    "id": 65,
+    "text": "<font size=\"40\">Silencer comes standard.\nExcellent recoil reduction.</font>"
+  },
+  {
+    "id": 66,
+    "text": "<font size=\"40\">Muzzle jump reduced 40%,\n60% improved noise suppression.</font>"
+  },
+  {
+    "id": 67,
+    "text": "<font size=\"40\">You could pump a mag into me right now</font>"
+  },
+  {
+    "id": 68,
+    "text": "<font size=\"40\">and never wake the guy in the next room.</font>"
+  },
+  {
+    "id": 69,
+    "text": "<font size=\"40\">Of course, that would eliminate\nyour opportunity for repeat business.</font>"
+  },
+  {
+    "id": 70,
+    "text": "<font size=\"40\">I did have a natural instinct\nfor smuggling contraband.</font>"
+  },
+  {
+    "id": 71,
+    "text": "<font size=\"40\">Fortunately, back then a video camera\nwas as big as a bazooka.</font>"
+  },
+  {
+    "id": 72,
+    "text": "<font size=\"40\">Here, I'd been running away from violence\nmy whole life,</font>"
+  },
+  {
+    "id": 73,
+    "text": "<font size=\"40\">and I should have been running toward it.</font>"
+  },
+  {
+    "id": 74,
+    "text": "<font size=\"40\">It's in our nature.</font>"
+  },
+  {
+    "id": 75,
+    "text": "<font size=\"40\">The earliest human skeletons\nhad spearheads in their ribcages.</font>"
+  },
+  {
+    "id": 76,
+    "text": "<font size=\"40\">Where have you been?\nWhat if we had a customer?</font>"
+  },
+  {
+    "id": 77,
+    "text": "<font size=\"40\">God bless America.</font>"
+  },
+  {
+    "id": 78,
+    "text": "<font size=\"40\">Yeah?</font>"
+  },
+  {
+    "id": 79,
+    "text": "<font size=\"40\">\"Beware of the dog\"?</font>"
+  },
+  {
+    "id": 80,
+    "text": "<font size=\"40\">You don't have a dog.\nAre you trying to scare people?</font>"
+  },
+  {
+    "id": 81,
+    "text": "<font size=\"40\">No, it's to scare me.</font>"
+  },
+  {
+    "id": 82,
+    "text": "<font size=\"40\">Remind me to beware of the dog in me.</font>"
+  },
+  {
+    "id": 83,
+    "text": "<font size=\"40\">The dog that wants\nto fuck everything that moves,</font>"
+  },
+  {
+    "id": 84,
+    "text": "<font size=\"40\">wants to fight and kill weaker dogs.</font>"
+  },
+  {
+    "id": 85,
+    "text": "<font size=\"40\">I guess it's to remind me\nto be more human.</font>"
+  },
+  {
+    "id": 86,
+    "text": "<font size=\"40\">Isn't being a dog part of being human?</font>"
+  },
+  {
+    "id": 87,
+    "text": "<font size=\"40\">What if that's the best part of you,\nthe dog part?</font>"
+  }
+]
+--------------------------------------------------
+
+[DEBUG] 发送到API的提示:
+
+You are a professional subtitle translator. Your task is to translate the following subtitle segments into 简体中文.
+The input is a JSON array of objects, where each object has an "id" and a "text" from the original ASR (Automatic Speech Recognition).
+Please maintain the original meaning, fix any potential ASR errors based on context, and ensure the translation is natural and fluent.
+
+Your output MUST be a valid JSON object that can be parsed by a JSON loader. The JSON object should contain a key "translations" which is an array of objects, with each object containing the original "id" and the "translated_text".
+Do NOT add any extra explanations or text outside of the JSON object. The structure must be:
+{
+  "translations": [
+    {
+      "id": <original_id>,
+      "translated_text": "<your_translation>"
+    },
+    ...
+  ]
+}
+
+Here is the JSON data to translate:
+[
+  {
+    "id": 0,
+    "text": "<font size=\"40\">There are over 550 million firearms\nin worldwide circulation.</font>"
+  },
+  {
+    "id": 1,
+    "text": "<font size=\"40\">That's one firearm\nfor every 12 people on the planet.</font>"
+  },
+  {
+    "id": 2,
+    "text": "<font size=\"40\">The only question is,</font>"
+  },
+  {
+    "id": 3,
+    "text": "<font size=\"40\">how do we arm the other 11?</font>"
+  },
+  {
+    "id": 4,
+    "text": "<font size=\"40\">You don't have to worry.</font>"
+  },
+  {
+    "id": 5,
+    "text": "<font size=\"40\">I'm not gonna tell you a pack of lies\nto make me look good.</font>"
+  },
+  {
+    "id": 6,
+    "text": "<font size=\"40\">I'm just gonna tell you what happened.</font>"
+  },
+  {
+    "id": 7,
+    "text": "<font size=\"40\">My name is Yuri orlov.</font>"
+  },
+  {
+    "id": 8,
+    "text": "<font size=\"40\">When I was a boy,\nmy family came to America,</font>"
+  },
+  {
+    "id": 9,
+    "text": "<font size=\"40\">but not all the way.</font>"
+  },
+  {
+    "id": 10,
+    "text": "<font size=\"40\">Like most Ukrainians,\nwe congregated in Brighton beach.</font>"
+  },
+  {
+    "id": 11,
+    "text": "<font size=\"40\">It reminded us of the black sea.</font>"
+  },
+  {
+    "id": 12,
+    "text": "<font size=\"40\">I soon realized we'd just swapped\none hell for another.</font>"
+  },
+  {
+    "id": 13,
+    "text": "<font size=\"40\">Even in hell,\nan angel sometimes makes an appearance.</font>"
+  },
+  {
+    "id": 14,
+    "text": "<font size=\"40\">I'd worshipped Ava fontaine\nsince I was 10 years old.</font>"
+  },
+  {
+    "id": 15,
+    "text": "<font size=\"40\">Of course, she didn't know I existed.</font>"
+  },
+  {
+    "id": 16,
+    "text": "<font size=\"40\">I was starting to think she had a point.</font>"
+  },
+  {
+    "id": 17,
+    "text": "<font size=\"40\">For the first 20-odd years of my life,</font>"
+  },
+  {
+    "id": 18,
+    "text": "<font size=\"40\">little Odessa was to me\nwhat it is to the q train.</font>"
+  },
+  {
+    "id": 19,
+    "text": "<font size=\"40\">The end of the line.</font>"
+  },
+  {
+    "id": 20,
+    "text": "<font size=\"40\">Oh, I did lie about my name.</font>"
+  },
+  {
+    "id": 21,
+    "text": "<font size=\"40\">It's not really Yuri orlov.</font>"
+  },
+  {
+    "id": 22,
+    "text": "<font size=\"40\">There have been few occasions\nin the 20th century</font>"
+  },
+  {
+    "id": 23,
+    "text": "<font size=\"40\">when it's been an advantage to be a Jew.</font>"
+  },
+  {
+    "id": 24,
+    "text": "<font size=\"40\">But in the \"70s, to escape the Soviet union\nour family pretended to be Jewish.</font>"
+  },
+  {
+    "id": 25,
+    "text": "<font size=\"40\">Little about my life\nhas been kosher ever since.</font>"
+  },
+  {
+    "id": 26,
+    "text": "<font size=\"40\">- How's it going, brother?\n- It's not.</font>"
+  },
+  {
+    "id": 27,
+    "text": "<font size=\"40\">That's Vitaly, my younger brother.</font>"
+  },
+  {
+    "id": 28,
+    "text": "<font size=\"40\">He was as lost as me.\nHe just didn't know it yet.</font>"
+  },
+  {
+    "id": 29,
+    "text": "<font size=\"40\">Yuri, kouda prava, you're late.</font>"
+  },
+  {
+    "id": 30,
+    "text": "<font size=\"40\">My father took his assumed identity\nto heart.</font>"
+  },
+  {
+    "id": 31,
+    "text": "<font size=\"40\">He was more Jewish than most Jews,\nwhich drove my catholic mother crazy.</font>"
+  },
+  {
+    "id": 32,
+    "text": "<font size=\"40\">How many times? I can't eat shellfish.</font>"
+  },
+  {
+    "id": 33,
+    "text": "<font size=\"40\">It's trayf. You're not Jewish.</font>"
+  },
+  {
+    "id": 34,
+    "text": "<font size=\"40\">I like il.</font>"
+  },
+  {
+    "id": 35,
+    "text": "<font size=\"40\">I like the hat.</font>"
+  },
+  {
+    "id": 36,
+    "text": "<font size=\"40\">To remind us there is something above us.</font>"
+  },
+  {
+    "id": 37,
+    "text": "<font size=\"40\">I like that.</font>"
+  },
+  {
+    "id": 38,
+    "text": "<font size=\"40\">- I'm going to temple.\n- You're not going to temple.</font>"
+  },
+  {
+    "id": 39,
+    "text": "<font size=\"40\">You go to temple more than the rabbi.</font>"
+  },
+  {
+    "id": 40,
+    "text": "<font size=\"40\">Yuri, don't forget to check the specials\nat the palace.</font>"
+  },
+  {
+    "id": 41,
+    "text": "<font size=\"40\">Growing up in little Odessa,\nmurder was an everyday part of life.</font>"
+  },
+  {
+    "id": 42,
+    "text": "<font size=\"40\">Russian mobsters had also migrated\nfrom the Soviet union.</font>"
+  },
+  {
+    "id": 43,
+    "text": "<font size=\"40\">And when they came to America,\ntheir baggage came with them.</font>"
+  },
+  {
+    "id": 44,
+    "text": "<font size=\"40\">There was always some gangster\ngetting whacked in my neighborhood,</font>"
+  },
+  {
+    "id": 45,
+    "text": "<font size=\"40\">but I'd never seen it with my own eyes.</font>"
+  },
+  {
+    "id": 46,
+    "text": "<font size=\"40\">I had this knack of showing up\nfive minutes before something went down,</font>"
+  },
+  {
+    "id": 47,
+    "text": "<font size=\"40\">or five minutes after.</font>"
+  },
+  {
+    "id": 48,
+    "text": "<font size=\"40\">Not that day.</font>"
+  },
+  {
+    "id": 49,
+    "text": "<font size=\"40\">It hit me.</font>"
+  },
+  {
+    "id": 50,
+    "text": "<font size=\"40\">It couldn't have hit me harder\nif I was the one who'd been shot.</font>"
+  },
+  {
+    "id": 51,
+    "text": "<font size=\"40\">You go into the restaurant business</font>"
+  },
+  {
+    "id": 52,
+    "text": "<font size=\"40\">because people are always\ngoing to have to eat.</font>"
+  },
+  {
+    "id": 53,
+    "text": "<font size=\"40\">That was the day I realized my destiny lay\nin fulfilling another basic human need.</font>"
+  },
+  {
+    "id": 54,
+    "text": "<font size=\"40\">The next sabbath,\nI went to temple with my father.</font>"
+  },
+  {
+    "id": 55,
+    "text": "<font size=\"40\">However, it wasn't god\nI was trying to get close to.</font>"
+  },
+  {
+    "id": 56,
+    "text": "<font size=\"40\">Eli, my oldest son Yuri.</font>"
+  },
+  {
+    "id": 57,
+    "text": "<font size=\"40\">My contact at synagogue landed me\nmy first Israeli-made uzi submachine guns.</font>"
+  },
+  {
+    "id": 58,
+    "text": "<font size=\"40\">The first time you sell a gun\nis a lot like the first time you have sex.</font>"
+  },
+  {
+    "id": 59,
+    "text": "<font size=\"40\">You have absolutely no idea\nwhat you're doing, but it is exciting,</font>"
+  },
+  {
+    "id": 60,
+    "text": "<font size=\"40\">and one way or another,\nit's over way too fast.</font>"
+  },
+  {
+    "id": 61,
+    "text": "<font size=\"40\">Gentlemen, the new uzi machine pistol,</font>"
+  },
+  {
+    "id": 62,
+    "text": "<font size=\"40\">big firepower in a small package.</font>"
+  },
+  {
+    "id": 63,
+    "text": "<font size=\"40\">This little baby uses 9mm hollowpoints,\n20, 25-round extendable mags,</font>"
+  },
+  {
+    "id": 64,
+    "text": "<font size=\"40\">rear-flip adjustable sights.</font>"
+  },
+  {
+    "id": 65,
+    "text": "<font size=\"40\">Silencer comes standard.\nExcellent recoil reduction.</font>"
+  },
+  {
+    "id": 66,
+    "text": "<font size=\"40\">Muzzle jump reduced 40%,\n60% improved noise suppression.</font>"
+  },
+  {
+    "id": 67,
+    "text": "<font size=\"40\">You could pump a mag into me right now</font>"
+  },
+  {
+    "id": 68,
+    "text": "<font size=\"40\">and never wake the guy in the next room.</font>"
+  },
+  {
+    "id": 69,
+    "text": "<font size=\"40\">Of course, that would eliminate\nyour opportunity for repeat business.</font>"
+  },
+  {
+    "id": 70,
+    "text": "<font size=\"40\">I did have a natural instinct\nfor smuggling contraband.</font>"
+  },
+  {
+    "id": 71,
+    "text": "<font size=\"40\">Fortunately, back then a video camera\nwas as big as a bazooka.</font>"
+  },
+  {
+    "id": 72,
+    "text": "<font size=\"40\">Here, I'd been running away from violence\nmy whole life,</font>"
+  },
+  {
+    "id": 73,
+    "text": "<font size=\"40\">and I should have been running toward it.</font>"
+  },
+  {
+    "id": 74,
+    "text": "<font size=\"40\">It's in our nature.</font>"
+  },
+  {
+    "id": 75,
+    "text": "<font size=\"40\">The earliest human skeletons\nhad spearheads in their ribcages.</font>"
+  },
+  {
+    "id": 76,
+    "text": "<font size=\"40\">Where have you been?\nWhat if we had a customer?</font>"
+  },
+  {
+    "id": 77,
+    "text": "<font size=\"40\">God bless America.</font>"
+  },
+  {
+    "id": 78,
+    "text": "<font size=\"40\">Yeah?</font>"
+  },
+  {
+    "id": 79,
+    "text": "<font size=\"40\">\"Beware of the dog\"?</font>"
+  },
+  {
+    "id": 80,
+    "text": "<font size=\"40\">You don't have a dog.\nAre you trying to scare people?</font>"
+  },
+  {
+    "id": 81,
+    "text": "<font size=\"40\">No, it's to scare me.</font>"
+  },
+  {
+    "id": 82,
+    "text": "<font size=\"40\">Remind me to beware of the dog in me.</font>"
+  },
+  {
+    "id": 83,
+    "text": "<font size=\"40\">The dog that wants\nto fuck everything that moves,</font>"
+  },
+  {
+    "id": 84,
+    "text": "<font size=\"40\">wants to fight and kill weaker dogs.</font>"
+  },
+  {
+    "id": 85,
+    "text": "<font size=\"40\">I guess it's to remind me\nto be more human.</font>"
+  },
+  {
+    "id": 86,
+    "text": "<font size=\"40\">Isn't being a dog part of being human?</font>"
+  },
+  {
+    "id": 87,
+    "text": "<font size=\"40\">What if that's the best part of you,\nthe dog part?</font>"
+  }
+]
+
+--------------------------------------------------
+
+[DEBUG] API响应:
+{
+  "translations": [
+    {
+      "id": 0,
+      "translated_text": "<font size=\"40\">全球流通的枪支超过5.5亿支。</font>"
+    },
+    {
+      "id": 1,
+      "translated_text": "<font size=\"40\">这意味着地球上每12个人中就有一支枪。</font>"
+    },
+    {
+      "id": 2,
+      "translated_text": "<font size=\"40\">唯一的问题是，</font>"
+    },
+    {
+      "id": 3,
+      "translated_text": "<font size=\"40\">我们如何武装其他11个人？</font>"
+    },
+    {
+      "id": 4,
+      "translated_text": "<font size=\"40\">你不必担心。</font>"
+    },
+    {
+      "id": 5,
+      "translated_text": "<font size=\"40\">我不会撒谎来凸显自己。</font>"
+    },
+    {
+      "id": 6,
+      "translated_text": "<font size=\"40\">我只会告诉你发生了什么。</font>"
+    },
+    {
+      "id": 7,
+      "translated_text": "<font size=\"40\">我叫尤里·奥尔洛夫。</font>"
+    },
+    {
+      "id": 8,
+      "translated_text": "<font size=\"40\">小时候，我的家人来到美国，</font>"
+    },
+    {
+      "id": 9,
+      "translated_text": "<font size=\"40\">但并没有完全远离家乡。</font>"
+    },
+    {
+      "id": 10,
+      "translated_text": "<font size=\"40\">和大多数乌克兰人一样，</font>"
+    },
+    {
+      "id": 11,
+      "translated_text": "<font size=\"40\">我们聚集在布莱顿海滩。</font>"
+    },
+    {
+      "id": 12,
+      "translated_text": "<font size=\"40\">我很快意识到，我们只是把一个地狱换成了另一个。</font>"
+    },
+    {
+      "id": 13,
+      "translated_text": "<font size=\"40\">即使在地狱中，</font>"
+    },
+    {
+      "id": 14,
+      "translated_text": "<font size=\"40\">天使有时也会出现。</font>"
+    },
+    {
+      "id": 15,
+      "translated_text": "<font size=\"40\">我从10岁起就崇拜着艾娃·方丹。</font>"
+    },
+    {
+      "id": 16,
+      "translated_text": "<font size=\"40\">当然，她并不知道我的存在。</font>"
+    },
+    {
+      "id": 17,
+      "translated_text": "<font size=\"40\">在我人生的头20多年里，</font>"
+    },
+    {
+      "id": 18,
+      "translated_text": "<font size=\"40\">小奥德萨对我来说就像Q地铁一样。</font>"
+    },
+    {
+      "id": 19,
+      "translated_text": "<font size=\"40\">终点站。</font>"
+    },
+    {
+      "id": 20,
+      "translated_text": "<font size=\"40\">哦，我确实谎称过我的名字。</font>"
+    },
+    {
+      "id": 21,
+      "translated_text": "<font size=\"40\">我的真名并不是尤里·奥尔洛夫。</font>"
+    },
+    {
+      "id": 22,
+      "translated_text": "<font size=\"40\">20世纪很少有时候，</font>"
+    },
+    {
+      "id": 23,
+      "translated_text": "<font size=\"40\">成为犹太人是优势。</font>"
+    },
+    {
+      "id": 24,
+      "translated_text": "<font size=\"40\">但在70年代，为了逃离苏联，</font>"
+    },
+    {
+      "id": 25,
+      "translated_text": "<font size=\"40\">我们家假装成为犹太人。</font>"
+    },
+    {
+      "id": 26,
+      "translated_text": "<font size=\"40\">- 怎么样，兄弟？\n- 不太好。</font>"
+    },
+    {
+      "id": 27,
+      "translated_text": "<font size=\"40\">那是维塔利，我的弟弟。</font>"
+    },
+    {
+      "id": 28,
+      "translated_text": "<font size=\"40\">他和我一样迷失了方向，</font>"
+    },
+    {
+      "id": 29,
+      "translated_text": "<font size=\"40\">尤里，到那里去，你迟到了。</font>"
+    },
+    {
+      "id": 30,
+      "translated_text": "<font size=\"40\">我父亲对他的假身份情有独钟。</font>"
+    },
+    {
+      "id": 31,
+      "translated_text": "<font size=\"40\">他比大多数犹太人更犹太，这让我天主教母亲发疯。</font>"
+    },
+    {
+      "id": 32,
+      "translated_text": "<font size=\"40\">多少次了？我不能吃贝类。</font>"
+    },
+    {
+      "id": 33,
+      "translated_text": "<font size=\"40\">这是禁忌食品。你不是犹太人。</font>"
+    },
+    {
+      "id": 34,
+      "translated_text": "<font size=\"40\">我喜欢il。</font>"
+    },
+    {
+      "id": 35,
+      "translated_text": "<font size=\"40\">我喜欢这顶帽子。</font>"
+    },
+    {
+      "id": 36,
+      "translated_text": "<font size=\"40\">为了提醒我们头上有一位更高的存在。</font>"
+    },
+    {
+      "id": 37,
+      "translated_text": "<font size=\"40\">我喜欢这个。</font>"
+    },
+    {
+      "id": 38,
+      "translated_text": "<font size=\"40\">- 我要去寺庙。\n- 你不会去寺庙。</font>"
+    },
+    {
+      "id": 39,
+      "translated_text": "<font size=\"40\">你比拉比还要经常去寺庙。</font>"
+    },
+    {
+      "id": 40,
+      "translated_text": "<font size=\"40\">尤里，不要忘记去宫殿检查特价。</font>"
+    },
+    {
+      "id": 41,
+      "translated_text": "<font size=\"40\">在小奥德萨长大，谋杀是日常生活的一部分。</font>"
+    },
+    {
+      "id": 42,
+      "translated_text": "<font size=\"40\">俄罗斯黑手党也从苏联迁移过来。</font>"
+    },
+    {
+      "id": 43,
+      "translated_text": "<font size=\"40\">当他们来到美国时，他们的包袱也随之而至。</font>"
+    },
+    {
+      "id": 44,
+      "translated_text": "<font size=\"40\">在我居住的社区总有一些黑帮分子被干掉，</font>"
+    },
+    {
+      "id": 45,
+      "translated_text": "<font size=\"40\">但我从未亲眼见过。</font>"
+    },
+    {
+      "id": 46,
+      "translated_text": "<font size=\"40\">我总能在某件事情发生前五分钟出现，</font>"
+    },
+    {
+      "id": 47,
+      "translated_text": "<font size=\"40\">或者事情发生后五分钟到场。</font>"
+    },
+    {
+      "id": 48,
+      "translated_text": "<font size=\"40\">但那天不是。</font>"
+    },
+    {
+      "id": 49,
+      "translated_text": "<font size=\"40\">打击到我了。</font>"
+    },
+    {
+      "id": 50,
+      "translated_text": "<font size=\"40\">如果我是被击中的人，</font>"
+    },
+    {
+      "id": 51,
+      "translated_text": "<font size=\"40\">你进入餐厅业务是因为人们总是需要吃饭。</font>"
+    },
+    {
+      "id": 52,
+      "translated_text": "<font size=\"40\">那天我意识到，我的命运在于满足另一个基本人类需求。</font>"
+    },
+    {
+      "id": 53,
+      "translated_text": "<font size=\"40\">下一个安息日，我和父亲一起去了寺庙。</font>"
+    },
+    {
+      "id": 54,
+      "translated_text": "<font size=\"40\">不过，我试图接近的并不是上帝。</font>"
+    },
+    {
+      "id": 55,
+      "translated_text": "<font size=\"40\">艾利，我的大儿子尤里。</font>"
+    },
+    {
+      "id": 56,
+      "translated_text": "<font size=\"40\">我在犹太教堂结识的人帮我找到了我的第一批以色列制造的乌兹冲锋枪。</font>"
+    },
+    {
+      "id": 57,
+      "translated_text": "<font size=\"40\">你第一次卖枪就像第一次做爱一样。</font>"
+    },
+    {
+      "id": 58,
+      "translated_text": "<font size=\"40\">你完全不知道自己在做什么，但很刺激，</font>"
+    },
+    {
+      "id": 59,
+      "translated_text": "<font size=\"40\">无论如何，一切都结束得太快。</font>"
+    },
+    {
+      "id": 60,
+      "translated_text": "<font size=\"40\">先生们，这是新的乌兹冲锋手枪，</font>"
+    },
+    {
+      "id": 61,
+      "translated_text": "<font size=\"40\">小巧的火力大。</font>"
+    },
+    {
+      "id": 62,
+      "translated_text": "<font size=\"40\">这把小家伙使用9毫米空心弹，20、25发可伸缩弹匣，</font>"
+    },
+    {
+      "id": 63,
+      "translated_text": "<font size=\"40\">后翻式可调准星。</font>"
+    },
+    {
+      "id": 64,
+      "translated_text": "<font size=\"40\">标配消音器。出色的后坐力减小。</font>"
+    },
+    {
+      "id": 65,
+      "translated_text": "<font size=\"40\">枪口跳动减少40%，噪音抑制提高60%。</font>"
+    },
+    {
+      "id": 66,
+      "translated_text": "<font size=\"40\">你现在可以向我射击一杂志弹匣，</font>"
+    },
+    {
+      "id": 67,
+      "translated_text": "<font size=\"40\">甚至都不会惊醒隔壁的人。</font>"
+    },
+    {
+      "id": 68,
+      "translated_text": "<font size=\"40\">当然，这样做会剥夺你的复购机会。</font>"
+    },
+    {
+      "id": 69,
+      "translated_text": "<font size=\"40\">我对走私违禁品有一种天生的直觉。</font>"
+    },
+    {
+      "id": 70,
+      "translated_text": "<font size=\"40\">幸运的是，那时候，录像摄像机和火箭筒一样大。</font>"
+    },
+    {
+      "id": 71,
+      "translated_text": "<font size=\"40\">我一直在逃避暴力，</font>"
+    },
+    {
+      "id": 72,
+      "translated_text": "<font size=\"40\">而我应该一直在寻找它。</font>"
+    },
+    {
+      "id": 73,
+      "translated_text": "<font size=\"40\">这是我们的本性。</font>"
+    },
+    {
+      "id": 74,
+      "translated_text": "<font size=\"40\">最早的人类骨架中，</font>"
+    },
+    {
+      "id": 75,
+      "translated_text": "<font size=\"40\">肋骨间插着长矛头。</font>"
+    },
+    {
+      "id": 76,
+      "translated_text": "<font size=\"40\">你去哪了？</font>"
+    },
+    {
+      "id": 77,
+      "translated_text": "<font size=\"40\">上帝保佑美国。</font>"
+    },
+    {
+      "id": 78,
+      "translated_text": "<font size=\"40\">是吗？</font>"
+    },
+    {
+      "id": 79,
+      "translated_text": "<font size=\"40\">“小心狗”？</font>"
+    },
+    {
+      "id": 80,
+      "translated_text": "<font size=\"40\">你没有狗。你是想吓唬人吗？</font>"
+    },
+    {
+      "id": 81,
+      "translated_text": "<font size=\"40\">不，这是为了吓唬我。</font>"
+    },
+    {
+      "id": 82,
+      "translated_text": "<font size=\"40\">提醒我小心我内心的恶犬。</font>"
+    },
+    {
+      "id": 83,
+      "translated_text": "<font size=\"40\">那只想操纵一切移动的恶犬，</font>"
+    },
+    {
+      "id": 84,
+      "translated_text": "<font size=\"40\">想与更弱的狗搏斗并杀死它们。</font>"
+    },
+    {
+      "id": 85,
+      "translated_text": "<font size=\"40\">我想这是提醒我要更加人性化。</font>"
+    },
+    {
+      "id": 86,
+      "translated_text": "<font size=\"40\">成为一只狗不也是成为人的一部分吗？</font>"
+    },
+    {
+      "id": 87,
+      "translated_text": "<font size=\"40\">如果那是你最好的部分，</font>"
+    }
+  ]
+}
+--------------------------------------------------
+
+[DEBUG] 解析后的翻译:
+[
+  {
+    "id": 0,
+    "translated_text": "<font size=\"40\">全球流通的枪支超过5.5亿支。</font>"
+  },
+  {
+    "id": 1,
+    "translated_text": "<font size=\"40\">这意味着地球上每12个人中就有一支枪。</font>"
+  },
+  {
+    "id": 2,
+    "translated_text": "<font size=\"40\">唯一的问题是，</font>"
+  },
+  {
+    "id": 3,
+    "translated_text": "<font size=\"40\">我们如何武装其他11个人？</font>"
+  },
+  {
+    "id": 4,
+    "translated_text": "<font size=\"40\">你不必担心。</font>"
+  },
+  {
+    "id": 5,
+    "translated_text": "<font size=\"40\">我不会撒谎来凸显自己。</font>"
+  },
+  {
+    "id": 6,
+    "translated_text": "<font size=\"40\">我只会告诉你发生了什么。</font>"
+  },
+  {
+    "id": 7,
+    "translated_text": "<font size=\"40\">我叫尤里·奥尔洛夫。</font>"
+  },
+  {
+    "id": 8,
+    "translated_text": "<font size=\"40\">小时候，我的家人来到美国，</font>"
+  },
+  {
+    "id": 9,
+    "translated_text": "<font size=\"40\">但并没有完全远离家乡。</font>"
+  },
+  {
+    "id": 10,
+    "translated_text": "<font size=\"40\">和大多数乌克兰人一样，</font>"
+  },
+  {
+    "id": 11,
+    "translated_text": "<font size=\"40\">我们聚集在布莱顿海滩。</font>"
+  },
+  {
+    "id": 12,
+    "translated_text": "<font size=\"40\">我很快意识到，我们只是把一个地狱换成了另一个。</font>"
+  },
+  {
+    "id": 13,
+    "translated_text": "<font size=\"40\">即使在地狱中，</font>"
+  },
+  {
+    "id": 14,
+    "translated_text": "<font size=\"40\">天使有时也会出现。</font>"
+  },
+  {
+    "id": 15,
+    "translated_text": "<font size=\"40\">我从10岁起就崇拜着艾娃·方丹。</font>"
+  },
+  {
+    "id": 16,
+    "translated_text": "<font size=\"40\">当然，她并不知道我的存在。</font>"
+  },
+  {
+    "id": 17,
+    "translated_text": "<font size=\"40\">在我人生的头20多年里，</font>"
+  },
+  {
+    "id": 18,
+    "translated_text": "<font size=\"40\">小奥德萨对我来说就像Q地铁一样。</font>"
+  },
+  {
+    "id": 19,
+    "translated_text": "<font size=\"40\">终点站。</font>"
+  },
+  {
+    "id": 20,
+    "translated_text": "<font size=\"40\">哦，我确实谎称过我的名字。</font>"
+  },
+  {
+    "id": 21,
+    "translated_text": "<font size=\"40\">我的真名并不是尤里·奥尔洛夫。</font>"
+  },
+  {
+    "id": 22,
+    "translated_text": "<font size=\"40\">20世纪很少有时候，</font>"
+  },
+  {
+    "id": 23,
+    "translated_text": "<font size=\"40\">成为犹太人是优势。</font>"
+  },
+  {
+    "id": 24,
+    "translated_text": "<font size=\"40\">但在70年代，为了逃离苏联，</font>"
+  },
+  {
+    "id": 25,
+    "translated_text": "<font size=\"40\">我们家假装成为犹太人。</font>"
+  },
+  {
+    "id": 26,
+    "translated_text": "<font size=\"40\">- 怎么样，兄弟？\n- 不太好。</font>"
+  },
+  {
+    "id": 27,
+    "translated_text": "<font size=\"40\">那是维塔利，我的弟弟。</font>"
+  },
+  {
+    "id": 28,
+    "translated_text": "<font size=\"40\">他和我一样迷失了方向，</font>"
+  },
+  {
+    "id": 29,
+    "translated_text": "<font size=\"40\">尤里，到那里去，你迟到了。</font>"
+  },
+  {
+    "id": 30,
+    "translated_text": "<font size=\"40\">我父亲对他的假身份情有独钟。</font>"
+  },
+  {
+    "id": 31,
+    "translated_text": "<font size=\"40\">他比大多数犹太人更犹太，这让我天主教母亲发疯。</font>"
+  },
+  {
+    "id": 32,
+    "translated_text": "<font size=\"40\">多少次了？我不能吃贝类。</font>"
+  },
+  {
+    "id": 33,
+    "translated_text": "<font size=\"40\">这是禁忌食品。你不是犹太人。</font>"
+  },
+  {
+    "id": 34,
+    "translated_text": "<font size=\"40\">我喜欢il。</font>"
+  },
+  {
+    "id": 35,
+    "translated_text": "<font size=\"40\">我喜欢这顶帽子。</font>"
+  },
+  {
+    "id": 36,
+    "translated_text": "<font size=\"40\">为了提醒我们头上有一位更高的存在。</font>"
+  },
+  {
+    "id": 37,
+    "translated_text": "<font size=\"40\">我喜欢这个。</font>"
+  },
+  {
+    "id": 38,
+    "translated_text": "<font size=\"40\">- 我要去寺庙。\n- 你不会去寺庙。</font>"
+  },
+  {
+    "id": 39,
+    "translated_text": "<font size=\"40\">你比拉比还要经常去寺庙。</font>"
+  },
+  {
+    "id": 40,
+    "translated_text": "<font size=\"40\">尤里，不要忘记去宫殿检查特价。</font>"
+  },
+  {
+    "id": 41,
+    "translated_text": "<font size=\"40\">在小奥德萨长大，谋杀是日常生活的一部分。</font>"
+  },
+  {
+    "id": 42,
+    "translated_text": "<font size=\"40\">俄罗斯黑手党也从苏联迁移过来。</font>"
+  },
+  {
+    "id": 43,
+    "translated_text": "<font size=\"40\">当他们来到美国时，他们的包袱也随之而至。</font>"
+  },
+  {
+    "id": 44,
+    "translated_text": "<font size=\"40\">在我居住的社区总有一些黑帮分子被干掉，</font>"
+  },
+  {
+    "id": 45,
+    "translated_text": "<font size=\"40\">但我从未亲眼见过。</font>"
+  },
+  {
+    "id": 46,
+    "translated_text": "<font size=\"40\">我总能在某件事情发生前五分钟出现，</font>"
+  },
+  {
+    "id": 47,
+    "translated_text": "<font size=\"40\">或者事情发生后五分钟到场。</font>"
+  },
+  {
+    "id": 48,
+    "translated_text": "<font size=\"40\">但那天不是。</font>"
+  },
+  {
+    "id": 49,
+    "translated_text": "<font size=\"40\">打击到我了。</font>"
+  },
+  {
+    "id": 50,
+    "translated_text": "<font size=\"40\">如果我是被击中的人，</font>"
+  },
+  {
+    "id": 51,
+    "translated_text": "<font size=\"40\">你进入餐厅业务是因为人们总是需要吃饭。</font>"
+  },
+  {
+    "id": 52,
+    "translated_text": "<font size=\"40\">那天我意识到，我的命运在于满足另一个基本人类需求。</font>"
+  },
+  {
+    "id": 53,
+    "translated_text": "<font size=\"40\">下一个安息日，我和父亲一起去了寺庙。</font>"
+  },
+  {
+    "id": 54,
+    "translated_text": "<font size=\"40\">不过，我试图接近的并不是上帝。</font>"
+  },
+  {
+    "id": 55,
+    "translated_text": "<font size=\"40\">艾利，我的大儿子尤里。</font>"
+  },
+  {
+    "id": 56,
+    "translated_text": "<font size=\"40\">我在犹太教堂结识的人帮我找到了我的第一批以色列制造的乌兹冲锋枪。</font>"
+  },
+  {
+    "id": 57,
+    "translated_text": "<font size=\"40\">你第一次卖枪就像第一次做爱一样。</font>"
+  },
+  {
+    "id": 58,
+    "translated_text": "<font size=\"40\">你完全不知道自己在做什么，但很刺激，</font>"
+  },
+  {
+    "id": 59,
+    "translated_text": "<font size=\"40\">无论如何，一切都结束得太快。</font>"
+  },
+  {
+    "id": 60,
+    "translated_text": "<font size=\"40\">先生们，这是新的乌兹冲锋手枪，</font>"
+  },
+  {
+    "id": 61,
+    "translated_text": "<font size=\"40\">小巧的火力大。</font>"
+  },
+  {
+    "id": 62,
+    "translated_text": "<font size=\"40\">这把小家伙使用9毫米空心弹，20、25发可伸缩弹匣，</font>"
+  },
+  {
+    "id": 63,
+    "translated_text": "<font size=\"40\">后翻式可调准星。</font>"
+  },
+  {
+    "id": 64,
+    "translated_text": "<font size=\"40\">标配消音器。出色的后坐力减小。</font>"
+  },
+  {
+    "id": 65,
+    "translated_text": "<font size=\"40\">枪口跳动减少40%，噪音抑制提高60%。</font>"
+  },
+  {
+    "id": 66,
+    "translated_text": "<font size=\"40\">你现在可以向我射击一杂志弹匣，</font>"
+  },
+  {
+    "id": 67,
+    "translated_text": "<font size=\"40\">甚至都不会惊醒隔壁的人。</font>"
+  },
+  {
+    "id": 68,
+    "translated_text": "<font size=\"40\">当然，这样做会剥夺你的复购机会。</font>"
+  },
+  {
+    "id": 69,
+    "translated_text": "<font size=\"40\">我对走私违禁品有一种天生的直觉。</font>"
+  },
+  {
+    "id": 70,
+    "translated_text": "<font size=\"40\">幸运的是，那时候，录像摄像机和火箭筒一样大。</font>"
+  },
+  {
+    "id": 71,
+    "translated_text": "<font size=\"40\">我一直在逃避暴力，</font>"
+  },
+  {
+    "id": 72,
+    "translated_text": "<font size=\"40\">而我应该一直在寻找它。</font>"
+  },
+  {
+    "id": 73,
+    "translated_text": "<font size=\"40\">这是我们的本性。</font>"
+  },
+  {
+    "id": 74,
+    "translated_text": "<font size=\"40\">最早的人类骨架中，</font>"
+  },
+  {
+    "id": 75,
+    "translated_text": "<font size=\"40\">肋骨间插着长矛头。</font>"
+  },
+  {
+    "id": 76,
+    "translated_text": "<font size=\"40\">你去哪了？</font>"
+  },
+  {
+    "id": 77,
+    "translated_text": "<font size=\"40\">上帝保佑美国。</font>"
+  },
+  {
+    "id": 78,
+    "translated_text": "<font size=\"40\">是吗？</font>"
+  },
+  {
+    "id": 79,
+    "translated_text": "<font size=\"40\">“小心狗”？</font>"
+  },
+  {
+    "id": 80,
+    "translated_text": "<font size=\"40\">你没有狗。你是想吓唬人吗？</font>"
+  },
+  {
+    "id": 81,
+    "translated_text": "<font size=\"40\">不，这是为了吓唬我。</font>"
+  },
+  {
+    "id": 82,
+    "translated_text": "<font size=\"40\">提醒我小心我内心的恶犬。</font>"
+  },
+  {
+    "id": 83,
+    "translated_text": "<font size=\"40\">那只想操纵一切移动的恶犬，</font>"
+  },
+  {
+    "id": 84,
+    "translated_text": "<font size=\"40\">想与更弱的狗搏斗并杀死它们。</font>"
+  },
+  {
+    "id": 85,
+    "translated_text": "<font size=\"40\">我想这是提醒我要更加人性化。</font>"
+  },
+  {
+    "id": 86,
+    "translated_text": "<font size=\"40\">成为一只狗不也是成为人的一部分吗？</font>"
+  },
+  {
+    "id": 87,
+    "translated_text": "<font size=\"40\">如果那是你最好的部分，</font>"
+  }
+]
+--------------------------------------------------
+Translating:   7%|▋         | 1/15 [00:27<06:28, 27.74s/chunk]
+[DEBUG] 翻译块开始，使用模型: gpt-3.5-turbo，目标语言: 简体中文
+--------------------------------------------------
+
+[DEBUG] 输入段落:
+[
+  {
+    "id": 88,
+    "text": "<font size=\"40\">What if you're really\njust a two-legged dog?</font>"
+  },
+  {
+    "id": 89,
+    "text": "<font size=\"40\">You need to see somebody.</font>"
+  },
+  {
+    "id": 90,
+    "text": "<font size=\"40\">It stinks in here.</font>"
+  },
+  {
+    "id": 91,
+    "text": "<font size=\"40\">I'd always wanted to do something big\nwith my life.</font>"
+  },
+  {
+    "id": 92,
+    "text": "<font size=\"40\">[ Just didn't know what.</font>"
+  },
+  {
+    "id": 93,
+    "text": "<font size=\"40\">Anyhow, I figured if I was going\ninto the gun trade,</font>"
+  },
+  {
+    "id": 94,
+    "text": "<font size=\"40\">I was going to aim high.</font>"
+  },
+  {
+    "id": 95,
+    "text": "<font size=\"40\">Vitaly, stop fucking around.\nI want to talk to you.</font>"
+  },
+  {
+    "id": 96,
+    "text": "<font size=\"40\">You read the newspapers, v7?</font>"
+  },
+  {
+    "id": 97,
+    "text": "<font size=\"40\">The newspaper? It's always the same.</font>"
+  },
+  {
+    "id": 98,
+    "text": "<font size=\"40\">You're right. Every day\nthere's people shooting each other.</font>"
+  },
+  {
+    "id": 99,
+    "text": "<font size=\"40\">You know what I do when I see that?</font>"
+  },
+  {
+    "id": 100,
+    "text": "<font size=\"40\">I look to see what guns they're using,\nand I think to myself, \"why not my guns?\"</font>"
+  },
+  {
+    "id": 101,
+    "text": "<font size=\"40\">What, you opening a gun shop?</font>"
+  },
+  {
+    "id": 102,
+    "text": "<font size=\"40\">Already more of those\nin America than McDonald's.</font>"
+  },
+  {
+    "id": 103,
+    "text": "<font size=\"40\">Even with all the gangsters around here,\nthe margins are too low.</font>"
+  },
+  {
+    "id": 104,
+    "text": "<font size=\"40\">- You've worked out the margins?\n- Sure.</font>"
+  },
+  {
+    "id": 105,
+    "text": "<font size=\"40\">Forget gang wars.</font>"
+  },
+  {
+    "id": 106,
+    "text": "<font size=\"40\">The real money's in actual wars\nbetween countries.</font>"
+  },
+  {
+    "id": 107,
+    "text": "<font size=\"40\">Yuri, what the fuck\ndo you know about guns?</font>"
+  },
+  {
+    "id": 108,
+    "text": "<font size=\"40\">I know which end I'd rather be on.</font>"
+  },
+  {
+    "id": 109,
+    "text": "<font size=\"40\">I made the first sale.\nWe're already in business.</font>"
+  },
+  {
+    "id": 110,
+    "text": "<font size=\"40\">Whoa. We?</font>"
+  },
+  {
+    "id": 111,
+    "text": "<font size=\"40\">I need a partner.</font>"
+  },
+  {
+    "id": 112,
+    "text": "<font size=\"40\">I don't know.\nI don't know, Yuri. I don't know.</font>"
+  },
+  {
+    "id": 113,
+    "text": "<font size=\"40\">Vitaly, I've tasted your borscht.\nYou're no fucking chef.</font>"
+  },
+  {
+    "id": 114,
+    "text": "<font size=\"40\">I can eat in the restaurant for free\nand I still don't eat there.</font>"
+  },
+  {
+    "id": 115,
+    "text": "<font size=\"40\">Fuck you.</font>"
+  },
+  {
+    "id": 116,
+    "text": "<font size=\"40\">We're doing nothing with our lives.</font>"
+  },
+  {
+    "id": 117,
+    "text": "<font size=\"40\">I mean, this is shit. This is shit.</font>"
+  },
+  {
+    "id": 118,
+    "text": "<font size=\"40\">That's true.</font>"
+  },
+  {
+    "id": 119,
+    "text": "<font size=\"40\">But maybe doing nothing's better\nthan doing this.</font>"
+  },
+  {
+    "id": 120,
+    "text": "<font size=\"40\">I need you.</font>"
+  },
+  {
+    "id": 121,
+    "text": "<font size=\"40\">Sir, sir,</font>"
+  },
+  {
+    "id": 122,
+    "text": "<font size=\"40\">may I interest you in the shoulder-fired\nsa-7 surface-to-air missile?</font>"
+  },
+  {
+    "id": 123,
+    "text": "<font size=\"40\">It's the older Chinese model.</font>"
+  },
+  {
+    "id": 124,
+    "text": "<font size=\"40\">Not so effective\nagainst modern military aircraft,</font>"
+  },
+  {
+    "id": 125,
+    "text": "<font size=\"40\">but deadly if used\nagainst a commercial airliner.</font>"
+  },
+  {
+    "id": 126,
+    "text": "<font size=\"40\">I'm giving them away at $850.</font>"
+  },
+  {
+    "id": 127,
+    "text": "<font size=\"40\">It was the '80s, and the cold war\nwas far from thawed.</font>"
+  },
+  {
+    "id": 128,
+    "text": "<font size=\"40\">Most of the deals were\ngovernment to government.</font>"
+  },
+  {
+    "id": 129,
+    "text": "<font size=\"40\">And it was a mostly private club\nwith a lifetime club president.</font>"
+  },
+  {
+    "id": 130,
+    "text": "<font size=\"40\">- That's him.\n- Who, the big shot?</font>"
+  },
+  {
+    "id": 131,
+    "text": "<font size=\"40\">Simeon Weisz.</font>"
+  },
+  {
+    "id": 132,
+    "text": "<font size=\"40\">Angola, Mozambique,\nthose exocet missiles in the falklands.</font>"
+  },
+  {
+    "id": 133,
+    "text": "<font size=\"40\">He was selling guns\nbefore there was gunpowder.</font>"
+  },
+  {
+    "id": 134,
+    "text": "<font size=\"40\">I'll be right back.</font>"
+  },
+  {
+    "id": 135,
+    "text": "<font size=\"40\">Mr. Weisz. Mr. Weisz.</font>"
+  },
+  {
+    "id": 136,
+    "text": "<font size=\"40\">It's okay. They're talking.</font>"
+  },
+  {
+    "id": 137,
+    "text": "<font size=\"40\">May I help? Yes.</font>"
+  },
+  {
+    "id": 138,
+    "text": "<font size=\"40\">A mutual friend, Eli kurtzman,\nfrom Brighton beach, import, exports,</font>"
+  },
+  {
+    "id": 139,
+    "text": "<font size=\"40\">said to contact you.</font>"
+  },
+  {
+    "id": 140,
+    "text": "<font size=\"40\">I have a business proposal\nand I thought perhaps we could discuss it.</font>"
+  },
+  {
+    "id": 141,
+    "text": "<font size=\"40\">I don't think you and I\nare in the same business, son.</font>"
+  },
+  {
+    "id": 142,
+    "text": "<font size=\"40\">You think I just sell guns, don't you?</font>"
+  },
+  {
+    "id": 143,
+    "text": "<font size=\"40\">I don't. I take sides.</font>"
+  },
+  {
+    "id": 144,
+    "text": "<font size=\"40\">But in the Iran-Iraq war,\nyou sold guns to both sides.</font>"
+  },
+  {
+    "id": 145,
+    "text": "<font size=\"40\">Did you ever consider\nthat I wanted both sides to lose?</font>"
+  },
+  {
+    "id": 146,
+    "text": "<font size=\"40\">Bullets change governments\nfar surer than votes.</font>"
+  },
+  {
+    "id": 147,
+    "text": "<font size=\"40\">You're in the wrong place, my young friend.\nThis is no place for amateurs.</font>"
+  },
+  {
+    "id": 148,
+    "text": "<font size=\"40\">Curious how you always revert\nto your native tongue</font>"
+  },
+  {
+    "id": 149,
+    "text": "<font size=\"40\">in moments of extreme anger</font>"
+  },
+  {
+    "id": 150,
+    "text": "<font size=\"40\">and ecstasy.</font>"
+  },
+  {
+    "id": 151,
+    "text": "<font size=\"40\">Oh, you are beautiful.</font>"
+  },
+  {
+    "id": 152,
+    "text": "<font size=\"40\">What's your name again?</font>"
+  },
+  {
+    "id": 153,
+    "text": "<font size=\"40\">The only option for Vitaly and me\nwas under the counter gunrunning.</font>"
+  },
+  {
+    "id": 154,
+    "text": "<font size=\"40\">I got my first break in Lebanon\nafter the suicide bombing.</font>"
+  },
+  {
+    "id": 155,
+    "text": "<font size=\"40\">But I wasn't the only local kid\nmaking good.</font>"
+  },
+  {
+    "id": 156,
+    "text": "<font size=\"40\">When the United States leaves a war zone,\nthey generally don't take their munitions.</font>"
+  },
+  {
+    "id": 157,
+    "text": "<font size=\"40\">It costs more to bring it back\nthan to buy new stock.</font>"
+  },
+  {
+    "id": 158,
+    "text": "<font size=\"40\">So, we sell by the kilo.</font>"
+  },
+  {
+    "id": 159,
+    "text": "<font size=\"40\">They're secondhand weapons,\nbut they're still okay.</font>"
+  },
+  {
+    "id": 160,
+    "text": "<font size=\"40\">- How many kilos would you like?\n- 5,000.</font>"
+  },
+  {
+    "id": 161,
+    "text": "<font size=\"40\">I had a flair for languages.</font>"
+  },
+  {
+    "id": 162,
+    "text": "<font size=\"40\">But I soon discovered\nthat what talks best is dollars,</font>"
+  },
+  {
+    "id": 163,
+    "text": "<font size=\"40\">dinars, drachmas, rubles,\nrupees and pounds-fucking-Sterling.</font>"
+  },
+  {
+    "id": 164,
+    "text": "<font size=\"40\">Of course, the us army\ngot a piece of the action.</font>"
+  },
+  {
+    "id": 165,
+    "text": "<font size=\"40\">Army salaries were no better\nin the '80s than they are today.</font>"
+  },
+  {
+    "id": 166,
+    "text": "<font size=\"40\">And some of the brass,\nlike lieutenant colonel Southern,</font>"
+  },
+  {
+    "id": 167,
+    "text": "<font size=\"40\">good to make your acquaintance.</font>"
+  },
+  {
+    "id": 168,
+    "text": "<font size=\"40\">This is bullshit money, v.\nThis is small fucking potatoes.</font>"
+  },
+  {
+    "id": 169,
+    "text": "<font size=\"40\">What do you want to do, go more legit?</font>"
+  },
+  {
+    "id": 170,
+    "text": "<font size=\"40\">No, more illegal.</font>"
+  },
+  {
+    "id": 171,
+    "text": "<font size=\"40\">What I would give right now\nfor a plate of cabbage and potatoes.</font>"
+  },
+  {
+    "id": 172,
+    "text": "<font size=\"40\">It's not our fight.</font>"
+  },
+  {
+    "id": 173,
+    "text": "<font size=\"40\">V, come on.</font>"
+  },
+  {
+    "id": 174,
+    "text": "<font size=\"40\">Let's go. Come on.</font>"
+  },
+  {
+    "id": 175,
+    "text": "<font size=\"40\">Selling guns is like\nselling vacuum cleaners.</font>"
+  },
+  {
+    "id": 176,
+    "text": "<font size=\"40\">You make calls,\npound the pavement, take orders.</font>"
+  }
+]
+--------------------------------------------------
+
+[DEBUG] 发送到API的提示:
+
+You are a professional subtitle translator. Your task is to translate the following subtitle segments into 简体中文.
+The input is a JSON array of objects, where each object has an "id" and a "text" from the original ASR (Automatic Speech Recognition).
+Please maintain the original meaning, fix any potential ASR errors based on context, and ensure the translation is natural and fluent.
+
+Your output MUST be a valid JSON object that can be parsed by a JSON loader. The JSON object should contain a key "translations" which is an array of objects, with each object containing the original "id" and the "translated_text".
+Do NOT add any extra explanations or text outside of the JSON object. The structure must be:
+{
+  "translations": [
+    {
+      "id": <original_id>,
+      "translated_text": "<your_translation>"
+    },
+    ...
+  ]
+}
+
+Here is the JSON data to translate:
+[
+  {
+    "id": 88,
+    "text": "<font size=\"40\">What if you're really\njust a two-legged dog?</font>"
+  },
+  {
+    "id": 89,
+    "text": "<font size=\"40\">You need to see somebody.</font>"
+  },
+  {
+    "id": 90,
+    "text": "<font size=\"40\">It stinks in here.</font>"
+  },
+  {
+    "id": 91,
+    "text": "<font size=\"40\">I'd always wanted to do something big\nwith my life.</font>"
+  },
+  {
+    "id": 92,
+    "text": "<font size=\"40\">[ Just didn't know what.</font>"
+  },
+  {
+    "id": 93,
+    "text": "<font size=\"40\">Anyhow, I figured if I was going\ninto the gun trade,</font>"
+  },
+  {
+    "id": 94,
+    "text": "<font size=\"40\">I was going to aim high.</font>"
+  },
+  {
+    "id": 95,
+    "text": "<font size=\"40\">Vitaly, stop fucking around.\nI want to talk to you.</font>"
+  },
+  {
+    "id": 96,
+    "text": "<font size=\"40\">You read the newspapers, v7?</font>"
+  },
+  {
+    "id": 97,
+    "text": "<font size=\"40\">The newspaper? It's always the same.</font>"
+  },
+  {
+    "id": 98,
+    "text": "<font size=\"40\">You're right. Every day\nthere's people shooting each other.</font>"
+  },
+  {
+    "id": 99,
+    "text": "<font size=\"40\">You know what I do when I see that?</font>"
+  },
+  {
+    "id": 100,
+    "text": "<font size=\"40\">I look to see what guns they're using,\nand I think to myself, \"why not my guns?\"</font>"
+  },
+  {
+    "id": 101,
+    "text": "<font size=\"40\">What, you opening a gun shop?</font>"
+  },
+  {
+    "id": 102,
+    "text": "<font size=\"40\">Already more of those\nin America than McDonald's.</font>"
+  },
+  {
+    "id": 103,
+    "text": "<font size=\"40\">Even with all the gangsters around here,\nthe margins are too low.</font>"
+  },
+  {
+    "id": 104,
+    "text": "<font size=\"40\">- You've worked out the margins?\n- Sure.</font>"
+  },
+  {
+    "id": 105,
+    "text": "<font size=\"40\">Forget gang wars.</font>"
+  },
+  {
+    "id": 106,
+    "text": "<font size=\"40\">The real money's in actual wars\nbetween countries.</font>"
+  },
+  {
+    "id": 107,
+    "text": "<font size=\"40\">Yuri, what the fuck\ndo you know about guns?</font>"
+  },
+  {
+    "id": 108,
+    "text": "<font size=\"40\">I know which end I'd rather be on.</font>"
+  },
+  {
+    "id": 109,
+    "text": "<font size=\"40\">I made the first sale.\nWe're already in business.</font>"
+  },
+  {
+    "id": 110,
+    "text": "<font size=\"40\">Whoa. We?</font>"
+  },
+  {
+    "id": 111,
+    "text": "<font size=\"40\">I need a partner.</font>"
+  },
+  {
+    "id": 112,
+    "text": "<font size=\"40\">I don't know.\nI don't know, Yuri. I don't know.</font>"
+  },
+  {
+    "id": 113,
+    "text": "<font size=\"40\">Vitaly, I've tasted your borscht.\nYou're no fucking chef.</font>"
+  },
+  {
+    "id": 114,
+    "text": "<font size=\"40\">I can eat in the restaurant for free\nand I still don't eat there.</font>"
+  },
+  {
+    "id": 115,
+    "text": "<font size=\"40\">Fuck you.</font>"
+  },
+  {
+    "id": 116,
+    "text": "<font size=\"40\">We're doing nothing with our lives.</font>"
+  },
+  {
+    "id": 117,
+    "text": "<font size=\"40\">I mean, this is shit. This is shit.</font>"
+  },
+  {
+    "id": 118,
+    "text": "<font size=\"40\">That's true.</font>"
+  },
+  {
+    "id": 119,
+    "text": "<font size=\"40\">But maybe doing nothing's better\nthan doing this.</font>"
+  },
+  {
+    "id": 120,
+    "text": "<font size=\"40\">I need you.</font>"
+  },
+  {
+    "id": 121,
+    "text": "<font size=\"40\">Sir, sir,</font>"
+  },
+  {
+    "id": 122,
+    "text": "<font size=\"40\">may I interest you in the shoulder-fired\nsa-7 surface-to-air missile?</font>"
+  },
+  {
+    "id": 123,
+    "text": "<font size=\"40\">It's the older Chinese model.</font>"
+  },
+  {
+    "id": 124,
+    "text": "<font size=\"40\">Not so effective\nagainst modern military aircraft,</font>"
+  },
+  {
+    "id": 125,
+    "text": "<font size=\"40\">but deadly if used\nagainst a commercial airliner.</font>"
+  },
+  {
+    "id": 126,
+    "text": "<font size=\"40\">I'm giving them away at $850.</font>"
+  },
+  {
+    "id": 127,
+    "text": "<font size=\"40\">It was the '80s, and the cold war\nwas far from thawed.</font>"
+  },
+  {
+    "id": 128,
+    "text": "<font size=\"40\">Most of the deals were\ngovernment to government.</font>"
+  },
+  {
+    "id": 129,
+    "text": "<font size=\"40\">And it was a mostly private club\nwith a lifetime club president.</font>"
+  },
+  {
+    "id": 130,
+    "text": "<font size=\"40\">- That's him.\n- Who, the big shot?</font>"
+  },
+  {
+    "id": 131,
+    "text": "<font size=\"40\">Simeon Weisz.</font>"
+  },
+  {
+    "id": 132,
+    "text": "<font size=\"40\">Angola, Mozambique,\nthose exocet missiles in the falklands.</font>"
+  },
+  {
+    "id": 133,
+    "text": "<font size=\"40\">He was selling guns\nbefore there was gunpowder.</font>"
+  },
+  {
+    "id": 134,
+    "text": "<font size=\"40\">I'll be right back.</font>"
+  },
+  {
+    "id": 135,
+    "text": "<font size=\"40\">Mr. Weisz. Mr. Weisz.</font>"
+  },
+  {
+    "id": 136,
+    "text": "<font size=\"40\">It's okay. They're talking.</font>"
+  },
+  {
+    "id": 137,
+    "text": "<font size=\"40\">May I help? Yes.</font>"
+  },
+  {
+    "id": 138,
+    "text": "<font size=\"40\">A mutual friend, Eli kurtzman,\nfrom Brighton beach, import, exports,</font>"
+  },
+  {
+    "id": 139,
+    "text": "<font size=\"40\">said to contact you.</font>"
+  },
+  {
+    "id": 140,
+    "text": "<font size=\"40\">I have a business proposal\nand I thought perhaps we could discuss it.</font>"
+  },
+  {
+    "id": 141,
+    "text": "<font size=\"40\">I don't think you and I\nare in the same business, son.</font>"
+  },
+  {
+    "id": 142,
+    "text": "<font size=\"40\">You think I just sell guns, don't you?</font>"
+  },
+  {
+    "id": 143,
+    "text": "<font size=\"40\">I don't. I take sides.</font>"
+  },
+  {
+    "id": 144,
+    "text": "<font size=\"40\">But in the Iran-Iraq war,\nyou sold guns to both sides.</font>"
+  },
+  {
+    "id": 145,
+    "text": "<font size=\"40\">Did you ever consider\nthat I wanted both sides to lose?</font>"
+  },
+  {
+    "id": 146,
+    "text": "<font size=\"40\">Bullets change governments\nfar surer than votes.</font>"
+  },
+  {
+    "id": 147,
+    "text": "<font size=\"40\">You're in the wrong place, my young friend.\nThis is no place for amateurs.</font>"
+  },
+  {
+    "id": 148,
+    "text": "<font size=\"40\">Curious how you always revert\nto your native tongue</font>"
+  },
+  {
+    "id": 149,
+    "text": "<font size=\"40\">in moments of extreme anger</font>"
+  },
+  {
+    "id": 150,
+    "text": "<font size=\"40\">and ecstasy.</font>"
+  },
+  {
+    "id": 151,
+    "text": "<font size=\"40\">Oh, you are beautiful.</font>"
+  },
+  {
+    "id": 152,
+    "text": "<font size=\"40\">What's your name again?</font>"
+  },
+  {
+    "id": 153,
+    "text": "<font size=\"40\">The only option for Vitaly and me\nwas under the counter gunrunning.</font>"
+  },
+  {
+    "id": 154,
+    "text": "<font size=\"40\">I got my first break in Lebanon\nafter the suicide bombing.</font>"
+  },
+  {
+    "id": 155,
+    "text": "<font size=\"40\">But I wasn't the only local kid\nmaking good.</font>"
+  },
+  {
+    "id": 156,
+    "text": "<font size=\"40\">When the United States leaves a war zone,\nthey generally don't take their munitions.</font>"
+  },
+  {
+    "id": 157,
+    "text": "<font size=\"40\">It costs more to bring it back\nthan to buy new stock.</font>"
+  },
+  {
+    "id": 158,
+    "text": "<font size=\"40\">So, we sell by the kilo.</font>"
+  },
+  {
+    "id": 159,
+    "text": "<font size=\"40\">They're secondhand weapons,\nbut they're still okay.</font>"
+  },
+  {
+    "id": 160,
+    "text": "<font size=\"40\">- How many kilos would you like?\n- 5,000.</font>"
+  },
+  {
+    "id": 161,
+    "text": "<font size=\"40\">I had a flair for languages.</font>"
+  },
+  {
+    "id": 162,
+    "text": "<font size=\"40\">But I soon discovered\nthat what talks best is dollars,</font>"
+  },
+  {
+    "id": 163,
+    "text": "<font size=\"40\">dinars, drachmas, rubles,\nrupees and pounds-fucking-Sterling.</font>"
+  },
+  {
+    "id": 164,
+    "text": "<font size=\"40\">Of course, the us army\ngot a piece of the action.</font>"
+  },
+  {
+    "id": 165,
+    "text": "<font size=\"40\">Army salaries were no better\nin the '80s than they are today.</font>"
+  },
+  {
+    "id": 166,
+    "text": "<font size=\"40\">And some of the brass,\nlike lieutenant colonel Southern,</font>"
+  },
+  {
+    "id": 167,
+    "text": "<font size=\"40\">good to make your acquaintance.</font>"
+  },
+  {
+    "id": 168,
+    "text": "<font size=\"40\">This is bullshit money, v.\nThis is small fucking potatoes.</font>"
+  },
+  {
+    "id": 169,
+    "text": "<font size=\"40\">What do you want to do, go more legit?</font>"
+  },
+  {
+    "id": 170,
+    "text": "<font size=\"40\">No, more illegal.</font>"
+  },
+  {
+    "id": 171,
+    "text": "<font size=\"40\">What I would give right now\nfor a plate of cabbage and potatoes.</font>"
+  },
+  {
+    "id": 172,
+    "text": "<font size=\"40\">It's not our fight.</font>"
+  },
+  {
+    "id": 173,
+    "text": "<font size=\"40\">V, come on.</font>"
+  },
+  {
+    "id": 174,
+    "text": "<font size=\"40\">Let's go. Come on.</font>"
+  },
+  {
+    "id": 175,
+    "text": "<font size=\"40\">Selling guns is like\nselling vacuum cleaners.</font>"
+  },
+  {
+    "id": 176,
+    "text": "<font size=\"40\">You make calls,\npound the pavement, take orders.</font>"
+  }
+]
+
+--------------------------------------------------
+
+[DEBUG] API响应:
+{
+  "translations": [
+    {
+      "id": 88,
+      "translated_text": "<font size=\"40\">要是你真的\n只是一只两腿的狗呢？</font>"
+    },
+    {
+      "id": 89,
+      "translated_text": "<font size=\"40\">你需要找人谈谈。</font>"
+    },
+    {
+      "id": 90,
+      "translated_text": "<font size=\"40\">这里闻起来很臭。</font>"
+    },
+    {
+      "id": 91,
+      "translated_text": "<font size=\"40\">我一直想要做一些了不起的事情\n来充实我的生命。</font>"
+    },
+    {
+      "id": 92,
+      "translated_text": "<font size=\"40\">[ 只是不知道是什么。</font>"
+    },
+    {
+      "id": 93,
+      "translated_text": "<font size=\"40\">无论如何，我想如果我要进入枪支交易，</font>"
+    },
+    {
+      "id": 94,
+      "translated_text": "<font size=\"40\">我就要有远大的目标。</font>"
+    },
+    {
+      "id": 95,
+      "translated_text": "<font size=\"40\">维塔利，别闹了。\n我想跟你谈谈。</font>"
+    },
+    {
+      "id": 96,
+      "translated_text": "<font size=\"40\">你看过报纸吗，v7？</font>"
+    },
+    {
+      "id": 97,
+      "translated_text": "<font size=\"40\">报纸？总是一样的。</font>"
+    },
+    {
+      "id": 98,
+      "translated_text": "<font size=\"40\">你说得对。每天\n总有人互相开枪。</font>"
+    },
+    {
+      "id": 99,
+      "translated_text": "<font size=\"40\">你知道我看到那些时做什么吗？</font>"
+    },
+    {
+      "id": 100,
+      "translated_text": "<font size=\"40\">我会看他们用的是什么枪，\n然后想，“为什么不用我的枪呢？”</font>"
+    },
+    {
+      "id": 101,
+      "translated_text": "<font size=\"40\">什么，你要开家枪店吗？</font>"
+    },
+    {
+      "id": 102,
+      "translated_text": "<font size=\"40\">在美国，枪店比麦当劳还多。</font>"
+    },
+    {
+      "id": 103,
+      "translated_text": "<font size=\"40\">即使这里到处都是匪徒，\n利润率也太低。</font>"
+    },
+    {
+      "id": 104,
+      "translated_text": "<font size=\"40\">- 你算出了利润率吗？\n- 当然。</font>"
+    },
+    {
+      "id": 105,
+      "translated_text": "<font size=\"40\">别忘了匪帮之间的战争。</font>"
+    },
+    {
+      "id": 106,
+      "translated_text": "<font size=\"40\">真正的钱在于各国之间的\n实实在在的战争。</font>"
+    },
+    {
+      "id": 107,
+      "translated_text": "<font size=\"40\">尤里，你他妈的\n懂枪支什么？</font>"
+    },
+    {
+      "id": 108,
+      "translated_text": "<font size=\"40\">我宁愿站在哪一端。</font>"
+    },
+    {
+      "id": 109,
+      "translated_text": "<font size=\"40\">我做了第一笔交易。\n我们已经开始做生意了。</font>"
+    },
+    {
+      "id": 110,
+      "translated_text": "<font size=\"40\">哇。我们？</font>"
+    },
+    {
+      "id": 111,
+      "translated_text": "<font size=\"40\">我需要一个合作伙伴。</font>"
+    },
+    {
+      "id": 112,
+      "translated_text": "<font size=\"40\">我不知道。\n我不知道，尤里。我不知道。</font>"
+    },
+    {
+      "id": 113,
+      "translated_text": "<font size=\"40\">维塔利，我尝过你的罗宋汤。\n你可不是什么厨师。</font>"
+    },
+    {
+      "id": 114,
+      "translated_text": "<font size=\"40\">我可以免费在餐馆吃饭，\n但我还是不去。</font>"
+    },
+    {
+      "id": 115,
+      "translated_text": "<font size=\"40\">去你的。</font>"
+    },
+    {
+      "id": 116,
+      "translated_text": "<font size=\"40\">我们的生活一事无成。</font>"
+    },
+    {
+      "id": 117,
+      "translated_text": "<font size=\"40\">我是说，这一切糟透了。这一切糟透了。</font>"
+    },
+    {
+      "id": 118,
+      "translated_text": "<font size=\"40\">这是真的。</font>"
+    },
+    {
+      "id": 119,
+      "translated_text": "<font size=\"40\">但也许无所事事比\n做这个要好。</font>"
+    },
+    {
+      "id": 120,
+      "translated_text": "<font size=\"40\">我需要你。</font>"
+    },
+    {
+      "id": 121,
+      "translated_text": "<font size=\"40\">先生，先生，</font>"
+    },
+    {
+      "id": 122,
+      "translated_text": "<font size=\"40\">您对肩扛式\n地对空导弹sa-7感兴趣吗？</font>"
+    },
+    {
+      "id": 123,
+      "translated_text": "<font size=\"40\">这是老款的中国型号。</font>"
+    },
+    {
+      "id": 124,
+      "translated_text": "<font size=\"40\">对现代军用飞机来说\n效果不佳，</font>"
+    },
+    {
+      "id": 125,
+      "translated_text": "<font size=\"40\">但如果用在民航客机上\n则非常致命。</font>"
+    },
+    {
+      "id": 126,
+      "translated_text": "<font size=\"40\">只需850美元。</font>"
+    },
+    {
+      "id": 127,
+      "translated_text": "<font size=\"40\">那是80年代，冷战仍未结束。</font>"
+    },
+    {
+      "id": 128,
+      "translated_text": "<font size=\"40\">大部分交易是政府间的。</font>"
+    },
+    {
+      "id": 129,
+      "translated_text": "<font size=\"40\">这是一个几乎私人俱乐部，\n有终身俱乐部主席。</font>"
+    },
+    {
+      "id": 130,
+      "translated_text": "<font size=\"40\">- 就是他。\n- 谁，那位大人物？</font>"
+    },
+    {
+      "id": 131,
+      "translated_text": "<font size=\"40\">西蒙·魏斯。</font>"
+    },
+    {
+      "id": 132,
+      "translated_text": "<font size=\"40\">安哥拉、莫桑比克，\n福克兰群岛上的反舰导弹。</font>"
+    },
+    {
+      "id": 133,
+      "translated_text": "<font size=\"40\">他在还没有火药出现之前\n就开始卖枪了。</font>"
+    },
+    {
+      "id": 134,
+      "translated_text": "<font size=\"40\">我马上回来。</font>"
+    },
+    {
+      "id": 135,
+      "translated_text": "<font size=\"40\">魏斯先生。魏斯先生。</font>"
+    },
+    {
+      "id": 136,
+      "translated_text": "<font size=\"40\">没关系，他们在谈话。</font>"
+    },
+    {
+      "id": 137,
+      "translated_text": "<font size=\"40\">我可以帮忙吗？可以。</font>"
+    },
+    {
+      "id": 138,
+      "translated_text": "<font size=\"40\">一个共同的朋友，来自布莱顿海滩的埃利·库尔兹曼，进出口，</font>"
+    },
+    {
+      "id": 139,
+      "translated_text": "<font size=\"40\">告诉我联系你。</font>"
+    },
+    {
+      "id": 140,
+      "translated_text": "<font size=\"40\">我有一个商业提议，\n想和您讨论一下。</font>"
+    },
+    {
+      "id": 141,
+      "translated_text": "<font size=\"40\">我觉得你和我\n不是从事同一行业，年轻人。</font>"
+    },
+    {
+      "id": 142,
+      "translated_text": "<font size=\"40\">你以为我只卖枪，是吧？</font>"
+    },
+    {
+      "id": 143,
+      "translated_text": "<font size=\"40\">我不是。我会站队。</font>"
+    },
+    {
+      "id": 144,
+      "translated_text": "<font size=\"40\">但你在伊朗伊拉克战争中，\n向双方卖了枪。</font>"
+    },
+    {
+      "id": 145,
+      "translated_text": "<font size=\"40\">你有没有考虑过\n我希望双方都失败？</font>"
+    },
+    {
+      "id": 146,
+      "translated_text": "<font size=\"40\">子弹远比选票更能改变政府。</font>"
+    },
+    {
+      "id": 147,
+      "translated_text": "<font size=\"40\">你这位年轻朋友，\n这不是新手的地方。</font>"
+    },
+    {
+      "id": 148,
+      "translated_text": "<font size=\"40\">有趣的是，在极度愤怒的时候\n你总是说母语。</font>"
+    },
+    {
+      "id": 149,
+      "translated_text": "<font size=\"40\">并且在极度兴奋时。</font>"
+    },
+    {
+      "id": 150,
+      "translated_text": "<font size=\"40\">哦，你太美丽了。</font>"
+    },
+    {
+      "id": 151,
+      "translated_text": "<font size=\"40\">你叫什么名字？</font>"
+    },
+    {
+      "id": 152,
+      "translated_text": "<font size=\"40\">维塔利和我的唯一选择\n是地下交易枪支。</font>"
+    },
+    {
+      "id": 153,
+      "translated_text": "<font size=\"40\">在黎巴嫩的自杀炸弹袭击后，\n我得到了第一个机会。</font>"
+    },
+    {
+      "id": 154,
+      "translated_text": "<font size=\"40\">但我不是唯一一个本地孩子\n取得成功的。</font>"
+    },
+    {
+      "id": 155,
+      "translated_text": "<font size=\"40\">当美国撤离战区时，\n通常不会带走他们的军火。</font>"
+    },
+    {
+      "id": 156,
+      "translated_text": "<font size=\"40\">把军火带回去的成本比购买新货更高。</font>"
+    },
+    {
+      "id": 157,
+      "translated_text": "<font size=\"40\">所以，我们按公斤卖。</font>"
+    },
+    {
+      "id": 158,
+      "translated_text": "<font size=\"40\">它们是二手武器，\n但仍然很好。</font>"
+    },
+    {
+      "id": 159,
+      "translated_text": "<font size=\"40\">- 你想要多少公斤？\n- 5,000。</font>"
+    },
+    {
+      "id": 160,
+      "translated_text": "<font size=\"40\">我对语言有天赋。</font>"
+    },
+    {
+      "id": 161,
+      "translated_text": "<font size=\"40\">但我很快发现\n最好的交谈方式是美元、</font>"
+    },
+    {
+      "id": 162,
+      "translated_text": "<font size=\"40\">第纳尔、德拉克马、卢布、\n卢比和英镑。</font>"
+    },
+    {
+      "id": 163,
+      "translated_text": "<font size=\"40\">当然，美国陆军\n也分一杯羹。</font>"
+    },
+    {
+      "id": 164,
+      "translated_text": "<font size=\"40\">80年代的陆军薪水\n不比今天好。</font>"
+    },
+    {
+      "id": 165,
+      "translated_text": "<font size=\"40\">而一些军官，比如南部上校，\n很高兴认识你。</font>"
+    },
+    {
+      "id": 166,
+      "translated_text": "<font size=\"40\">这是废话，v。\n这是小菜一碟。</font>"
+    },
+    {
+      "id": 167,
+      "translated_text": "<font size=\"40\">你想干什么，走更合法的路吗？</font>"
+    },
+    {
+      "id": 168,
+      "translated_text": "<font size=\"40\">不，更非法。</font>"
+    },
+    {
+      "id": 169,
+      "translated_text": "<font size=\"40\">我现在多想要一盘卷心菜和土豆。</font>"
+    },
+    {
+      "id": 170,
+      "translated_text": "<font size=\"40\">这不是我们的战斗。</font>"
+    },
+    {
+      "id": 171,
+      "translated_text": "<font size=\"40\">V，来吧。</font>"
+    },
+    {
+      "id": 172,
+      "translated_text": "<font size=\"40\">走吧。快点。</font>"
+    },
+    {
+      "id": 173,
+      "translated_text": "<font size=\"40\">卖枪就像\n卖吸尘器一样。</font>"
+    },
+    {
+      "id": 174,
+      "translated_text": "<font size=\"40\">打电话，跑腿，接受订单。</font>"
+    }
+  ]
+}
+--------------------------------------------------
+
+[DEBUG] 解析后的翻译:
+[
+  {
+    "id": 88,
+    "translated_text": "<font size=\"40\">要是你真的\n只是一只两腿的狗呢？</font>"
+  },
+  {
+    "id": 89,
+    "translated_text": "<font size=\"40\">你需要找人谈谈。</font>"
+  },
+  {
+    "id": 90,
+    "translated_text": "<font size=\"40\">这里闻起来很臭。</font>"
+  },
+  {
+    "id": 91,
+    "translated_text": "<font size=\"40\">我一直想要做一些了不起的事情\n来充实我的生命。</font>"
+  },
+  {
+    "id": 92,
+    "translated_text": "<font size=\"40\">[ 只是不知道是什么。</font>"
+  },
+  {
+    "id": 93,
+    "translated_text": "<font size=\"40\">无论如何，我想如果我要进入枪支交易，</font>"
+  },
+  {
+    "id": 94,
+    "translated_text": "<font size=\"40\">我就要有远大的目标。</font>"
+  },
+  {
+    "id": 95,
+    "translated_text": "<font size=\"40\">维塔利，别闹了。\n我想跟你谈谈。</font>"
+  },
+  {
+    "id": 96,
+    "translated_text": "<font size=\"40\">你看过报纸吗，v7？</font>"
+  },
+  {
+    "id": 97,
+    "translated_text": "<font size=\"40\">报纸？总是一样的。</font>"
+  },
+  {
+    "id": 98,
+    "translated_text": "<font size=\"40\">你说得对。每天\n总有人互相开枪。</font>"
+  },
+  {
+    "id": 99,
+    "translated_text": "<font size=\"40\">你知道我看到那些时做什么吗？</font>"
+  },
+  {
+    "id": 100,
+    "translated_text": "<font size=\"40\">我会看他们用的是什么枪，\n然后想，“为什么不用我的枪呢？”</font>"
+  },
+  {
+    "id": 101,
+    "translated_text": "<font size=\"40\">什么，你要开家枪店吗？</font>"
+  },
+  {
+    "id": 102,
+    "translated_text": "<font size=\"40\">在美国，枪店比麦当劳还多。</font>"
+  },
+  {
+    "id": 103,
+    "translated_text": "<font size=\"40\">即使这里到处都是匪徒，\n利润率也太低。</font>"
+  },
+  {
+    "id": 104,
+    "translated_text": "<font size=\"40\">- 你算出了利润率吗？\n- 当然。</font>"
+  },
+  {
+    "id": 105,
+    "translated_text": "<font size=\"40\">别忘了匪帮之间的战争。</font>"
+  },
+  {
+    "id": 106,
+    "translated_text": "<font size=\"40\">真正的钱在于各国之间的\n实实在在的战争。</font>"
+  },
+  {
+    "id": 107,
+    "translated_text": "<font size=\"40\">尤里，你他妈的\n懂枪支什么？</font>"
+  },
+  {
+    "id": 108,
+    "translated_text": "<font size=\"40\">我宁愿站在哪一端。</font>"
+  },
+  {
+    "id": 109,
+    "translated_text": "<font size=\"40\">我做了第一笔交易。\n我们已经开始做生意了。</font>"
+  },
+  {
+    "id": 110,
+    "translated_text": "<font size=\"40\">哇。我们？</font>"
+  },
+  {
+    "id": 111,
+    "translated_text": "<font size=\"40\">我需要一个合作伙伴。</font>"
+  },
+  {
+    "id": 112,
+    "translated_text": "<font size=\"40\">我不知道。\n我不知道，尤里。我不知道。</font>"
+  },
+  {
+    "id": 113,
+    "translated_text": "<font size=\"40\">维塔利，我尝过你的罗宋汤。\n你可不是什么厨师。</font>"
+  },
+  {
+    "id": 114,
+    "translated_text": "<font size=\"40\">我可以免费在餐馆吃饭，\n但我还是不去。</font>"
+  },
+  {
+    "id": 115,
+    "translated_text": "<font size=\"40\">去你的。</font>"
+  },
+  {
+    "id": 116,
+    "translated_text": "<font size=\"40\">我们的生活一事无成。</font>"
+  },
+  {
+    "id": 117,
+    "translated_text": "<font size=\"40\">我是说，这一切糟透了。这一切糟透了。</font>"
+  },
+  {
+    "id": 118,
+    "translated_text": "<font size=\"40\">这是真的。</font>"
+  },
+  {
+    "id": 119,
+    "translated_text": "<font size=\"40\">但也许无所事事比\n做这个要好。</font>"
+  },
+  {
+    "id": 120,
+    "translated_text": "<font size=\"40\">我需要你。</font>"
+  },
+  {
+    "id": 121,
+    "translated_text": "<font size=\"40\">先生，先生，</font>"
+  },
+  {
+    "id": 122,
+    "translated_text": "<font size=\"40\">您对肩扛式\n地对空导弹sa-7感兴趣吗？</font>"
+  },
+  {
+    "id": 123,
+    "translated_text": "<font size=\"40\">这是老款的中国型号。</font>"
+  },
+  {
+    "id": 124,
+    "translated_text": "<font size=\"40\">对现代军用飞机来说\n效果不佳，</font>"
+  },
+  {
+    "id": 125,
+    "translated_text": "<font size=\"40\">但如果用在民航客机上\n则非常致命。</font>"
+  },
+  {
+    "id": 126,
+    "translated_text": "<font size=\"40\">只需850美元。</font>"
+  },
+  {
+    "id": 127,
+    "translated_text": "<font size=\"40\">那是80年代，冷战仍未结束。</font>"
+  },
+  {
+    "id": 128,
+    "translated_text": "<font size=\"40\">大部分交易是政府间的。</font>"
+  },
+  {
+    "id": 129,
+    "translated_text": "<font size=\"40\">这是一个几乎私人俱乐部，\n有终身俱乐部主席。</font>"
+  },
+  {
+    "id": 130,
+    "translated_text": "<font size=\"40\">- 就是他。\n- 谁，那位大人物？</font>"
+  },
+  {
+    "id": 131,
+    "translated_text": "<font size=\"40\">西蒙·魏斯。</font>"
+  },
+  {
+    "id": 132,
+    "translated_text": "<font size=\"40\">安哥拉、莫桑比克，\n福克兰群岛上的反舰导弹。</font>"
+  },
+  {
+    "id": 133,
+    "translated_text": "<font size=\"40\">他在还没有火药出现之前\n就开始卖枪了。</font>"
+  },
+  {
+    "id": 134,
+    "translated_text": "<font size=\"40\">我马上回来。</font>"
+  },
+  {
+    "id": 135,
+    "translated_text": "<font size=\"40\">魏斯先生。魏斯先生。</font>"
+  },
+  {
+    "id": 136,
+    "translated_text": "<font size=\"40\">没关系，他们在谈话。</font>"
+  },
+  {
+    "id": 137,
+    "translated_text": "<font size=\"40\">我可以帮忙吗？可以。</font>"
+  },
+  {
+    "id": 138,
+    "translated_text": "<font size=\"40\">一个共同的朋友，来自布莱顿海滩的埃利·库尔兹曼，进出口，</font>"
+  },
+  {
+    "id": 139,
+    "translated_text": "<font size=\"40\">告诉我联系你。</font>"
+  },
+  {
+    "id": 140,
+    "translated_text": "<font size=\"40\">我有一个商业提议，\n想和您讨论一下。</font>"
+  },
+  {
+    "id": 141,
+    "translated_text": "<font size=\"40\">我觉得你和我\n不是从事同一行业，年轻人。</font>"
+  },
+  {
+    "id": 142,
+    "translated_text": "<font size=\"40\">你以为我只卖枪，是吧？</font>"
+  },
+  {
+    "id": 143,
+    "translated_text": "<font size=\"40\">我不是。我会站队。</font>"
+  },
+  {
+    "id": 144,
+    "translated_text": "<font size=\"40\">但你在伊朗伊拉克战争中，\n向双方卖了枪。</font>"
+  },
+  {
+    "id": 145,
+    "translated_text": "<font size=\"40\">你有没有考虑过\n我希望双方都失败？</font>"
+  },
+  {
+    "id": 146,
+    "translated_text": "<font size=\"40\">子弹远比选票更能改变政府。</font>"
+  },
+  {
+    "id": 147,
+    "translated_text": "<font size=\"40\">你这位年轻朋友，\n这不是新手的地方。</font>"
+  },
+  {
+    "id": 148,
+    "translated_text": "<font size=\"40\">有趣的是，在极度愤怒的时候\n你总是说母语。</font>"
+  },
+  {
+    "id": 149,
+    "translated_text": "<font size=\"40\">并且在极度兴奋时。</font>"
+  },
+  {
+    "id": 150,
+    "translated_text": "<font size=\"40\">哦，你太美丽了。</font>"
+  },
+  {
+    "id": 151,
+    "translated_text": "<font size=\"40\">你叫什么名字？</font>"
+  },
+  {
+    "id": 152,
+    "translated_text": "<font size=\"40\">维塔利和我的唯一选择\n是地下交易枪支。</font>"
+  },
+  {
+    "id": 153,
+    "translated_text": "<font size=\"40\">在黎巴嫩的自杀炸弹袭击后，\n我得到了第一个机会。</font>"
+  },
+  {
+    "id": 154,
+    "translated_text": "<font size=\"40\">但我不是唯一一个本地孩子\n取得成功的。</font>"
+  },
+  {
+    "id": 155,
+    "translated_text": "<font size=\"40\">当美国撤离战区时，\n通常不会带走他们的军火。</font>"
+  },
+  {
+    "id": 156,
+    "translated_text": "<font size=\"40\">把军火带回去的成本比购买新货更高。</font>"
+  },
+  {
+    "id": 157,
+    "translated_text": "<font size=\"40\">所以，我们按公斤卖。</font>"
+  },
+  {
+    "id": 158,
+    "translated_text": "<font size=\"40\">它们是二手武器，\n但仍然很好。</font>"
+  },
+  {
+    "id": 159,
+    "translated_text": "<font size=\"40\">- 你想要多少公斤？\n- 5,000。</font>"
+  },
+  {
+    "id": 160,
+    "translated_text": "<font size=\"40\">我对语言有天赋。</font>"
+  },
+  {
+    "id": 161,
+    "translated_text": "<font size=\"40\">但我很快发现\n最好的交谈方式是美元、</font>"
+  },
+  {
+    "id": 162,
+    "translated_text": "<font size=\"40\">第纳尔、德拉克马、卢布、\n卢比和英镑。</font>"
+  },
+  {
+    "id": 163,
+    "translated_text": "<font size=\"40\">当然，美国陆军\n也分一杯羹。</font>"
+  },
+  {
+    "id": 164,
+    "translated_text": "<font size=\"40\">80年代的陆军薪水\n不比今天好。</font>"
+  },
+  {
+    "id": 165,
+    "translated_text": "<font size=\"40\">而一些军官，比如南部上校，\n很高兴认识你。</font>"
+  },
+  {
+    "id": 166,
+    "translated_text": "<font size=\"40\">这是废话，v。\n这是小菜一碟。</font>"
+  },
+  {
+    "id": 167,
+    "translated_text": "<font size=\"40\">你想干什么，走更合法的路吗？</font>"
+  },
+  {
+    "id": 168,
+    "translated_text": "<font size=\"40\">不，更非法。</font>"
+  },
+  {
+    "id": 169,
+    "translated_text": "<font size=\"40\">我现在多想要一盘卷心菜和土豆。</font>"
+  },
+  {
+    "id": 170,
+    "translated_text": "<font size=\"40\">这不是我们的战斗。</font>"
+  },
+  {
+    "id": 171,
+    "translated_text": "<font size=\"40\">V，来吧。</font>"
+  },
+  {
+    "id": 172,
+    "translated_text": "<font size=\"40\">走吧。快点。</font>"
+  },
+  {
+    "id": 173,
+    "translated_text": "<font size=\"40\">卖枪就像\n卖吸尘器一样。</font>"
+  },
+  {
+    "id": 174,
+    "translated_text": "<font size=\"40\">打电话，跑腿，接受订单。</font>"
+  }
+]
+--------------------------------------------------
+Translating:  13%|█▎        | 2/15 [00:53<05:42, 26.36s/chunk]
+[DEBUG] 翻译块开始，使用模型: gpt-3.5-turbo，目标语言: 简体中文
+--------------------------------------------------
+
+[DEBUG] 输入段落:
+[
+  {
+    "id": 177,
+    "text": "<font size=\"40\">I was an equal opportunity\nmerchant of death.</font>"
+  },
+  {
+    "id": 178,
+    "text": "<font size=\"40\">I supplied every army\nbut the salvation army.</font>"
+  },
+  {
+    "id": 179,
+    "text": "<font size=\"40\">I sold Israeli-made Uzis fo muslims.</font>"
+  },
+  {
+    "id": 180,
+    "text": "<font size=\"40\">I sold communist-made bullets fo fascists.</font>"
+  },
+  {
+    "id": 181,
+    "text": "<font size=\"40\">I even shipped cargo to Afghanistan\nwhen they were fighting my fellow Soviets.</font>"
+  },
+  {
+    "id": 182,
+    "text": "<font size=\"40\">I never sold to osama bin laden.</font>"
+  },
+  {
+    "id": 183,
+    "text": "<font size=\"40\">Not on any moral grounds.\nBack then, he was always bouncing checks.</font>"
+  },
+  {
+    "id": 184,
+    "text": "<font size=\"40\">By the mid '80s,</font>"
+  },
+  {
+    "id": 185,
+    "text": "<font size=\"40\">my weapons were represented\nin eight of the world's top 10 war zones.</font>"
+  },
+  {
+    "id": 186,
+    "text": "<font size=\"40\">There's no problem leading a double life.</font>"
+  },
+  {
+    "id": 187,
+    "text": "<font size=\"40\">It's the triple and quadruple lives\nthat get you in the end.</font>"
+  },
+  {
+    "id": 188,
+    "text": "<font size=\"40\">Back then, I carried a French, British,\nIsraeli and Ukrainian passport</font>"
+  },
+  {
+    "id": 189,
+    "text": "<font size=\"40\">and a student visa for the us.\nBut that's another story.</font>"
+  },
+  {
+    "id": 190,
+    "text": "<font size=\"40\">I also packed six different briefcases,\ndepending on who I was that day</font>"
+  },
+  {
+    "id": 191,
+    "text": "<font size=\"40\">and the region of the world I was visiting.</font>"
+  },
+  {
+    "id": 192,
+    "text": "<font size=\"40\">Without operations like mine,</font>"
+  },
+  {
+    "id": 193,
+    "text": "<font size=\"40\">it would be impossible for certain\ncountries to conduct a respectable war.</font>"
+  },
+  {
+    "id": 194,
+    "text": "<font size=\"40\">I was able to navigate around\nthose inconvenient little arms embargoes.</font>"
+  },
+  {
+    "id": 195,
+    "text": "<font size=\"40\">There are three basic types of arms deal.</font>"
+  },
+  {
+    "id": 196,
+    "text": "<font size=\"40\">White being legal, black being illegal</font>"
+  },
+  {
+    "id": 197,
+    "text": "<font size=\"40\">and my personal favorite color, gray.</font>"
+  },
+  {
+    "id": 198,
+    "text": "<font size=\"40\">Sometimes I made the deals so convoluted,</font>"
+  },
+  {
+    "id": 199,
+    "text": "<font size=\"40\">it was hard for me to work out\nif they were on the level.</font>"
+  },
+  {
+    "id": 200,
+    "text": "<font size=\"40\">To keep authorities in the dark,\nI often spoke in code.</font>"
+  },
+  {
+    "id": 201,
+    "text": "<font size=\"40\">Rocket launchers were \"mothers,\"\nthe rockets, \"children.\"</font>"
+  },
+  {
+    "id": 202,
+    "text": "<font size=\"40\">The ak-47 assault rifle\nwas the \"angel king.\"</font>"
+  },
+  {
+    "id": 203,
+    "text": "<font size=\"40\">It's Yuri.</font>"
+  },
+  {
+    "id": 204,
+    "text": "<font size=\"40\">Yeah, well, yeah, raoul...</font>"
+  },
+  {
+    "id": 205,
+    "text": "<font size=\"40\">Raoul, the angel king will arrive tomorrow.</font>"
+  },
+  {
+    "id": 206,
+    "text": "<font size=\"40\">Hallelujah to you, too. All right.</font>"
+  },
+  {
+    "id": 207,
+    "text": "<font size=\"40\">The point is, if I've done my job right,</font>"
+  },
+  {
+    "id": 208,
+    "text": "<font size=\"40\">an arms embargo should be practically\nimpossible to enforce.</font>"
+  },
+  {
+    "id": 209,
+    "text": "<font size=\"40\">What? Okay, just slow the fuck down.</font>"
+  },
+  {
+    "id": 210,
+    "text": "<font size=\"40\">I can't understand you. What?</font>"
+  },
+  {
+    "id": 211,
+    "text": "<font size=\"40\">What do you mean, tipped off?\nThey know where we are?</font>"
+  },
+  {
+    "id": 212,
+    "text": "<font size=\"40\">Well, where are they?\nWell, how long have I got?</font>"
+  },
+  {
+    "id": 213,
+    "text": "<font size=\"40\">Not long? What does that mean? Shit.</font>"
+  },
+  {
+    "id": 214,
+    "text": "<font size=\"40\">- Do we try to lose them?\n- On this?</font>"
+  },
+  {
+    "id": 215,
+    "text": "<font size=\"40\">- Yuri, we have to get off this thing.\n- No, no one's going anywhere. Slow.</font>"
+  },
+  {
+    "id": 216,
+    "text": "<font size=\"40\">Dead slow. Buy me time.</font>"
+  },
+  {
+    "id": 217,
+    "text": "<font size=\"40\">Yeah, it's Yuri. Get that fucking rag down!</font>"
+  },
+  {
+    "id": 218,
+    "text": "<font size=\"40\">I need another handle for this tub.</font>"
+  },
+  {
+    "id": 219,
+    "text": "<font size=\"40\">Something in our weight class.</font>"
+  },
+  {
+    "id": 220,
+    "text": "<font size=\"40\">You, over the side.\nWe're changing the name. Now!</font>"
+  },
+  {
+    "id": 221,
+    "text": "<font size=\"40\">Yes, it's gotta check out.</font>"
+  },
+  {
+    "id": 222,
+    "text": "<font size=\"40\">The way I looked at it, what's in a name?</font>"
+  },
+  {
+    "id": 223,
+    "text": "<font size=\"40\">Have you got a shorter name?</font>"
+  },
+  {
+    "id": 224,
+    "text": "<font size=\"40\">I'd often change the registration\nof a ship or a plane.</font>"
+  },
+  {
+    "id": 225,
+    "text": "<font size=\"40\">But never at such short notice.</font>"
+  },
+  {
+    "id": 226,
+    "text": "<font size=\"40\">Damn, they're hauling.</font>"
+  },
+  {
+    "id": 227,
+    "text": "<font size=\"40\">What? \"Kono.\"\nHow do you spell that? K-o-n-o.</font>"
+  },
+  {
+    "id": 228,
+    "text": "<font size=\"40\">Okay, well, that's good. Kono.</font>"
+  },
+  {
+    "id": 229,
+    "text": "<font size=\"40\">K-o-n-0.</font>"
+  },
+  {
+    "id": 230,
+    "text": "<font size=\"40\">What are we flying? Dutch. Got it.</font>"
+  },
+  {
+    "id": 231,
+    "text": "<font size=\"40\">V, get me a Dutch flag, would you?</font>"
+  },
+  {
+    "id": 232,
+    "text": "<font size=\"40\">Faster or I'll send your ass in!</font>"
+  },
+  {
+    "id": 233,
+    "text": "<font size=\"40\">Yuri, I don't have Dutch.</font>"
+  },
+  {
+    "id": 234,
+    "text": "<font size=\"40\">- What?\n- I've got Belgium.</font>"
+  },
+  {
+    "id": 235,
+    "text": "<font size=\"40\">What the fuck use is that?</font>"
+  },
+  {
+    "id": 236,
+    "text": "<font size=\"40\">He's painting a name\nregistered in the fucking Netherlands.</font>"
+  },
+  {
+    "id": 237,
+    "text": "<font size=\"40\">- I've got a French flag.\n- So?</font>"
+  },
+  {
+    "id": 238,
+    "text": "<font size=\"40\">Turn it sideways, it's Dutch.</font>"
+  },
+  {
+    "id": 239,
+    "text": "<font size=\"40\">That's why you're my brother.</font>"
+  },
+  {
+    "id": 240,
+    "text": "<font size=\"40\">All right, good.\nEverybody look innocent now.</font>"
+  },
+  {
+    "id": 241,
+    "text": "<font size=\"40\">They say every man has his price.</font>"
+  },
+  {
+    "id": 242,
+    "text": "<font size=\"40\">But not every man gets it.</font>"
+  },
+  {
+    "id": 243,
+    "text": "<font size=\"40\">Interpol agent Jack Valentine\ncouldn't be bought,</font>"
+  },
+  {
+    "id": 244,
+    "text": "<font size=\"40\">at least not with money.</font>"
+  },
+  {
+    "id": 245,
+    "text": "<font size=\"40\">For Jack, glory was the prize.</font>"
+  },
+  {
+    "id": 246,
+    "text": "<font size=\"40\">Yeah, it's the kono. It's not the kristol.</font>"
+  },
+  {
+    "id": 247,
+    "text": "<font size=\"40\">Kono. K-o-n-0.</font>"
+  },
+  {
+    "id": 248,
+    "text": "<font size=\"40\">- It's clean, sir.\n- It's clean?</font>"
+  },
+  {
+    "id": 249,
+    "text": "<font size=\"40\">Sure doesn't look clean.</font>"
+  },
+  {
+    "id": 250,
+    "text": "<font size=\"40\">I'm gonna go aboard.</font>"
+  },
+  {
+    "id": 251,
+    "text": "<font size=\"40\">Phone in a sighting of the kristol\nsouth of Aruba.</font>"
+  },
+  {
+    "id": 252,
+    "text": "<font size=\"40\">Even when I was up against\nan overzealous agent,</font>"
+  },
+  {
+    "id": 253,
+    "text": "<font size=\"40\">I had a number of methods\nfor discouraging a search.</font>"
+  },
+  {
+    "id": 254,
+    "text": "<font size=\"40\">I routinely mislabeled\nmy arms shipments \"farm machinery.\"</font>"
+  },
+  {
+    "id": 255,
+    "text": "<font size=\"40\">And I have yet to meet\nthe lowly paid customs official</font>"
+  },
+  {
+    "id": 256,
+    "text": "<font size=\"40\">who will open a container\nmarked \"radioactive waste\"</font>"
+  },
+  {
+    "id": 257,
+    "text": "<font size=\"40\">to verify its contents.</font>"
+  },
+  {
+    "id": 258,
+    "text": "<font size=\"40\">But my personal favorite\nis the unique combination</font>"
+  },
+  {
+    "id": 259,
+    "text": "<font size=\"40\">of week-old potatoes and tropical heat.</font>"
+  },
+  {
+    "id": 260,
+    "text": "<font size=\"40\">It smells.</font>"
+  },
+  {
+    "id": 261,
+    "text": "<font size=\"40\">Sir, sighting of the kristol due north.</font>"
+  },
+  {
+    "id": 262,
+    "text": "<font size=\"40\">Most importantly, I kept a number\nof intelligence people on the payroll</font>"
+  },
+  {
+    "id": 263,
+    "text": "<font size=\"40\">to supply their colleagues\nwith counterintelligence.</font>"
+  },
+  {
+    "id": 264,
+    "text": "<font size=\"40\">Let's go.</font>"
+  },
+  {
+    "id": 265,
+    "text": "<font size=\"40\">The second rule of gunrunning is,</font>"
+  }
+]
+--------------------------------------------------
+
+[DEBUG] 发送到API的提示:
+
+You are a professional subtitle translator. Your task is to translate the following subtitle segments into 简体中文.
+The input is a JSON array of objects, where each object has an "id" and a "text" from the original ASR (Automatic Speech Recognition).
+Please maintain the original meaning, fix any potential ASR errors based on context, and ensure the translation is natural and fluent.
+
+Your output MUST be a valid JSON object that can be parsed by a JSON loader. The JSON object should contain a key "translations" which is an array of objects, with each object containing the original "id" and the "translated_text".
+Do NOT add any extra explanations or text outside of the JSON object. The structure must be:
+{
+  "translations": [
+    {
+      "id": <original_id>,
+      "translated_text": "<your_translation>"
+    },
+    ...
+  ]
+}
+
+Here is the JSON data to translate:
+[
+  {
+    "id": 177,
+    "text": "<font size=\"40\">I was an equal opportunity\nmerchant of death.</font>"
+  },
+  {
+    "id": 178,
+    "text": "<font size=\"40\">I supplied every army\nbut the salvation army.</font>"
+  },
+  {
+    "id": 179,
+    "text": "<font size=\"40\">I sold Israeli-made Uzis fo muslims.</font>"
+  },
+  {
+    "id": 180,
+    "text": "<font size=\"40\">I sold communist-made bullets fo fascists.</font>"
+  },
+  {
+    "id": 181,
+    "text": "<font size=\"40\">I even shipped cargo to Afghanistan\nwhen they were fighting my fellow Soviets.</font>"
+  },
+  {
+    "id": 182,
+    "text": "<font size=\"40\">I never sold to osama bin laden.</font>"
+  },
+  {
+    "id": 183,
+    "text": "<font size=\"40\">Not on any moral grounds.\nBack then, he was always bouncing checks.</font>"
+  },
+  {
+    "id": 184,
+    "text": "<font size=\"40\">By the mid '80s,</font>"
+  },
+  {
+    "id": 185,
+    "text": "<font size=\"40\">my weapons were represented\nin eight of the world's top 10 war zones.</font>"
+  },
+  {
+    "id": 186,
+    "text": "<font size=\"40\">There's no problem leading a double life.</font>"
+  },
+  {
+    "id": 187,
+    "text": "<font size=\"40\">It's the triple and quadruple lives\nthat get you in the end.</font>"
+  },
+  {
+    "id": 188,
+    "text": "<font size=\"40\">Back then, I carried a French, British,\nIsraeli and Ukrainian passport</font>"
+  },
+  {
+    "id": 189,
+    "text": "<font size=\"40\">and a student visa for the us.\nBut that's another story.</font>"
+  },
+  {
+    "id": 190,
+    "text": "<font size=\"40\">I also packed six different briefcases,\ndepending on who I was that day</font>"
+  },
+  {
+    "id": 191,
+    "text": "<font size=\"40\">and the region of the world I was visiting.</font>"
+  },
+  {
+    "id": 192,
+    "text": "<font size=\"40\">Without operations like mine,</font>"
+  },
+  {
+    "id": 193,
+    "text": "<font size=\"40\">it would be impossible for certain\ncountries to conduct a respectable war.</font>"
+  },
+  {
+    "id": 194,
+    "text": "<font size=\"40\">I was able to navigate around\nthose inconvenient little arms embargoes.</font>"
+  },
+  {
+    "id": 195,
+    "text": "<font size=\"40\">There are three basic types of arms deal.</font>"
+  },
+  {
+    "id": 196,
+    "text": "<font size=\"40\">White being legal, black being illegal</font>"
+  },
+  {
+    "id": 197,
+    "text": "<font size=\"40\">and my personal favorite color, gray.</font>"
+  },
+  {
+    "id": 198,
+    "text": "<font size=\"40\">Sometimes I made the deals so convoluted,</font>"
+  },
+  {
+    "id": 199,
+    "text": "<font size=\"40\">it was hard for me to work out\nif they were on the level.</font>"
+  },
+  {
+    "id": 200,
+    "text": "<font size=\"40\">To keep authorities in the dark,\nI often spoke in code.</font>"
+  },
+  {
+    "id": 201,
+    "text": "<font size=\"40\">Rocket launchers were \"mothers,\"\nthe rockets, \"children.\"</font>"
+  },
+  {
+    "id": 202,
+    "text": "<font size=\"40\">The ak-47 assault rifle\nwas the \"angel king.\"</font>"
+  },
+  {
+    "id": 203,
+    "text": "<font size=\"40\">It's Yuri.</font>"
+  },
+  {
+    "id": 204,
+    "text": "<font size=\"40\">Yeah, well, yeah, raoul...</font>"
+  },
+  {
+    "id": 205,
+    "text": "<font size=\"40\">Raoul, the angel king will arrive tomorrow.</font>"
+  },
+  {
+    "id": 206,
+    "text": "<font size=\"40\">Hallelujah to you, too. All right.</font>"
+  },
+  {
+    "id": 207,
+    "text": "<font size=\"40\">The point is, if I've done my job right,</font>"
+  },
+  {
+    "id": 208,
+    "text": "<font size=\"40\">an arms embargo should be practically\nimpossible to enforce.</font>"
+  },
+  {
+    "id": 209,
+    "text": "<font size=\"40\">What? Okay, just slow the fuck down.</font>"
+  },
+  {
+    "id": 210,
+    "text": "<font size=\"40\">I can't understand you. What?</font>"
+  },
+  {
+    "id": 211,
+    "text": "<font size=\"40\">What do you mean, tipped off?\nThey know where we are?</font>"
+  },
+  {
+    "id": 212,
+    "text": "<font size=\"40\">Well, where are they?\nWell, how long have I got?</font>"
+  },
+  {
+    "id": 213,
+    "text": "<font size=\"40\">Not long? What does that mean? Shit.</font>"
+  },
+  {
+    "id": 214,
+    "text": "<font size=\"40\">- Do we try to lose them?\n- On this?</font>"
+  },
+  {
+    "id": 215,
+    "text": "<font size=\"40\">- Yuri, we have to get off this thing.\n- No, no one's going anywhere. Slow.</font>"
+  },
+  {
+    "id": 216,
+    "text": "<font size=\"40\">Dead slow. Buy me time.</font>"
+  },
+  {
+    "id": 217,
+    "text": "<font size=\"40\">Yeah, it's Yuri. Get that fucking rag down!</font>"
+  },
+  {
+    "id": 218,
+    "text": "<font size=\"40\">I need another handle for this tub.</font>"
+  },
+  {
+    "id": 219,
+    "text": "<font size=\"40\">Something in our weight class.</font>"
+  },
+  {
+    "id": 220,
+    "text": "<font size=\"40\">You, over the side.\nWe're changing the name. Now!</font>"
+  },
+  {
+    "id": 221,
+    "text": "<font size=\"40\">Yes, it's gotta check out.</font>"
+  },
+  {
+    "id": 222,
+    "text": "<font size=\"40\">The way I looked at it, what's in a name?</font>"
+  },
+  {
+    "id": 223,
+    "text": "<font size=\"40\">Have you got a shorter name?</font>"
+  },
+  {
+    "id": 224,
+    "text": "<font size=\"40\">I'd often change the registration\nof a ship or a plane.</font>"
+  },
+  {
+    "id": 225,
+    "text": "<font size=\"40\">But never at such short notice.</font>"
+  },
+  {
+    "id": 226,
+    "text": "<font size=\"40\">Damn, they're hauling.</font>"
+  },
+  {
+    "id": 227,
+    "text": "<font size=\"40\">What? \"Kono.\"\nHow do you spell that? K-o-n-o.</font>"
+  },
+  {
+    "id": 228,
+    "text": "<font size=\"40\">Okay, well, that's good. Kono.</font>"
+  },
+  {
+    "id": 229,
+    "text": "<font size=\"40\">K-o-n-0.</font>"
+  },
+  {
+    "id": 230,
+    "text": "<font size=\"40\">What are we flying? Dutch. Got it.</font>"
+  },
+  {
+    "id": 231,
+    "text": "<font size=\"40\">V, get me a Dutch flag, would you?</font>"
+  },
+  {
+    "id": 232,
+    "text": "<font size=\"40\">Faster or I'll send your ass in!</font>"
+  },
+  {
+    "id": 233,
+    "text": "<font size=\"40\">Yuri, I don't have Dutch.</font>"
+  },
+  {
+    "id": 234,
+    "text": "<font size=\"40\">- What?\n- I've got Belgium.</font>"
+  },
+  {
+    "id": 235,
+    "text": "<font size=\"40\">What the fuck use is that?</font>"
+  },
+  {
+    "id": 236,
+    "text": "<font size=\"40\">He's painting a name\nregistered in the fucking Netherlands.</font>"
+  },
+  {
+    "id": 237,
+    "text": "<font size=\"40\">- I've got a French flag.\n- So?</font>"
+  },
+  {
+    "id": 238,
+    "text": "<font size=\"40\">Turn it sideways, it's Dutch.</font>"
+  },
+  {
+    "id": 239,
+    "text": "<font size=\"40\">That's why you're my brother.</font>"
+  },
+  {
+    "id": 240,
+    "text": "<font size=\"40\">All right, good.\nEverybody look innocent now.</font>"
+  },
+  {
+    "id": 241,
+    "text": "<font size=\"40\">They say every man has his price.</font>"
+  },
+  {
+    "id": 242,
+    "text": "<font size=\"40\">But not every man gets it.</font>"
+  },
+  {
+    "id": 243,
+    "text": "<font size=\"40\">Interpol agent Jack Valentine\ncouldn't be bought,</font>"
+  },
+  {
+    "id": 244,
+    "text": "<font size=\"40\">at least not with money.</font>"
+  },
+  {
+    "id": 245,
+    "text": "<font size=\"40\">For Jack, glory was the prize.</font>"
+  },
+  {
+    "id": 246,
+    "text": "<font size=\"40\">Yeah, it's the kono. It's not the kristol.</font>"
+  },
+  {
+    "id": 247,
+    "text": "<font size=\"40\">Kono. K-o-n-0.</font>"
+  },
+  {
+    "id": 248,
+    "text": "<font size=\"40\">- It's clean, sir.\n- It's clean?</font>"
+  },
+  {
+    "id": 249,
+    "text": "<font size=\"40\">Sure doesn't look clean.</font>"
+  },
+  {
+    "id": 250,
+    "text": "<font size=\"40\">I'm gonna go aboard.</font>"
+  },
+  {
+    "id": 251,
+    "text": "<font size=\"40\">Phone in a sighting of the kristol\nsouth of Aruba.</font>"
+  },
+  {
+    "id": 252,
+    "text": "<font size=\"40\">Even when I was up against\nan overzealous agent,</font>"
+  },
+  {
+    "id": 253,
+    "text": "<font size=\"40\">I had a number of methods\nfor discouraging a search.</font>"
+  },
+  {
+    "id": 254,
+    "text": "<font size=\"40\">I routinely mislabeled\nmy arms shipments \"farm machinery.\"</font>"
+  },
+  {
+    "id": 255,
+    "text": "<font size=\"40\">And I have yet to meet\nthe lowly paid customs official</font>"
+  },
+  {
+    "id": 256,
+    "text": "<font size=\"40\">who will open a container\nmarked \"radioactive waste\"</font>"
+  },
+  {
+    "id": 257,
+    "text": "<font size=\"40\">to verify its contents.</font>"
+  },
+  {
+    "id": 258,
+    "text": "<font size=\"40\">But my personal favorite\nis the unique combination</font>"
+  },
+  {
+    "id": 259,
+    "text": "<font size=\"40\">of week-old potatoes and tropical heat.</font>"
+  },
+  {
+    "id": 260,
+    "text": "<font size=\"40\">It smells.</font>"
+  },
+  {
+    "id": 261,
+    "text": "<font size=\"40\">Sir, sighting of the kristol due north.</font>"
+  },
+  {
+    "id": 262,
+    "text": "<font size=\"40\">Most importantly, I kept a number\nof intelligence people on the payroll</font>"
+  },
+  {
+    "id": 263,
+    "text": "<font size=\"40\">to supply their colleagues\nwith counterintelligence.</font>"
+  },
+  {
+    "id": 264,
+    "text": "<font size=\"40\">Let's go.</font>"
+  },
+  {
+    "id": 265,
+    "text": "<font size=\"40\">The second rule of gunrunning is,</font>"
+  }
+]
+
+--------------------------------------------------
+
+[DEBUG] API响应:
+{
+  "translations": [
+    {
+      "id": 177,
+      "translated_text": "<font size=\"40\">我是一个公平机会的死亡商人。</font>"
+    },
+    {
+      "id": 178,
+      "translated_text": "<font size=\"40\">我向每支军队供应武器，唯独不包括救世军。</font>"
+    },
+    {
+      "id": 179,
+      "translated_text": "<font size=\"40\">我为穆斯林出售以色列制造的乌兹冲锋枪。</font>"
+    },
+    {
+      "id": 180,
+      "translated_text": "<font size=\"40\">我为法西斯分子出售共产主义制造的子弹。</font>"
+    },
+    {
+      "id": 181,
+      "translated_text": "<font size=\"40\">甚至在阿富汗与苏联同胞作战时，我也运送货物至那里。</font>"
+    },
+    {
+      "id": 182,
+      "translated_text": "<font size=\"40\">我从未向奥萨马·本·拉登出售过武器。</font>"
+    },
+    {
+      "id": 183,
+      "translated_text": "<font size=\"40\">并非出于道德原因。那时候，他总是支票不见底。</font>"
+    },
+    {
+      "id": 184,
+      "translated_text": "<font size=\"40\">到了80年代中期，</font>"
+    },
+    {
+      "id": 185,
+      "translated_text": "<font size=\"40\">我的武器出现在世界前十的八个战区。</font>"
+    },
+    {
+      "id": 186,
+      "translated_text": "<font size=\"40\">过着双重生活并不是问题。</font>"
+    },
+    {
+      "id": 187,
+      "translated_text": "<font size=\"40\">问题在于三重和四重生活，最终会害了你。</font>"
+    },
+    {
+      "id": 188,
+      "translated_text": "<font size=\"40\">那时候，我携带着法国、英国、以色列和乌克兰护照</font>"
+    },
+    {
+      "id": 189,
+      "translated_text": "<font size=\"40\">以及美国的学生签证。但那是另一段故事。</font>"
+    },
+    {
+      "id": 190,
+      "translated_text": "<font size=\"40\">我还准备了六个不同的公文包，根据当天的身份和我所访问的世界地区。</font>"
+    },
+    {
+      "id": 191,
+      "translated_text": "<font size=\"40\">在没有像我这样的活动的情况下，</font>"
+    },
+    {
+      "id": 192,
+      "translated_text": "<font size=\"40\">对于某些国家来说，进行体面的战争将是不可能的。</font>"
+    },
+    {
+      "id": 193,
+      "translated_text": "<font size=\"40\">我可以规避那些碍手碍脚的武器禁运。</font>"
+    },
+    {
+      "id": 194,
+      "translated_text": "<font size=\"40\">有三种基本的武器交易类型。</font>"
+    },
+    {
+      "id": 195,
+      "translated_text": "<font size=\"40\">白色为合法，黑色为非法，</font>"
+    },
+    {
+      "id": 196,
+      "translated_text": "<font size=\"40\">而我最喜欢的颜色是灰色。</font>"
+    },
+    {
+      "id": 197,
+      "translated_text": "<font size=\"40\">有时我的交易安排复杂到连我自己都难以判断是否合法。</font>"
+    },
+    {
+      "id": 198,
+      "translated_text": "<font size=\"40\">为了让当局蒙在鼓里，我经常使用编码。</font>"
+    },
+    {
+      "id": 199,
+      "translated_text": "<font size=\"40\">火箭发射器称为“母亲”，火箭称为“孩子”。</font>"
+    },
+    {
+      "id": 200,
+      "translated_text": "<font size=\"40\">AK-47突击步枪被称为“天使之王”。</font>"
+    },
+    {
+      "id": 201,
+      "translated_text": "<font size=\"40\">是尤里。</font>"
+    },
+    {
+      "id": 202,
+      "translated_text": "<font size=\"40\">是啊，没错，拉乌尔...</font>"
+    },
+    {
+      "id": 203,
+      "translated_text": "<font size=\"40\">拉乌尔，天使之王明天就会到达。</font>"
+    },
+    {
+      "id": 204,
+      "translated_text": "<font size=\"40\">你也是如此。好的。</font>"
+    },
+    {
+      "id": 205,
+      "translated_text": "<font size=\"40\">问题是，如果我做得对，</font>"
+    },
+    {
+      "id": 206,
+      "translated_text": "<font size=\"40\">武器禁运几乎不可能执行。</font>"
+    },
+    {
+      "id": 207,
+      "translated_text": "<font size=\"40\">什么？好吧，慢点说。</font>"
+    },
+    {
+      "id": 208,
+      "translated_text": "<font size=\"40\">我听不清。什么？</font>"
+    },
+    {
+      "id": 209,
+      "translated_text": "<font size=\"40\">你说什么，泄密了？他们知道我们在哪里？</font>"
+    },
+    {
+      "id": 210,
+      "translated_text": "<font size=\"40\">他们在哪里？我还有多长时间？</font>"
+    },
+    {
+      "id": 211,
+      "translated_text": "<font size=\"40\">时间不多？那是什么意思？该死。</font>"
+    },
+    {
+      "id": 212,
+      "translated_text": "<font size=\"40\">- 我们试图摆脱他们吗？\n- 在这种情况下？</font>"
+    },
+    {
+      "id": 213,
+      "translated_text": "<font size=\"40\">尤里，我们必须离开这里。</font>"
+    },
+    {
+      "id": 214,
+      "translated_text": "<font size=\"40\">- 没人可以动！慢点。</font>"
+    },
+    {
+      "id": 215,
+      "translated_text": "<font size=\"40\">慢慢慢。给我争取时间。</font>"
+    },
+    {
+      "id": 216,
+      "translated_text": "<font size=\"40\">是的，是尤里。拿下那该死的旗帜！</font>"
+    },
+    {
+      "id": 217,
+      "translated_text": "<font size=\"40\">我需要另一个把手来控制这艘船。</font>"
+    },
+    {
+      "id": 218,
+      "translated_text": "<font size=\"40\">需要符合我们重量级别的东西。</font>"
+    },
+    {
+      "id": 219,
+      "translated_text": "<font size=\"40\">你，下船。我们要改名了。现在！</font>"
+    },
+    {
+      "id": 220,
+      "translated_text": "<font size=\"40\">是的，必须确认一下。</font>"
+    },
+    {
+      "id": 221,
+      "translated_text": "<font size=\"40\">我是怎么看待这个，名字有什么重要呢？</font>"
+    },
+    {
+      "id": 222,
+      "translated_text": "<font size=\"40\">你有更短的名字吗？</font>"
+    },
+    {
+      "id": 223,
+      "translated_text": "<font size=\"40\">我经常更改船只或飞机的注册。</font>"
+    },
+    {
+      "id": 224,
+      "translated_text": "<font size=\"40\">但从未如此仓促。</font>"
+    },
+    {
+      "id": 225,
+      "translated_text": "<font size=\"40\">该死，他们在追。</font>"
+    },
+    {
+      "id": 226,
+      "translated_text": "<font size=\"40\">什么？“科诺”。怎么拼？K-o-n-o。</font>"
+    },
+    {
+      "id": 227,
+      "translated_text": "<font size=\"40\">好的，那很好。“科诺”。</font>"
+    },
+    {
+      "id": 228,
+      "translated_text": "<font size=\"40\">K-o-n-0。</font>"
+    },
+    {
+      "id": 229,
+      "translated_text": "<font size=\"40\">我们飞什么？荷兰的。明白了。</font>"
+    },
+    {
+      "id": 230,
+      "translated_text": "<font size=\"40\">V，给我一面荷兰国旗，好吗？</font>"
+    },
+    {
+      "id": 231,
+      "translated_text": "<font size=\"40\">快点，否则我就把你扔下去！</font>"
+    },
+    {
+      "id": 232,
+      "translated_text": "<font size=\"40\">尤里，我没有荷兰国旗。</font>"
+    },
+    {
+      "id": 233,
+      "translated_text": "<font size=\"40\">什么？“我有比利时国旗。”</font>"
+    },
+    {
+      "id": 234,
+      "translated_text": "<font size=\"40\">那有什么用？</font>"
+    },
+    {
+      "id": 235,
+      "translated_text": "<font size=\"40\">他正在喷涂一个注册在荷兰的名字。</font>"
+    },
+    {
+      "id": 236,
+      "translated_text": "<font size=\"40\">- 我有法国国旗。\n- 那又怎样？</font>"
+    },
+    {
+      "id": 237,
+      "translated_text": "<font size=\"40\">把它横过来，就成了荷兰国旗。</font>"
+    },
+    {
+      "id": 238,
+      "translated_text": "<font size=\"40\">这就是为什么你是我的兄弟。</font>"
+    },
+    {
+      "id": 239,
+      "translated_text": "<font size=\"40\">好的，很好。现在每个人看上去都很无辜。</font>"
+    },
+    {
+      "id": 240,
+      "translated_text": "<font size=\"40\">人们说每个男人都有他的代价。</font>"
+    },
+    {
+      "id": 241,
+      "translated_text": "<font size=\"40\">但并非每个男人都能得到。</font>"
+    },
+    {
+      "id": 242,
+      "translated_text": "<font size=\"40\">国际刑警组织特工杰克·瓦伦丁是无法收买的，</font>"
+    },
+    {
+      "id": 243,
+      "translated_text": "<font size=\"40\">至少不是以金钱。</font>"
+    },
+    {
+      "id": 244,
+      "translated_text": "<font size=\"40\">对于杰克来说，荣耀才是奖励。</font>"
+    },
+    {
+      "id": 245,
+      "translated_text": "<font size=\"40\">是的，是科诺。不是克里斯托。</font>"
+    },
+    {
+      "id": 246,
+      "translated_text": "<font size=\"40\">科诺。K-o-n-0。</font>"
+    },
+    {
+      "id": 247,
+      "translated_text": "<font size=\"40\">- 干净，先生。\n- 干净？</font>"
+    },
+    {
+      "id": 248,
+      "translated_text": "<font size=\"40\">看起来一点都不干净。</font>"
+    },
+    {
+      "id": 249,
+      "translated_text": "<font size=\"40\">我要上船了。</font>"
+    },
+    {
+      "id": 250,
+      "translated_text": "<font size=\"40\">报告一艘克里斯托号在阿鲁巴岛南部的目击。</font>"
+    },
+    {
+      "id": 251,
+      "translated_text": "<font size=\"40\">即使面对过度热心的特工，</font>"
+    },
+    {
+      "id": 252,
+      "translated_text": "<font size=\"40\">我有多种方法来阻止搜查。</font>"
+    },
+    {
+      "id": 253,
+      "translated_text": "<font size=\"40\">我经常把我的武器运输误标为“农业机械”。</font>"
+    },
+    {
+      "id": 254,
+      "translated_text": "<font size=\"40\">至今我还未遇到过那位低薪海关官员，</font>"
+    },
+    {
+      "id": 255,
+      "translated_text": "<font size=\"40\">会打开一个标记为“放射性废物”的集装箱</font>"
+    },
+    {
+      "id": 256,
+      "translated_text": "<font size=\"40\">以核实其内容。</font>"
+    },
+    {
+      "id": 257,
+      "translated_text": "<font size=\"40\">但我个人最喜欢的是一堆一周的土豆和热带热量的独特组合。</font>"
+    },
+    {
+      "id": 258,
+      "translated_text": "<font size=\"40\">它有气味。</font>"
+    },
+    {
+      "id": 259,
+      "translated_text": "<font size=\"40\">先生，克里斯托号已被目击在北部。</font>"
+    },
+    {
+      "id": 260,
+      "translated_text": "<font size=\"40\">枪支走私的第二条规则是，</font>"
+    }
+  ]
+}
+--------------------------------------------------
+
+[DEBUG] 解析后的翻译:
+[
+  {
+    "id": 177,
+    "translated_text": "<font size=\"40\">我是一个公平机会的死亡商人。</font>"
+  },
+  {
+    "id": 178,
+    "translated_text": "<font size=\"40\">我向每支军队供应武器，唯独不包括救世军。</font>"
+  },
+  {
+    "id": 179,
+    "translated_text": "<font size=\"40\">我为穆斯林出售以色列制造的乌兹冲锋枪。</font>"
+  },
+  {
+    "id": 180,
+    "translated_text": "<font size=\"40\">我为法西斯分子出售共产主义制造的子弹。</font>"
+  },
+  {
+    "id": 181,
+    "translated_text": "<font size=\"40\">甚至在阿富汗与苏联同胞作战时，我也运送货物至那里。</font>"
+  },
+  {
+    "id": 182,
+    "translated_text": "<font size=\"40\">我从未向奥萨马·本·拉登出售过武器。</font>"
+  },
+  {
+    "id": 183,
+    "translated_text": "<font size=\"40\">并非出于道德原因。那时候，他总是支票不见底。</font>"
+  },
+  {
+    "id": 184,
+    "translated_text": "<font size=\"40\">到了80年代中期，</font>"
+  },
+  {
+    "id": 185,
+    "translated_text": "<font size=\"40\">我的武器出现在世界前十的八个战区。</font>"
+  },
+  {
+    "id": 186,
+    "translated_text": "<font size=\"40\">过着双重生活并不是问题。</font>"
+  },
+  {
+    "id": 187,
+    "translated_text": "<font size=\"40\">问题在于三重和四重生活，最终会害了你。</font>"
+  },
+  {
+    "id": 188,
+    "translated_text": "<font size=\"40\">那时候，我携带着法国、英国、以色列和乌克兰护照</font>"
+  },
+  {
+    "id": 189,
+    "translated_text": "<font size=\"40\">以及美国的学生签证。但那是另一段故事。</font>"
+  },
+  {
+    "id": 190,
+    "translated_text": "<font size=\"40\">我还准备了六个不同的公文包，根据当天的身份和我所访问的世界地区。</font>"
+  },
+  {
+    "id": 191,
+    "translated_text": "<font size=\"40\">在没有像我这样的活动的情况下，</font>"
+  },
+  {
+    "id": 192,
+    "translated_text": "<font size=\"40\">对于某些国家来说，进行体面的战争将是不可能的。</font>"
+  },
+  {
+    "id": 193,
+    "translated_text": "<font size=\"40\">我可以规避那些碍手碍脚的武器禁运。</font>"
+  },
+  {
+    "id": 194,
+    "translated_text": "<font size=\"40\">有三种基本的武器交易类型。</font>"
+  },
+  {
+    "id": 195,
+    "translated_text": "<font size=\"40\">白色为合法，黑色为非法，</font>"
+  },
+  {
+    "id": 196,
+    "translated_text": "<font size=\"40\">而我最喜欢的颜色是灰色。</font>"
+  },
+  {
+    "id": 197,
+    "translated_text": "<font size=\"40\">有时我的交易安排复杂到连我自己都难以判断是否合法。</font>"
+  },
+  {
+    "id": 198,
+    "translated_text": "<font size=\"40\">为了让当局蒙在鼓里，我经常使用编码。</font>"
+  },
+  {
+    "id": 199,
+    "translated_text": "<font size=\"40\">火箭发射器称为“母亲”，火箭称为“孩子”。</font>"
+  },
+  {
+    "id": 200,
+    "translated_text": "<font size=\"40\">AK-47突击步枪被称为“天使之王”。</font>"
+  },
+  {
+    "id": 201,
+    "translated_text": "<font size=\"40\">是尤里。</font>"
+  },
+  {
+    "id": 202,
+    "translated_text": "<font size=\"40\">是啊，没错，拉乌尔...</font>"
+  },
+  {
+    "id": 203,
+    "translated_text": "<font size=\"40\">拉乌尔，天使之王明天就会到达。</font>"
+  },
+  {
+    "id": 204,
+    "translated_text": "<font size=\"40\">你也是如此。好的。</font>"
+  },
+  {
+    "id": 205,
+    "translated_text": "<font size=\"40\">问题是，如果我做得对，</font>"
+  },
+  {
+    "id": 206,
+    "translated_text": "<font size=\"40\">武器禁运几乎不可能执行。</font>"
+  },
+  {
+    "id": 207,
+    "translated_text": "<font size=\"40\">什么？好吧，慢点说。</font>"
+  },
+  {
+    "id": 208,
+    "translated_text": "<font size=\"40\">我听不清。什么？</font>"
+  },
+  {
+    "id": 209,
+    "translated_text": "<font size=\"40\">你说什么，泄密了？他们知道我们在哪里？</font>"
+  },
+  {
+    "id": 210,
+    "translated_text": "<font size=\"40\">他们在哪里？我还有多长时间？</font>"
+  },
+  {
+    "id": 211,
+    "translated_text": "<font size=\"40\">时间不多？那是什么意思？该死。</font>"
+  },
+  {
+    "id": 212,
+    "translated_text": "<font size=\"40\">- 我们试图摆脱他们吗？\n- 在这种情况下？</font>"
+  },
+  {
+    "id": 213,
+    "translated_text": "<font size=\"40\">尤里，我们必须离开这里。</font>"
+  },
+  {
+    "id": 214,
+    "translated_text": "<font size=\"40\">- 没人可以动！慢点。</font>"
+  },
+  {
+    "id": 215,
+    "translated_text": "<font size=\"40\">慢慢慢。给我争取时间。</font>"
+  },
+  {
+    "id": 216,
+    "translated_text": "<font size=\"40\">是的，是尤里。拿下那该死的旗帜！</font>"
+  },
+  {
+    "id": 217,
+    "translated_text": "<font size=\"40\">我需要另一个把手来控制这艘船。</font>"
+  },
+  {
+    "id": 218,
+    "translated_text": "<font size=\"40\">需要符合我们重量级别的东西。</font>"
+  },
+  {
+    "id": 219,
+    "translated_text": "<font size=\"40\">你，下船。我们要改名了。现在！</font>"
+  },
+  {
+    "id": 220,
+    "translated_text": "<font size=\"40\">是的，必须确认一下。</font>"
+  },
+  {
+    "id": 221,
+    "translated_text": "<font size=\"40\">我是怎么看待这个，名字有什么重要呢？</font>"
+  },
+  {
+    "id": 222,
+    "translated_text": "<font size=\"40\">你有更短的名字吗？</font>"
+  },
+  {
+    "id": 223,
+    "translated_text": "<font size=\"40\">我经常更改船只或飞机的注册。</font>"
+  },
+  {
+    "id": 224,
+    "translated_text": "<font size=\"40\">但从未如此仓促。</font>"
+  },
+  {
+    "id": 225,
+    "translated_text": "<font size=\"40\">该死，他们在追。</font>"
+  },
+  {
+    "id": 226,
+    "translated_text": "<font size=\"40\">什么？“科诺”。怎么拼？K-o-n-o。</font>"
+  },
+  {
+    "id": 227,
+    "translated_text": "<font size=\"40\">好的，那很好。“科诺”。</font>"
+  },
+  {
+    "id": 228,
+    "translated_text": "<font size=\"40\">K-o-n-0。</font>"
+  },
+  {
+    "id": 229,
+    "translated_text": "<font size=\"40\">我们飞什么？荷兰的。明白了。</font>"
+  },
+  {
+    "id": 230,
+    "translated_text": "<font size=\"40\">V，给我一面荷兰国旗，好吗？</font>"
+  },
+  {
+    "id": 231,
+    "translated_text": "<font size=\"40\">快点，否则我就把你扔下去！</font>"
+  },
+  {
+    "id": 232,
+    "translated_text": "<font size=\"40\">尤里，我没有荷兰国旗。</font>"
+  },
+  {
+    "id": 233,
+    "translated_text": "<font size=\"40\">什么？“我有比利时国旗。”</font>"
+  },
+  {
+    "id": 234,
+    "translated_text": "<font size=\"40\">那有什么用？</font>"
+  },
+  {
+    "id": 235,
+    "translated_text": "<font size=\"40\">他正在喷涂一个注册在荷兰的名字。</font>"
+  },
+  {
+    "id": 236,
+    "translated_text": "<font size=\"40\">- 我有法国国旗。\n- 那又怎样？</font>"
+  },
+  {
+    "id": 237,
+    "translated_text": "<font size=\"40\">把它横过来，就成了荷兰国旗。</font>"
+  },
+  {
+    "id": 238,
+    "translated_text": "<font size=\"40\">这就是为什么你是我的兄弟。</font>"
+  },
+  {
+    "id": 239,
+    "translated_text": "<font size=\"40\">好的，很好。现在每个人看上去都很无辜。</font>"
+  },
+  {
+    "id": 240,
+    "translated_text": "<font size=\"40\">人们说每个男人都有他的代价。</font>"
+  },
+  {
+    "id": 241,
+    "translated_text": "<font size=\"40\">但并非每个男人都能得到。</font>"
+  },
+  {
+    "id": 242,
+    "translated_text": "<font size=\"40\">国际刑警组织特工杰克·瓦伦丁是无法收买的，</font>"
+  },
+  {
+    "id": 243,
+    "translated_text": "<font size=\"40\">至少不是以金钱。</font>"
+  },
+  {
+    "id": 244,
+    "translated_text": "<font size=\"40\">对于杰克来说，荣耀才是奖励。</font>"
+  },
+  {
+    "id": 245,
+    "translated_text": "<font size=\"40\">是的，是科诺。不是克里斯托。</font>"
+  },
+  {
+    "id": 246,
+    "translated_text": "<font size=\"40\">科诺。K-o-n-0。</font>"
+  },
+  {
+    "id": 247,
+    "translated_text": "<font size=\"40\">- 干净，先生。\n- 干净？</font>"
+  },
+  {
+    "id": 248,
+    "translated_text": "<font size=\"40\">看起来一点都不干净。</font>"
+  },
+  {
+    "id": 249,
+    "translated_text": "<font size=\"40\">我要上船了。</font>"
+  },
+  {
+    "id": 250,
+    "translated_text": "<font size=\"40\">报告一艘克里斯托号在阿鲁巴岛南部的目击。</font>"
+  },
+  {
+    "id": 251,
+    "translated_text": "<font size=\"40\">即使面对过度热心的特工，</font>"
+  },
+  {
+    "id": 252,
+    "translated_text": "<font size=\"40\">我有多种方法来阻止搜查。</font>"
+  },
+  {
+    "id": 253,
+    "translated_text": "<font size=\"40\">我经常把我的武器运输误标为“农业机械”。</font>"
+  },
+  {
+    "id": 254,
+    "translated_text": "<font size=\"40\">至今我还未遇到过那位低薪海关官员，</font>"
+  },
+  {
+    "id": 255,
+    "translated_text": "<font size=\"40\">会打开一个标记为“放射性废物”的集装箱</font>"
+  },
+  {
+    "id": 256,
+    "translated_text": "<font size=\"40\">以核实其内容。</font>"
+  },
+  {
+    "id": 257,
+    "translated_text": "<font size=\"40\">但我个人最喜欢的是一堆一周的土豆和热带热量的独特组合。</font>"
+  },
+  {
+    "id": 258,
+    "translated_text": "<font size=\"40\">它有气味。</font>"
+  },
+  {
+    "id": 259,
+    "translated_text": "<font size=\"40\">先生，克里斯托号已被目击在北部。</font>"
+  },
+  {
+    "id": 260,
+    "translated_text": "<font size=\"40\">枪支走私的第二条规则是，</font>"
+  }
+]
+--------------------------------------------------
+Translating:  20%|██        | 3/15 [01:17<05:06, 25.58s/chunk]
+[DEBUG] 翻译块开始，使用模型: gpt-3.5-turbo，目标语言: 简体中文
+--------------------------------------------------
+
+[DEBUG] 输入段落:
+[
+  {
+    "id": 266,
+    "text": "<font size=\"40\">always ensure you have a foolproof way\nto get paid.</font>"
+  },
+  {
+    "id": 267,
+    "text": "<font size=\"40\">Preferably in advance,\nideally to an offshore account.</font>"
+  },
+  {
+    "id": 268,
+    "text": "<font size=\"40\">That's why I chose my customers\nso carefully.</font>"
+  },
+  {
+    "id": 269,
+    "text": "<font size=\"40\">Say what you like\nabout warlords and dictators.</font>"
+  },
+  {
+    "id": 270,
+    "text": "<font size=\"40\">They tend to have\na highly developed sense of order.</font>"
+  },
+  {
+    "id": 271,
+    "text": "<font size=\"40\">They always pay their bills on time.</font>"
+  },
+  {
+    "id": 272,
+    "text": "<font size=\"40\">Whoa, whoa, whoa.</font>"
+  },
+  {
+    "id": 273,
+    "text": "<font size=\"40\">What the fuck are you doing?</font>"
+  },
+  {
+    "id": 274,
+    "text": "<font size=\"40\">- Fuck youl!\n- Fuck you!</font>"
+  },
+  {
+    "id": 275,
+    "text": "<font size=\"40\">No, v.</font>"
+  },
+  {
+    "id": 276,
+    "text": "<font size=\"40\">Shit.</font>"
+  },
+  {
+    "id": 277,
+    "text": "<font size=\"40\">The first and most important rule\nof gunrunning</font>"
+  },
+  {
+    "id": 278,
+    "text": "<font size=\"40\">is never get shot\nwith your own merchandise.</font>"
+  },
+  {
+    "id": 279,
+    "text": "<font size=\"40\">You okay?</font>"
+  },
+  {
+    "id": 280,
+    "text": "<font size=\"40\">I think so.</font>"
+  },
+  {
+    "id": 281,
+    "text": "<font size=\"40\">- So what do we do now?\n- Let's celebrate.</font>"
+  },
+  {
+    "id": 282,
+    "text": "<font size=\"40\">God.</font>"
+  },
+  {
+    "id": 283,
+    "text": "<font size=\"40\">That narco-guerilla had his facts right.</font>"
+  },
+  {
+    "id": 284,
+    "text": "<font size=\"40\">After shipping it stateside,\nthe return on that blow</font>"
+  },
+  {
+    "id": 285,
+    "text": "<font size=\"40\">netted me a healthy profit.</font>"
+  },
+  {
+    "id": 286,
+    "text": "<font size=\"40\">It would have been even better,\nexcept one kilo never made it back.</font>"
+  },
+  {
+    "id": 287,
+    "text": "<font size=\"40\">Vitaly.</font>"
+  },
+  {
+    "id": 288,
+    "text": "<font size=\"40\">V.</font>"
+  },
+  {
+    "id": 289,
+    "text": "<font size=\"40\">To this day, I don't know what\nVitaly was running away from.</font>"
+  },
+  {
+    "id": 290,
+    "text": "<font size=\"40\">Maybe just from Vitaly.</font>"
+  },
+  {
+    "id": 291,
+    "text": "<font size=\"40\">I found him 12 days, 2,000 miles\nand 150 grams later</font>"
+  },
+  {
+    "id": 292,
+    "text": "<font size=\"40\">in a Bolivian boarding house.</font>"
+  },
+  {
+    "id": 293,
+    "text": "<font size=\"40\">Of course, my dream girl\nhad gotten there before me.</font>"
+  },
+  {
+    "id": 294,
+    "text": "<font size=\"40\">V.</font>"
+  },
+  {
+    "id": 295,
+    "text": "<font size=\"40\">Come on.</font>"
+  },
+  {
+    "id": 296,
+    "text": "<font size=\"40\">Yuri. It's my brother, Yuri.</font>"
+  },
+  {
+    "id": 297,
+    "text": "<font size=\"40\">He's my big brother.</font>"
+  },
+  {
+    "id": 298,
+    "text": "<font size=\"40\">What the fuck is that?</font>"
+  },
+  {
+    "id": 299,
+    "text": "<font size=\"40\">Ukraine. I was young.</font>"
+  },
+  {
+    "id": 300,
+    "text": "<font size=\"40\">But I remember. Look.</font>"
+  },
+  {
+    "id": 301,
+    "text": "<font size=\"40\">I start in Odessa, right?\nAnd then I work my way to the crimean.</font>"
+  },
+  {
+    "id": 302,
+    "text": "<font size=\"40\">You're gonna be dead\nbefore you fucking reach Kiev.</font>"
+  },
+  {
+    "id": 303,
+    "text": "<font size=\"40\">- Come on, we're going home.\n- You fuck!</font>"
+  },
+  {
+    "id": 304,
+    "text": "<font size=\"40\">You fucking fuck! You fucking fuck!</font>"
+  },
+  {
+    "id": 305,
+    "text": "<font size=\"40\">What the fuck is your problem?</font>"
+  },
+  {
+    "id": 306,
+    "text": "<font size=\"40\">Come on, vit.</font>"
+  },
+  {
+    "id": 307,
+    "text": "<font size=\"40\">It's so nice to be home.</font>"
+  },
+  {
+    "id": 308,
+    "text": "<font size=\"40\">Yeah, we're... we're gonna get you home.</font>"
+  },
+  {
+    "id": 309,
+    "text": "<font size=\"40\">Come on.</font>"
+  },
+  {
+    "id": 310,
+    "text": "<font size=\"40\">Get out of the car.</font>"
+  },
+  {
+    "id": 311,
+    "text": "<font size=\"40\">Vitaly, I need you to get out of the car.</font>"
+  },
+  {
+    "id": 312,
+    "text": "<font size=\"40\">I promised our parents.</font>"
+  },
+  {
+    "id": 313,
+    "text": "<font size=\"40\">Please.</font>"
+  },
+  {
+    "id": 314,
+    "text": "<font size=\"40\">Vitaly, you're gonna have a great time.\nThis is a top place.</font>"
+  },
+  {
+    "id": 315,
+    "text": "<font size=\"40\">Two Ford models checked in last week.</font>"
+  },
+  {
+    "id": 316,
+    "text": "<font size=\"40\">And that cute weathergirl's\nbeen here since July.</font>"
+  },
+  {
+    "id": 317,
+    "text": "<font size=\"40\">Please, please.</font>"
+  },
+  {
+    "id": 318,
+    "text": "<font size=\"40\">Please, Yuri.</font>"
+  },
+  {
+    "id": 319,
+    "text": "<font size=\"40\">You're a good brother.</font>"
+  },
+  {
+    "id": 320,
+    "text": "<font size=\"40\">Okay.</font>"
+  },
+  {
+    "id": 321,
+    "text": "<font size=\"40\">- You're a good brother, Yuri.\n- Okay, all right.</font>"
+  },
+  {
+    "id": 322,
+    "text": "<font size=\"40\">- Good brother.\n- All right, get out of the car. Okay.</font>"
+  },
+  {
+    "id": 323,
+    "text": "<font size=\"40\">Get out of the car.</font>"
+  },
+  {
+    "id": 324,
+    "text": "<font size=\"40\">From then on, I was a one-man operation.</font>"
+  },
+  {
+    "id": 325,
+    "text": "<font size=\"40\">I never understood what separated\nthe recreational drug user</font>"
+  },
+  {
+    "id": 326,
+    "text": "<font size=\"40\">from the habitual, but\nfor the grace of god,</font>"
+  },
+  {
+    "id": 327,
+    "text": "<font size=\"40\">it could have been me snorting\nlines as long as the belt parkway.</font>"
+  },
+  {
+    "id": 328,
+    "text": "<font size=\"40\">However, I wasn't entirely free\nof the grip of addiction myself.</font>"
+  },
+  {
+    "id": 329,
+    "text": "<font size=\"40\">There she was again. Ava fontaine.</font>"
+  },
+  {
+    "id": 330,
+    "text": "<font size=\"40\">In my neighborhood,\nthey say, \"the good get out.”</font>"
+  },
+  {
+    "id": 331,
+    "text": "<font size=\"40\">In our own ways,\nwe'd both conquered the world.</font>"
+  },
+  {
+    "id": 332,
+    "text": "<font size=\"40\">You can't force someone\nto fall in love with you.</font>"
+  },
+  {
+    "id": 333,
+    "text": "<font size=\"40\">But you can definitely improve your odds.</font>"
+  },
+  {
+    "id": 334,
+    "text": "<font size=\"40\">It cost me $20,000\nto book her for a fake photo shoot.</font>"
+  },
+  {
+    "id": 335,
+    "text": "<font size=\"40\">Another $12,000 to buy out the hotel.</font>"
+  },
+  {
+    "id": 336,
+    "text": "<font size=\"40\">It's a popular hotel, huh?</font>"
+  },
+  {
+    "id": 337,
+    "text": "<font size=\"40\">Ava fontaine. Yuri orlov.</font>"
+  },
+  {
+    "id": 338,
+    "text": "<font size=\"40\">What brings you to St. barts?</font>"
+  },
+  {
+    "id": 339,
+    "text": "<font size=\"40\">Photo shoot. At least that was the plan.</font>"
+  },
+  {
+    "id": 340,
+    "text": "<font size=\"40\">Guess the photographer\ngot stuck in Miami.</font>"
+  },
+  {
+    "id": 341,
+    "text": "<font size=\"40\">Hurricane, though there's nothing\non the news.</font>"
+  },
+  {
+    "id": 342,
+    "text": "<font size=\"40\">Those things can come out of nowhere.</font>"
+  },
+  {
+    "id": 343,
+    "text": "<font size=\"40\">So, the job's been canceled,\nand wouldn't you know it,</font>"
+  },
+  {
+    "id": 344,
+    "text": "<font size=\"40\">there's no flight back to New York\nuntil Tuesday.</font>"
+  },
+  {
+    "id": 345,
+    "text": "<font size=\"40\">You can hitch a ride with me if you like.\nI'm leaving tomorrow.</font>"
+  },
+  {
+    "id": 346,
+    "text": "<font size=\"40\">Meanwhile, why don't I take your picture?</font>"
+  },
+  {
+    "id": 347,
+    "text": "<font size=\"40\">In my experience,</font>"
+  },
+  {
+    "id": 348,
+    "text": "<font size=\"40\">some of the most successful relationships\nare based on lies and deceit.</font>"
+  },
+  {
+    "id": 349,
+    "text": "<font size=\"40\">Since that's where they\nusually end up anyway,</font>"
+  },
+  {
+    "id": 350,
+    "text": "<font size=\"40\">it's a logical place to start.</font>"
+  },
+  {
+    "id": 351,
+    "text": "<font size=\"40\">Right there. Right there. Hold it.</font>"
+  },
+  {
+    "id": 352,
+    "text": "<font size=\"40\">Oh, my god!</font>"
+  },
+  {
+    "id": 353,
+    "text": "<font size=\"40\">I nearly went broke\ntrying to convince her I was anything but.</font>"
+  },
+  {
+    "id": 354,
+    "text": "<font size=\"40\">I knew Ava was not the kind of woman\nfo be seduced by a ride in a private jet,</font>"
+  },
+  {
+    "id": 355,
+    "text": "<font size=\"40\">unless you owned the jet.</font>"
+  },
+  {
+    "id": 356,
+    "text": "<font size=\"40\">This is your plane?</font>"
+  },
+  {
+    "id": 357,
+    "text": "<font size=\"40\">That is my name.</font>"
+  },
+  {
+    "id": 358,
+    "text": "<font size=\"40\">Of course I was lying.</font>"
+  },
+  {
+    "id": 359,
+    "text": "<font size=\"40\">The plane was a rental like the car\nand even the suit I was standing in.</font>"
+  },
+  {
+    "id": 360,
+    "text": "<font size=\"40\">At the last minute,\nI bribed the crew for the paint job.</font>"
+  }
+]
+--------------------------------------------------
+
+[DEBUG] 发送到API的提示:
+
+You are a professional subtitle translator. Your task is to translate the following subtitle segments into 简体中文.
+The input is a JSON array of objects, where each object has an "id" and a "text" from the original ASR (Automatic Speech Recognition).
+Please maintain the original meaning, fix any potential ASR errors based on context, and ensure the translation is natural and fluent.
+
+Your output MUST be a valid JSON object that can be parsed by a JSON loader. The JSON object should contain a key "translations" which is an array of objects, with each object containing the original "id" and the "translated_text".
+Do NOT add any extra explanations or text outside of the JSON object. The structure must be:
+{
+  "translations": [
+    {
+      "id": <original_id>,
+      "translated_text": "<your_translation>"
+    },
+    ...
+  ]
+}
+
+Here is the JSON data to translate:
+[
+  {
+    "id": 266,
+    "text": "<font size=\"40\">always ensure you have a foolproof way\nto get paid.</font>"
+  },
+  {
+    "id": 267,
+    "text": "<font size=\"40\">Preferably in advance,\nideally to an offshore account.</font>"
+  },
+  {
+    "id": 268,
+    "text": "<font size=\"40\">That's why I chose my customers\nso carefully.</font>"
+  },
+  {
+    "id": 269,
+    "text": "<font size=\"40\">Say what you like\nabout warlords and dictators.</font>"
+  },
+  {
+    "id": 270,
+    "text": "<font size=\"40\">They tend to have\na highly developed sense of order.</font>"
+  },
+  {
+    "id": 271,
+    "text": "<font size=\"40\">They always pay their bills on time.</font>"
+  },
+  {
+    "id": 272,
+    "text": "<font size=\"40\">Whoa, whoa, whoa.</font>"
+  },
+  {
+    "id": 273,
+    "text": "<font size=\"40\">What the fuck are you doing?</font>"
+  },
+  {
+    "id": 274,
+    "text": "<font size=\"40\">- Fuck youl!\n- Fuck you!</font>"
+  },
+  {
+    "id": 275,
+    "text": "<font size=\"40\">No, v.</font>"
+  },
+  {
+    "id": 276,
+    "text": "<font size=\"40\">Shit.</font>"
+  },
+  {
+    "id": 277,
+    "text": "<font size=\"40\">The first and most important rule\nof gunrunning</font>"
+  },
+  {
+    "id": 278,
+    "text": "<font size=\"40\">is never get shot\nwith your own merchandise.</font>"
+  },
+  {
+    "id": 279,
+    "text": "<font size=\"40\">You okay?</font>"
+  },
+  {
+    "id": 280,
+    "text": "<font size=\"40\">I think so.</font>"
+  },
+  {
+    "id": 281,
+    "text": "<font size=\"40\">- So what do we do now?\n- Let's celebrate.</font>"
+  },
+  {
+    "id": 282,
+    "text": "<font size=\"40\">God.</font>"
+  },
+  {
+    "id": 283,
+    "text": "<font size=\"40\">That narco-guerilla had his facts right.</font>"
+  },
+  {
+    "id": 284,
+    "text": "<font size=\"40\">After shipping it stateside,\nthe return on that blow</font>"
+  },
+  {
+    "id": 285,
+    "text": "<font size=\"40\">netted me a healthy profit.</font>"
+  },
+  {
+    "id": 286,
+    "text": "<font size=\"40\">It would have been even better,\nexcept one kilo never made it back.</font>"
+  },
+  {
+    "id": 287,
+    "text": "<font size=\"40\">Vitaly.</font>"
+  },
+  {
+    "id": 288,
+    "text": "<font size=\"40\">V.</font>"
+  },
+  {
+    "id": 289,
+    "text": "<font size=\"40\">To this day, I don't know what\nVitaly was running away from.</font>"
+  },
+  {
+    "id": 290,
+    "text": "<font size=\"40\">Maybe just from Vitaly.</font>"
+  },
+  {
+    "id": 291,
+    "text": "<font size=\"40\">I found him 12 days, 2,000 miles\nand 150 grams later</font>"
+  },
+  {
+    "id": 292,
+    "text": "<font size=\"40\">in a Bolivian boarding house.</font>"
+  },
+  {
+    "id": 293,
+    "text": "<font size=\"40\">Of course, my dream girl\nhad gotten there before me.</font>"
+  },
+  {
+    "id": 294,
+    "text": "<font size=\"40\">V.</font>"
+  },
+  {
+    "id": 295,
+    "text": "<font size=\"40\">Come on.</font>"
+  },
+  {
+    "id": 296,
+    "text": "<font size=\"40\">Yuri. It's my brother, Yuri.</font>"
+  },
+  {
+    "id": 297,
+    "text": "<font size=\"40\">He's my big brother.</font>"
+  },
+  {
+    "id": 298,
+    "text": "<font size=\"40\">What the fuck is that?</font>"
+  },
+  {
+    "id": 299,
+    "text": "<font size=\"40\">Ukraine. I was young.</font>"
+  },
+  {
+    "id": 300,
+    "text": "<font size=\"40\">But I remember. Look.</font>"
+  },
+  {
+    "id": 301,
+    "text": "<font size=\"40\">I start in Odessa, right?\nAnd then I work my way to the crimean.</font>"
+  },
+  {
+    "id": 302,
+    "text": "<font size=\"40\">You're gonna be dead\nbefore you fucking reach Kiev.</font>"
+  },
+  {
+    "id": 303,
+    "text": "<font size=\"40\">- Come on, we're going home.\n- You fuck!</font>"
+  },
+  {
+    "id": 304,
+    "text": "<font size=\"40\">You fucking fuck! You fucking fuck!</font>"
+  },
+  {
+    "id": 305,
+    "text": "<font size=\"40\">What the fuck is your problem?</font>"
+  },
+  {
+    "id": 306,
+    "text": "<font size=\"40\">Come on, vit.</font>"
+  },
+  {
+    "id": 307,
+    "text": "<font size=\"40\">It's so nice to be home.</font>"
+  },
+  {
+    "id": 308,
+    "text": "<font size=\"40\">Yeah, we're... we're gonna get you home.</font>"
+  },
+  {
+    "id": 309,
+    "text": "<font size=\"40\">Come on.</font>"
+  },
+  {
+    "id": 310,
+    "text": "<font size=\"40\">Get out of the car.</font>"
+  },
+  {
+    "id": 311,
+    "text": "<font size=\"40\">Vitaly, I need you to get out of the car.</font>"
+  },
+  {
+    "id": 312,
+    "text": "<font size=\"40\">I promised our parents.</font>"
+  },
+  {
+    "id": 313,
+    "text": "<font size=\"40\">Please.</font>"
+  },
+  {
+    "id": 314,
+    "text": "<font size=\"40\">Vitaly, you're gonna have a great time.\nThis is a top place.</font>"
+  },
+  {
+    "id": 315,
+    "text": "<font size=\"40\">Two Ford models checked in last week.</font>"
+  },
+  {
+    "id": 316,
+    "text": "<font size=\"40\">And that cute weathergirl's\nbeen here since July.</font>"
+  },
+  {
+    "id": 317,
+    "text": "<font size=\"40\">Please, please.</font>"
+  },
+  {
+    "id": 318,
+    "text": "<font size=\"40\">Please, Yuri.</font>"
+  },
+  {
+    "id": 319,
+    "text": "<font size=\"40\">You're a good brother.</font>"
+  },
+  {
+    "id": 320,
+    "text": "<font size=\"40\">Okay.</font>"
+  },
+  {
+    "id": 321,
+    "text": "<font size=\"40\">- You're a good brother, Yuri.\n- Okay, all right.</font>"
+  },
+  {
+    "id": 322,
+    "text": "<font size=\"40\">- Good brother.\n- All right, get out of the car. Okay.</font>"
+  },
+  {
+    "id": 323,
+    "text": "<font size=\"40\">Get out of the car.</font>"
+  },
+  {
+    "id": 324,
+    "text": "<font size=\"40\">From then on, I was a one-man operation.</font>"
+  },
+  {
+    "id": 325,
+    "text": "<font size=\"40\">I never understood what separated\nthe recreational drug user</font>"
+  },
+  {
+    "id": 326,
+    "text": "<font size=\"40\">from the habitual, but\nfor the grace of god,</font>"
+  },
+  {
+    "id": 327,
+    "text": "<font size=\"40\">it could have been me snorting\nlines as long as the belt parkway.</font>"
+  },
+  {
+    "id": 328,
+    "text": "<font size=\"40\">However, I wasn't entirely free\nof the grip of addiction myself.</font>"
+  },
+  {
+    "id": 329,
+    "text": "<font size=\"40\">There she was again. Ava fontaine.</font>"
+  },
+  {
+    "id": 330,
+    "text": "<font size=\"40\">In my neighborhood,\nthey say, \"the good get out.”</font>"
+  },
+  {
+    "id": 331,
+    "text": "<font size=\"40\">In our own ways,\nwe'd both conquered the world.</font>"
+  },
+  {
+    "id": 332,
+    "text": "<font size=\"40\">You can't force someone\nto fall in love with you.</font>"
+  },
+  {
+    "id": 333,
+    "text": "<font size=\"40\">But you can definitely improve your odds.</font>"
+  },
+  {
+    "id": 334,
+    "text": "<font size=\"40\">It cost me $20,000\nto book her for a fake photo shoot.</font>"
+  },
+  {
+    "id": 335,
+    "text": "<font size=\"40\">Another $12,000 to buy out the hotel.</font>"
+  },
+  {
+    "id": 336,
+    "text": "<font size=\"40\">It's a popular hotel, huh?</font>"
+  },
+  {
+    "id": 337,
+    "text": "<font size=\"40\">Ava fontaine. Yuri orlov.</font>"
+  },
+  {
+    "id": 338,
+    "text": "<font size=\"40\">What brings you to St. barts?</font>"
+  },
+  {
+    "id": 339,
+    "text": "<font size=\"40\">Photo shoot. At least that was the plan.</font>"
+  },
+  {
+    "id": 340,
+    "text": "<font size=\"40\">Guess the photographer\ngot stuck in Miami.</font>"
+  },
+  {
+    "id": 341,
+    "text": "<font size=\"40\">Hurricane, though there's nothing\non the news.</font>"
+  },
+  {
+    "id": 342,
+    "text": "<font size=\"40\">Those things can come out of nowhere.</font>"
+  },
+  {
+    "id": 343,
+    "text": "<font size=\"40\">So, the job's been canceled,\nand wouldn't you know it,</font>"
+  },
+  {
+    "id": 344,
+    "text": "<font size=\"40\">there's no flight back to New York\nuntil Tuesday.</font>"
+  },
+  {
+    "id": 345,
+    "text": "<font size=\"40\">You can hitch a ride with me if you like.\nI'm leaving tomorrow.</font>"
+  },
+  {
+    "id": 346,
+    "text": "<font size=\"40\">Meanwhile, why don't I take your picture?</font>"
+  },
+  {
+    "id": 347,
+    "text": "<font size=\"40\">In my experience,</font>"
+  },
+  {
+    "id": 348,
+    "text": "<font size=\"40\">some of the most successful relationships\nare based on lies and deceit.</font>"
+  },
+  {
+    "id": 349,
+    "text": "<font size=\"40\">Since that's where they\nusually end up anyway,</font>"
+  },
+  {
+    "id": 350,
+    "text": "<font size=\"40\">it's a logical place to start.</font>"
+  },
+  {
+    "id": 351,
+    "text": "<font size=\"40\">Right there. Right there. Hold it.</font>"
+  },
+  {
+    "id": 352,
+    "text": "<font size=\"40\">Oh, my god!</font>"
+  },
+  {
+    "id": 353,
+    "text": "<font size=\"40\">I nearly went broke\ntrying to convince her I was anything but.</font>"
+  },
+  {
+    "id": 354,
+    "text": "<font size=\"40\">I knew Ava was not the kind of woman\nfo be seduced by a ride in a private jet,</font>"
+  },
+  {
+    "id": 355,
+    "text": "<font size=\"40\">unless you owned the jet.</font>"
+  },
+  {
+    "id": 356,
+    "text": "<font size=\"40\">This is your plane?</font>"
+  },
+  {
+    "id": 357,
+    "text": "<font size=\"40\">That is my name.</font>"
+  },
+  {
+    "id": 358,
+    "text": "<font size=\"40\">Of course I was lying.</font>"
+  },
+  {
+    "id": 359,
+    "text": "<font size=\"40\">The plane was a rental like the car\nand even the suit I was standing in.</font>"
+  },
+  {
+    "id": 360,
+    "text": "<font size=\"40\">At the last minute,\nI bribed the crew for the paint job.</font>"
+  }
+]
+
+--------------------------------------------------
+Translating:  20%|██        | 3/15 [01:42<06:49, 34.09s/chunk]
+Traceback (most recent call last):
+  File "/Users/mac/miniconda3/bin/ai-subtitle", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/ai_subtitle_assistant/__main__.py", line 53, in main
+    all_args.func(all_args)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/ai_subtitle_assistant/commands/translate_cmd.py", line 118, in run
+    bilingual_subtitles = translate_segments(
+        segments, args.target_language, api_base_url, api_key, args.model
+    )
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/ai_subtitle_assistant/core/translation.py", line 175, in translate_segments
+    translated_chunk = _translate_chunk(client, chunk, target_language, model)
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/ai_subtitle_assistant/core/translation.py", line 69, in _translate_chunk
+    response = client.chat.completions.create(
+        model=model,
+    ...<8 lines>...
+        response_format={"type": "json_object"},
+    )
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 1150, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<46 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_client.py", line 928, in send
+    raise exc
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_client.py", line 922, in send
+    response.read()
+    ~~~~~~~~~~~~~^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_models.py", line 881, in read
+    self._content = b"".join(self.iter_bytes())
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ~~~~~~~~~~~~~^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+                 ^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+                ^^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+        self.READ_NUM_BYTES, timeout=timeout
+    )
+  File "/Users/mac/miniconda3/lib/python3.13/site-packages/httpcore/_backends/sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/ssl.py", line 1285, in recv
+    return self.read(buflen)
+           ~~~~~~~~~^^^^^^^^
+  File "/Users/mac/miniconda3/lib/python3.13/ssl.py", line 1140, in read
+    return self._sslobj.read(len)
+           ~~~~~~~~~~~~~~~~~^^^^^
+KeyboardInterrupt

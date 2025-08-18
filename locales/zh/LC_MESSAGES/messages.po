@@ -27,6 +27,10 @@ msgstr "可用模型："
 msgid "Failed to fetch models from API: {e}"
 msgstr "从 API 获取模型失败：{e}"
 
+#: src/ai_subtitle_assistant/core/translation.py
+msgid "Warning: {count} segments have no corresponding translations."
+msgstr "警告：{count} 个段落没有对应的翻译。"
+
 msgid "Error translating chunk: {e}"
 msgstr "翻译区块时出错：{e}"
 
