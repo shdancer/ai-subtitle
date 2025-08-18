@@ -39,6 +39,16 @@ def configure_parser(parser):
         "--api-base-url", help=_("Custom base URL for the LLM provider.")
     )
     parser.add_argument("--api-key", help=_("Custom API Key for the LLM provider."))
+    parser.add_argument(
+        "--model",
+        default="gpt-3.5-turbo",
+        help=_("Select the model to use for translation."),
+    )
+    parser.add_argument(
+        "--list-models",
+        action="store_true",
+        help=_("List available models and exit."),
+    )
     parser.set_defaults(func=run)
 
 
@@ -66,6 +76,22 @@ def run(args):
         )
         sys.exit(1)
 
+    if args.list_models:
+        try:
+            import openai
+
+            client = openai.OpenAI(base_url=api_base_url, api_key=api_key)
+            models = client.models.list()
+            print(_("Available models:"))
+            for m in models.data:
+                print(" -", m.id)
+        except Exception as e:
+            print(
+                Fore.RED + _("Failed to fetch models from API: {e}").format(e=e),
+                file=sys.stderr,
+            )
+        return
+
     try:
         # 1. Read SRT input
         srt_content = ""
@@ -90,7 +116,7 @@ def run(args):
 
         # 3. Translate segments
         bilingual_subtitles = translate_segments(
-            segments, args.target_language, api_base_url, api_key
+            segments, args.target_language, api_base_url, api_key, args.model
         )
 
         # 4. Convert to bilingual SRT format

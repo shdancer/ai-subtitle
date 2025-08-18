@@ -14,7 +14,7 @@ MAX_RETRIES = 3
 RETRY_DELAY = 5  # seconds
 
 
-def _translate_chunk(client, chunk_segments, target_language):
+def _translate_chunk(client, chunk_segments, target_language, model):
     """
     Translates a single chunk of text with retry logic.
     """
@@ -47,7 +47,7 @@ Here is the JSON data to translate:
     for attempt in range(MAX_RETRIES):
         try:
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",  # Or any other model you prefer
+                model=model,
                 messages=[
                     {
                         "role": "system",
@@ -96,7 +96,9 @@ Here is the JSON data to translate:
     return []  # Should not be reached, but as a fallback
 
 
-def translate_segments(segments, target_language, api_base_url, api_key):
+def translate_segments(
+    segments, target_language, api_base_url, api_key, model="gpt-3.5-turbo"
+):
     """
     Uses a large language model to translate and correct text segments, returning structured data.
     This function implements chunking to handle long texts.
@@ -139,7 +141,7 @@ def translate_segments(segments, target_language, api_base_url, api_key):
         total=len(chunks_to_process), desc=_("Translating"), unit="chunk"
     ) as pbar:
         for chunk in chunks_to_process:
-            translated_chunk = _translate_chunk(client, chunk, target_language)
+            translated_chunk = _translate_chunk(client, chunk, target_language, model)
             all_translated_segments.extend(translated_chunk)
             pbar.update(1)
 
