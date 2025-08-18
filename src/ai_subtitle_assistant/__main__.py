@@ -1,10 +1,33 @@
 import argparse
+import signal
 import sys
 from ai_subtitle_assistant.commands import transcribe_cmd, translate_cmd, config_cmd
 from ai_subtitle_assistant.i18n import set_language, _
+from colorama import Fore, Style, init
+
+# 初始化 colorama
+init(autoreset=True)
+
+# 全局变量，用于标记是否收到中断信号
+interrupted = False
+
+
+def signal_handler(sig, frame):
+    """处理中断信号的函数"""
+    global interrupted
+    interrupted = True
+    print(
+        Fore.YELLOW
+        + _("\nInterruption received. Exiting gracefully...")
+        + Style.RESET_ALL,
+        file=sys.stderr,
+    )
+    sys.exit(0)
 
 
 def main():
+    # 设置信号处理
+    signal.signal(signal.SIGINT, signal_handler)
     parser = argparse.ArgumentParser(
         description=_("A command-line tool for subtitle generation and translation."),
         formatter_class=argparse.RawDescriptionHelpFormatter,

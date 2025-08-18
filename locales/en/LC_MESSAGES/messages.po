@@ -32,6 +32,10 @@ msgstr "Failed to fetch models from API: {e}"
 msgid "Warning: {count} segments have no corresponding translations."
 msgstr "Warning: {count} segments have no corresponding translations."
 
+#: src/ai_subtitle_assistant/__main__.py
+msgid "\nInterruption received. Exiting gracefully..."
+msgstr "\nInterruption received. Exiting gracefully..."
+
 msgid "A command-line tool for subtitle generation and translation."
 msgstr "A command-line tool for subtitle generation and translation."
 

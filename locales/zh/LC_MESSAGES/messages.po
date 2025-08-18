@@ -31,6 +31,10 @@ msgstr "从 API 获取模型失败：{e}"
 msgid "Warning: {count} segments have no corresponding translations."
 msgstr "警告：{count} 个段落没有对应的翻译。"
 
+#: src/ai_subtitle_assistant/__main__.py
+msgid "\nInterruption received. Exiting gracefully..."
+msgstr "\n收到中断信号，正在优雅退出..."
+
 msgid "Error translating chunk: {e}"
 msgstr "翻译区块时出错：{e}"
 
