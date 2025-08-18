@@ -3,9 +3,26 @@ import json
 import time
 from datetime import timedelta
 import sys
+import os
 from tqdm import tqdm
 from ai_subtitle_assistant.i18n import _
 from colorama import Fore, Style
+
+# 调试模式标志
+DEBUG_MODE = os.environ.get("AI_SUBTITLE_DEBUG", "0") == "1"
+
+
+def debug_print(message, data=None):
+    """调试输出函数"""
+    if DEBUG_MODE:
+        print(f"\n[DEBUG] {message}", file=sys.stderr)
+        if data is not None:
+            if isinstance(data, str):
+                print(data, file=sys.stderr)
+            else:
+                print(json.dumps(data, ensure_ascii=False, indent=2), file=sys.stderr)
+        print("-" * 50, file=sys.stderr)
+
 
 # Define a safe character count threshold to avoid token limits
 # 4000 characters is a conservative value, as tokens are often more numerous than characters.
@@ -15,6 +32,8 @@ RETRY_DELAY = 5  # seconds
 
 
 def _translate_chunk(client, chunk_segments, target_language, model):
+    debug_print(f"翻译块开始，使用模型: {model}，目标语言: {target_language}")
+    debug_print("输入段落:", chunk_segments)
     """
     Translates a single chunk of text with retry logic.
     """
@@ -27,6 +46,8 @@ def _translate_chunk(client, chunk_segments, target_language, model):
 You are a professional subtitle translator. Your task is to translate the following subtitle segments into {target_language}.
 The input is a JSON array of objects, where each object has an "id" and a "text" from the original ASR (Automatic Speech Recognition).
 Please maintain the original meaning, fix any potential ASR errors based on context, and ensure the translation is natural and fluent.
+
+IMPORTANT: You MUST maintain a strict one-to-one correspondence between each input segment and its translation. Each segment with ID must have exactly one corresponding translation with the same ID. Due to language order differences, be extremely careful not to mix up or reorder content between segments. Each segment should be translated independently while considering context.
 
 Your output MUST be a valid JSON object that can be parsed by a JSON loader. The JSON object should contain a key "translations" which is an array of objects, with each object containing the original "id" and the "translated_text".
 Do NOT add any extra explanations or text outside of the JSON object. The structure must be:
@@ -46,6 +67,7 @@ Here is the JSON data to translate:
 
     for attempt in range(MAX_RETRIES):
         try:
+            debug_print("发送到API的提示:", prompt)
             response = client.chat.completions.create(
                 model=model,
                 messages=[
@@ -58,13 +80,17 @@ Here is the JSON data to translate:
                 temperature=0.7,
                 response_format={"type": "json_object"},
             )
-            response_data = json.loads(response.choices[0].message.content)
+            response_content = response.choices[0].message.content
+            debug_print("API响应:", response_content)
+            response_data = json.loads(response_content)
 
             # Basic validation
             if "translations" in response_data and isinstance(
                 response_data["translations"], list
             ):
-                return response_data.get("translations", [])
+                translations = response_data.get("translations", [])
+                debug_print("解析后的翻译:", translations)
+                return translations
             else:
                 raise ValueError(_("Invalid JSON structure in response"))
 
@@ -99,6 +125,8 @@ Here is the JSON data to translate:
 def translate_segments(
     segments, target_language, api_base_url, api_key, model="gpt-3.5-turbo"
 ):
+    debug_print("翻译开始，总段落数:", len(segments))
+    debug_print("原始段落样本(前3个):", segments[:3] if len(segments) > 3 else segments)
     """
     Uses a large language model to translate and correct text segments, returning structured data.
     This function implements chunking to handle long texts.
@@ -109,6 +137,9 @@ def translate_segments(
     current_chunk = []
     current_chunk_char_count = 0
     chunks_to_process = []
+
+    debug_print(f"使用模型: {model}, 目标语言: {target_language}")
+    debug_print(f"API基础URL: {api_base_url}")
 
     # First, divide the segments into chunks
     for segment in segments:
@@ -128,6 +159,8 @@ def translate_segments(
 
     if current_chunk:
         chunks_to_process.append(current_chunk)
+
+    debug_print(f"分块完成，共 {len(chunks_to_process)} 个块")
 
     # Now, process the chunks with a progress bar
     print(
@@ -151,6 +184,25 @@ def translate_segments(
         item["id"]: item["translated_text"] for item in all_translated_segments
     }
 
+    debug_print("翻译映射:", translation_map)
+
+    # 验证所有段落是否都有对应的翻译
+    missing_ids = []
+    for segment in segments:
+        if segment["id"] not in translation_map:
+            missing_ids.append(segment["id"])
+
+    if missing_ids:
+        debug_print(f"警告: 以下ID没有对应的翻译: {missing_ids}")
+        print(
+            Fore.YELLOW
+            + _("Warning: {count} segments have no corresponding translations.").format(
+                count=len(missing_ids)
+            )
+            + Style.RESET_ALL,
+            file=sys.stderr,
+        )
+
     bilingual_subtitles = []
     for segment in segments:
         segment_id = segment["id"]
@@ -166,4 +218,12 @@ def translate_segments(
             }
         )
 
+    debug_print(
+        "最终双语字幕样本(前3个):",
+        (
+            bilingual_subtitles[:3]
+            if len(bilingual_subtitles) > 3
+            else bilingual_subtitles
+        ),
+    )
     return bilingual_subtitles
